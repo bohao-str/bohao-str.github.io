@@ -62,6 +62,19 @@ section { scroll-margin-top: 1rem; }
 .news-list li { display: grid; grid-template-columns: 6.4rem minmax(0, 1fr); gap: 0.5rem; }
 .news-list time { color: #555; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
+.seminar-schedule { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 1.5rem 0 0.7rem; }
+.seminar-schedule caption { text-align: left; font-weight: bold; padding-bottom: 0.6rem; }
+.seminar-schedule th, .seminar-schedule td {
+  padding: 0.55rem 0.65rem 0.55rem 0;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+.seminar-schedule thead th { border-bottom-color: #999; }
+.seminar-schedule th:first-child { width: 25%; }
+.seminar-schedule th:nth-child(2) { width: 32%; }
+.seminar-schedule th:last-child, .seminar-schedule td:last-child { padding-right: 0; }
+
 .site-footer {
   display: flex;
   justify-content: flex-end;
