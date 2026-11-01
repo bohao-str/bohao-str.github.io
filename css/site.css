@@ -64,7 +64,7 @@ section { scroll-margin-top: 1rem; }
 
 .site-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 2.5rem;
