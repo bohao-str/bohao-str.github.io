@@ -1,0 +1,73 @@
+个人网站维护说明
+
+这是直接手写维护的静态网站：HTML 是正文，CSS 是排版。
+线上网站不使用 JavaScript、Hexo、jQuery、字体库、CDN 或 npm 包，也不需要构建。
+托管仍使用原来的 GitHub Pages。仓库根目录就是发布目录。
+
+常用文件
+  index.html         简介和 News；新增动态放在列表顶部
+  notes/index.html   笔记列表；新增 PDF 后添加一条列表项
+  notes/*.pdf        研究和学习笔记
+  blog/index.html    博客目录；目前还没有正文文章
+  .local/CV.pdf      暂时下线的简历备份；此目录被 Git 忽略，不会随网站发布
+  css/site.css       全站排版（包括手机和打印样式）
+  404.html           页面不存在时显示的页面
+  img/               原有图片，文件仍然保留
+  .nojekyll          让 GitHub Pages 直接提供静态文件
+
+页面都是完整 HTML。即使浏览器禁用脚本，也能阅读正文、导航和打开 PDF。
+导航在三个主页面及 404.html 中分别存在；修改导航时同步修改这四个文件。
+内容链接优先使用 /notes/ 等站内路径；不要添加外部字体、脚本或样式资源。
+
+本地预览
+  在这个文件夹双击 preview.cmd，然后在浏览器打开：
+    http://127.0.0.1:8080/
+  修改文件后刷新网页。停止预览时在命令窗口按 Ctrl+C。
+
+  在 Codex 终端中也可以运行：
+    node tools/preview.mjs
+  如果 8080 端口已占用，可以指定另一个端口：
+    node tools/preview.mjs 8081
+
+  预览脚本只使用 Node.js 自带模块，不需要 npm install。
+  preview.cmd 会优先使用终端中的 Node，再尝试当前 Codex 自带的 Node。
+  换电脑后若这两处都没有 Node，可安装官网版本：https://nodejs.org/
+  Node 只用于可选的本地工具，线上网站不需要它。
+  请通过本地服务器查看，不要直接双击 HTML，以免根路径链接无法正确打开。
+
+发布前检查
+  在 Codex 终端中运行：
+    node tools/check.mjs
+  此命令离线检查全部 HTML 的本地链接、页内锚点和外部运行资源。
+  再在浏览器确认首页、笔记页、博客页、PDF 和手机窄屏显示。
+  检查工具不检查 PDF 正文或外部网站的可用性。
+
+更新内容
+  更新笔记：把 PDF 放进 notes/，编辑 notes/index.html，需要时在首页增加 News。
+  新建博客：例如创建 blog/my-post/index.html，参考现有完整页面写正文，
+            再在 blog/index.html 添加链接。正文写完后重新运行检查。
+  更新简介：只修改 index.html 的 About me 区域。
+  更新样式：只修改 css/site.css。
+
+旧网址
+  /archives/、/archives/2026/、/archives/2026/01/ 和
+  /2026/01/25/home/ 原来重复显示个人简介，现在转到首页。
+  /2026/01/25/hello-world/ 原来是 Hexo 默认示例，现在转到博客目录。
+  这些跳转使用浏览器原生 HTML refresh，并提供普通链接作为后备。
+  原有笔记 PDF 和图片没有改名或移动。CV 已从网站移除，本地备份在 .local/CV.pdf。
+
+提交与上线
+  gh-pages 是网站发布分支，origin 指向原来的 GitHub 仓库。
+  日常维护时，常用流程是：
+    git pull --ff-only
+    （编辑并预览，然后运行 node tools/check.mjs）
+    git diff
+    git add （只填写本次需要发布的文件路径）
+    git commit -m "Update personal website"
+    git push origin gh-pages
+  推送到 gh-pages 会更新线上个人主页，因此应在确认后执行。
+
+视觉方向参考
+  Jacob Lurie: https://www.math.ias.edu/~lurie/
+  Terence Tao: https://math.ucla.edu/~tao/index.html
+  仅参考朴素的学术主页组织方式，网站不加载这些页面的任何资源。
