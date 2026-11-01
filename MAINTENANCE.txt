@@ -6,6 +6,7 @@
 
 常用文件
   index.html         简介和 News；新增动态放在列表顶部
+  seminars/index.html  讨论班介绍、阅读材料和日程
   notes/index.html   笔记列表；新增 PDF 后添加一条列表项
   notes/*.pdf        研究和学习笔记
   blog/index.html    博客目录；目前还没有正文文章
@@ -16,7 +17,7 @@
   .nojekyll          让 GitHub Pages 直接提供静态文件
 
 页面都是完整 HTML。即使浏览器禁用脚本，也能阅读正文、导航和打开 PDF。
-导航在三个主页面及 404.html 中分别存在；修改导航时同步修改这四个文件。
+导航在 About、Seminars、Notes、Blog 及 404.html 中分别存在；修改导航时同步修改这五个文件。
 内容链接优先使用 /notes/ 等站内路径；不要添加外部字体、脚本或样式资源。
 
 本地预览
@@ -43,6 +44,8 @@
   检查工具不检查 PDF 正文或外部网站的可用性。
 
 更新内容
+  更新讨论班：编辑 seminars/index.html；只填写已确认的组织者、时间、地点和讲次，
+              每次可按日期、主题、讲者记录，必要时附讲义链接。首页只保留简短入口。
   更新笔记：把 PDF 放进 notes/，编辑 notes/index.html，需要时在首页增加 News。
   新建博客：例如创建 blog/my-post/index.html，参考现有完整页面写正文，
             再在 blog/index.html 添加链接。正文写完后重新运行检查。
