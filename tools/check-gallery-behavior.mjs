@@ -38,6 +38,15 @@ assert.equal(api.getVisible().length,catalog.count);assert.equal(get('grid').chi
 get('more').onclick();assert.equal(get('grid').children.length,120);
 for(const band of catalog.bands){api.setBand(band.id);assert.equal(api.getVisible().length,band.count,band.name);}
 checks.push('every band filter, including multi-band membership');
+api.setBand('ave-mujica');
+const groups=get('character').children.filter(option=>option.tagName==='OPTGROUP');
+assert.deepEqual(groups.map(group=>group.label),['本团成员','同图出镜']);
+assert(groups[0].children.some(option=>option.value==='若叶睦'));
+assert(groups[1].children.some(option=>option.value==='长崎爽世'));
+get('character').value='长崎爽世';get('character').onchange();
+assert(api.getVisible().some(item=>item.id==='expand_gif_0369'));
+assert(api.getVisible().every(item=>item.characters.includes('长崎爽世') && item.bands.includes('ave-mujica')));
+checks.push('band roster and identifiable guests stay searchable in separate option groups');
 const reaction=catalog.items.find(a=>a.id==='mygo_search_0076');
 assert.deepEqual(reaction.characters,['要乐奈']);
 assert.equal(reaction.speaker,'长崎爽世');

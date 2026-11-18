@@ -91,15 +91,23 @@
   }
   function fillCharacters() {
     const available = new Set(items.filter(a => !state.band || a.bands.includes(state.band)).flatMap(a => a.characters));
-    let names = [...available].sort((a,b) => a.localeCompare(b,'zh-CN'));
-    if (state.band) {
-      const canonical = bandById(state.band)?.characters || [];
-      names = [...canonical.filter(c => available.has(c)),...names.filter(c => !canonical.includes(c))];
+    const names = [...available].sort((a,b) => a.localeCompare(b,'zh-CN'));
+    const roster = state.band && bandById(state.band)?.characters;
+    const select = $('character');
+    select.replaceChildren(new Option('全部角色',''));
+    if (roster?.length) {
+      for (const [label,groupNames] of [['本团成员',roster.filter(name => available.has(name))],['同图出镜',names.filter(name => !roster.includes(name))]]) {
+        if (!groupNames.length) continue;
+        const group = document.createElement('optgroup');
+        group.label = label;
+        for (const name of groupNames) group.append(new Option(name,name));
+        select.append(group);
+      }
+    } else {
+      for (const name of names) select.append(new Option(name,name));
     }
-    $('character').replaceChildren(new Option('全部角色',''));
-    for (const name of names) $('character').append(new Option(name,name));
     if (state.character && !available.has(state.character)) state.character = '';
-    $('character').value = state.character;
+    select.value = state.character;
   }
   function setBand(id) {
     state.band = id;state.character = '';$('band-select').value = id;fillCharacters();render();
