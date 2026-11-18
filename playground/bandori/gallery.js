@@ -16,7 +16,9 @@
 
   function readState() {
     const p = new URLSearchParams(location.search);
-    return { q: p.get('q') || '', band: p.get('band') || '', character: p.get('character') || '', kind: p.get('kind') || '', format: p.get('format') || '', sort: ['featured', 'newest', 'shuffle'].includes(p.get('sort')) ? p.get('sort') : 'featured', saved: p.get('saved') === '1', fresh: p.get('fresh') === '1' };
+    const previousName = p.get('character') || '';
+    const character = previousName === '仲町亚罗蕾' ? '仲町阿拉蕾' : previousName;
+    return { q: p.get('q') || '', band: p.get('band') || '', character, kind: p.get('kind') || '', format: p.get('format') || '', sort: ['featured', 'newest', 'shuffle'].includes(p.get('sort')) ? p.get('sort') : 'featured', saved: p.get('saved') === '1', fresh: p.get('fresh') === '1' };
   }
   function writeURL() {
     const p = new URLSearchParams();
@@ -65,7 +67,7 @@
     return terms.every(term => a.search.includes(term));
   }
   function makeOrder() {
-    if (state.sort === 'newest') return [...items].sort((a,b) => Number(b.fresh)-Number(a.fresh));
+    if (state.sort === 'newest') return [...items].sort((a,b) => b.added.localeCompare(a.added) || Number(b.fresh)-Number(a.fresh));
     if (state.sort === 'shuffle') return [...items].sort((a,b) => a.shuffle-b.shuffle);
     const featured = items.filter(a => a.featured), rest = items.filter(a => !a.featured);
     const groups = library.bands.map(b => featured.filter(a => a.bands[0] === b.id));
@@ -170,7 +172,9 @@
     $('detail-image').alt = a.title;$('detail-image').src = a.image;
     $('detail-title').textContent = a.title;$('detail-band').textContent = bandNames(a);
     $('detail-position').textContent = `${modalItems.findIndex(x => x.id === id)+1} / ${modalItems.length}`;
-    $('detail-meta').textContent = [a.characters.join('、'),a.animated ? '动态图片' : '静态图片',`${a.width} × ${a.height}`,`${Math.round(a.bytes/1024)} KB`,a.author ? `来源署名：${a.author}` : ''].filter(Boolean).join(' · ');
+    const people = a.characters.length ? '画面人物：' + a.characters.join('、') : '';
+    const dialogue = a.speaker ? '台词角色（原站标注）：' + a.speaker : '';
+    $('detail-meta').textContent = [people,dialogue,a.animated ? '动态图片' : '静态图片',`${a.width} × ${a.height}`,`${Math.round(a.bytes/1024)} KB`,a.author ? `来源署名：${a.author}` : ''].filter(Boolean).join(' · ');
     $('download').href = a.image;$('download').download = a.id+'.webp';$('original').href = a.original;$('source').href = a.source;paintDetailStar();
     document.body.classList.add('has-dialog');if (!$('viewer').open) $('viewer').showModal();writeURL();
   }
@@ -206,7 +210,11 @@
     try {
       const response = await fetch('data/catalog.json',{cache:'no-cache'});if (!response.ok) throw new Error('catalog '+response.status);
       library = await response.json();if (!Array.isArray(library.items) || !Array.isArray(library.bands)) throw new Error('invalid catalog');
-      items = library.items.map(a => ({...a,shuffle:Math.random(),search:normalize([a.title,...a.characters,...a.tags,...a.bands.flatMap(id => {const b = bandById(id);return b ? [b.name,...b.aliases] : [];})].join(' '))}));
+      items = library.items.map(a => {
+        const names = a.characters.flatMap(name => [name,...(library.characterAliases?.[name] || [])]);
+        const bands = a.bands.flatMap(id => {const band = bandById(id);return band ? [band.name,...band.aliases] : [];});
+        return {...a,shuffle:Math.random(),search:normalize([a.title,...names,...a.tags,...bands].join(' '))};
+      });
       state = readState();if (state.band && !bandById(state.band)) state.band = '';if (state.kind && !library.types.some(t => t.id === state.kind)) state.kind = '';if (!['','animated','static'].includes(state.format)) state.format = '';
       try {const saved = JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]');favoriteIds = new Set(Array.isArray(saved) ? saved.filter(id => items.some(a => a.id === id)) : []);} catch {favoriteIds = new Set();}
       $('saved-count').textContent = favoriteIds.size;$('total-count').textContent = library.count;$('animated-count').textContent = library.animated;

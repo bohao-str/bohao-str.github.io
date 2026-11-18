@@ -6,6 +6,10 @@ const data=JSON.parse(await readFile(path.join(root,'playground/bandori/data/cat
 for(const name of ['playground/index.html','playground/bandori/index.html']){
  const p=path.join(root,name);let html=await readFile(p,'utf8');
  for(const key of ['count','animated'])html=html.replace(new RegExp(`(<!--lib:${key}-->)[\\s\\S]*?(<!--/lib:${key}-->)`,'g'),`$1${data[key]}$2`);
+ if(name === 'playground/bandori/index.html'){
+   html=html.replace(/(<span class="updated">更新于 <time datetime=")[\d-]+(">)[\d.]+(<\/time>)/,
+     (_,before,middle,after) => before+data.updated+middle+data.updated.replaceAll('-','.')+after);
+ }
  await writeFile(p,html);
 }
 console.log(`Updated site labels: ${data.count} images, ${data.animated} animations, ${data.added} new.`);

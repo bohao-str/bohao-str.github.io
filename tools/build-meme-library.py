@@ -1,7 +1,8 @@
 """Build the public Bandori library from locally collected, reviewed image catalogs.
 
 python tools/build-meme-library.py --catalog catalog.json --asset-root path/to/originals
-Optional --extra accepts a JSON list (or {files: [...]}) with a local `file` per item.
+Repeat --extra for each new batch or --previous-extra for an earlier batch.
+Manifests contain a JSON list (or {files: [...]}) with a local `file` per item.
 Only web assets and public attribution metadata are emitted. Originals stay outside Git.
 Requires Pillow. No network requests are made by this script.
 """
@@ -10,6 +11,7 @@ from concurrent.futures import ThreadPoolExecutor,as_completed
 from collections import Counter
 from PIL import Image,ImageStat
 import argparse,json,hashlib,re,html,os,time
+from datetime import date
 
 ROOT=Path(__file__).resolve().parents[1]
 DEST=ROOT/'playground/bandori'
@@ -29,6 +31,7 @@ BANDS=[
  ('other','综合 / 其他角色','#8b8b82','其他','跨团|跨团及其他|其他角色|其他')
 ]
 LOOKUP={v.casefold():b[0] for b in BANDS for v in b[4].split('|')}
+LOOKUP.update({b[0]:b[0] for b in BANDS})
 CHARACTERS={
  'poppin-party':['户山香澄','花园多惠','牛込里美','山吹沙绫','市谷有咲'],
  'afterglow':['美竹兰','青叶摩卡','上原绯玛丽','宇田川巴','羽泽鸫'],
@@ -39,7 +42,7 @@ CHARACTERS={
  'raise-a-suilen':['和奏瑞依（LAYER）','朝日六花（LOCK）','佐藤益木（MASKING）','鳰原令王那（PAREO）','珠手知由（CHU²）'],
  'mygo':['高松灯','千早爱音','椎名立希','长崎爽世','要乐奈'],
  'ave-mujica':['丰川祥子','若叶睦','三角初华','八幡海铃','祐天寺若麦'],
- 'mewtype':['仲町亚罗蕾','宫永野乃花','峰月律','藤都子','千石由乃'],
+ 'mewtype':['仲町阿拉蕾','宫永野乃花','峰月律','藤都子','千石由乃'],
  'millsage':['汐见萤','伊泽枣','琴平凪','滨崎茉幌','和泉朋花'],
  'ikka':['须贺蕾叶','马桥心玖','矢仓蓬咲','梅里千樱梨','四宫宁月']
 }
@@ -47,7 +50,8 @@ CHAR_ALIASES={
  '佐藤益木（MASKING）':['MASKING','佐藤益木'],'鳰原令王那（PAREO）':['PAREO','鳰原令王那'],
  '珠手知由（CHU²）':['CHU²','珠手知由','CHU2'],'朝日六花（LOCK）':['LOCK','朝日六花'],
  '和奏瑞依（LAYER）':['LAYER','和奏瑞依'],'奥泽美咲':['奥泽美咲','米歇尔'],
- '千早爱音':['千早爱音','千早愛音'],'高松灯':['高松灯','高松燈'],'要乐奈':['要乐奈','要樂奈']
+ '千早爱音':['千早爱音','千早愛音'],'高松灯':['高松灯','高松燈'],'要乐奈':['要乐奈','要樂奈'],
+ '仲町阿拉蕾':['仲町阿拉蕾','仲町亚罗蕾','仲町亞羅蕾']
 }
 TYPE_LABELS={'remix':'整活改图','reaction':'反应表情','quote':'台词截图','dango':'团子表情'}
 def load(p):
@@ -71,6 +75,8 @@ def characters(a,bands):
  return list(dict.fromkeys(result))
 def kind(a):
  category=a.get('category','');key=a['key'];hint=' '.join(a.get('tags',[])).lower()
+ if a.get('kind') in TYPE_LABELS:return a['kind']
+ if category in TYPE_LABELS.values():return next(k for k,label in TYPE_LABELS.items() if label==category)
  if key.startswith('mygo_search_') or '名台词' in category:return 'quote'
  if 'tuanzi' in key or '团子' in category:return 'dango'
  if key.startswith('fan_') or '改图' in category or '中文整活' in category or '英文整活' in category:return 'remix'
@@ -86,6 +92,7 @@ def poster_frame(im,n):
  return max(choices)[1]
 def convert(a,cache):
  key=a['key'];src=Path(a['_file']);raw=src.read_bytes();sha=hashlib.sha256(raw).hexdigest();sig=sha+':web-v2'
+ if a.get('sha256') and a['sha256']!=sha:raise ValueError(f'{key}: original does not match the reviewed file')
  if 'preview_frame' in a or 'thumbnail_frame' in a:sig+=':'+str(a.get('preview_frame',a.get('thumbnail_frame')))
  target=DEST/'media'/f'{key}.webp';thumb=DEST/'thumbs'/f'{key}.webp'
  if key in cache and cache[key]['signature']==sig and target.is_file() and thumb.is_file():return key,cache[key]
@@ -110,25 +117,37 @@ def convert(a,cache):
  return key,result
 
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--catalog',required=True);ap.add_argument('--asset-root',required=True);ap.add_argument('--extra');ap.add_argument('--workers',type=int,default=4);args=ap.parse_args()
+ ap=argparse.ArgumentParser()
+ ap.add_argument('--catalog',required=True)
+ ap.add_argument('--asset-root',required=True)
+ ap.add_argument('--extra',action='append',default=[])
+ ap.add_argument('--previous-extra',action='append',default=[])
+ ap.add_argument('--updated',type=date.fromisoformat,default=date(2026,11,18))
+ ap.add_argument('--workers',type=int,default=4)
+ args=ap.parse_args()
  for sub in ['media','thumbs','data','all']:(DEST/sub).mkdir(parents=True,exist_ok=True)
  state=ROOT/'.local/meme-build-cache.json';state.parent.mkdir(exist_ok=True)
  cache=json.loads(state.read_text(encoding='utf8')) if state.exists() else {}
  data=load(args.catalog)
  for a in data:a['_file']=str(Path(args.asset_root)/a['path']);a['_fresh']=False
- if args.extra:
-  extra=load(args.extra)
-  for a in extra:a['_file']=a['file'];a['_fresh']=True
-  data.extend(extra)
- unique=[];seen=set()
+ for fresh,files in [(False,args.previous_extra),(True,args.extra)]:
+  for path in files:
+   extra=load(path)
+   for a in extra:a['_file']=a['file'];a['_fresh']=fresh
+   data.extend(extra)
+ unique=[];seen=set();seen_keys=set();seen_urls=set()
  for a in data:
   if a.get('status') and a['status']!='ok':continue
+  if not re.fullmatch(r'[a-zA-Z0-9_-]+',a['key']):raise ValueError('Invalid image ID: '+a['key'])
   sha=a.get('sha256') or hashlib.sha256(Path(a['_file']).read_bytes()).hexdigest()
-  if sha in seen:continue
+  original=a.get('url')
+  if sha in seen or (original and original in seen_urls):continue
+  if a['key'] in seen_keys:raise ValueError('Duplicate image ID: '+a['key'])
+  seen_keys.add(a['key'])
+  if original:seen_urls.add(original)
   seen.add(sha);unique.append(a)
- # Verified correction: the blonde character in the pink rabbit hat is MASKING.
- for a in unique:
-  if a['key']=='expand_gif_0114':a.update(caption='MASKING：兔子拉面',title='MASKING：兔子拉面',character='佐藤益木（MASKING）')
+ corrections=json.loads((ROOT/'tools/meme-corrections.json').read_text(encoding='utf8'))
+ aliases=json.loads((ROOT/'tools/meme-character-aliases.json').read_text(encoding='utf8'))
  bad=[]
  with ThreadPoolExecutor(max_workers=args.workers) as pool:
   futures={pool.submit(convert,a,cache):a['key'] for a in unique}
@@ -143,11 +162,19 @@ def main():
  for a in unique:
   key=a['key'];m=cache[key];bands=band_ids(a);chars=characters(a,bands)
   title=a.get('caption') or a.get('title') or '邦邦反应表情';title=re.sub(r'\s+GIF$','',title)
-  public.append({'id':key,'title':title,'bands':bands,'characters':chars,'kind':kind(a),'animated':m['frames']>1,'image':f'media/{key}.webp','thumb':f'thumbs/{key}.webp','width':m['width'],'height':m['height'],'bytes':m['bytes'],'source':a['source'],'original':a.get('url',a['source']),'author':a.get('author',''),'tags':list(dict.fromkeys(a.get('tags',[])+[a.get('description','')])), 'featured':bool(a.get('featured')),'fresh':a['_fresh'],'added':'2026-11-18'})
+  entry={'id':key,'title':title,'bands':bands,'characters':chars,'kind':kind(a),'animated':m['frames']>1,'image':f'media/{key}.webp','thumb':f'thumbs/{key}.webp','width':m['width'],'height':m['height'],'bytes':m['bytes'],'source':a['source'],'original':a.get('url',a['source']),'author':a.get('author',''),'tags':list(dict.fromkeys(a.get('tags',[])+[a.get('description','')])), 'featured':bool(a.get('featured')),'fresh':a['_fresh'],'added':a.get('added',args.updated.isoformat() if a['_fresh'] else '2026-11-18')}
+  if key in corrections:
+   edit=corrections[key]
+   allowed={'title','characters','bands','tags','speaker','kind','featured'}
+   if edit.keys()-allowed:raise ValueError(f'{key}: unsupported correction fields')
+   entry.update(edit)
+  entry['title']=entry['title'].replace('亚罗蕾','阿拉蕾')
+  entry['characters']=[s.replace('仲町亚罗蕾','仲町阿拉蕾') for s in entry['characters']]
+  public.append(entry)
  # A balanced first screen, with curated new items followed by the previous selection.
  fresh=[a for a in public if a['fresh']];previous=[a for a in public if not a['fresh']]
  public=fresh+previous
- manifest={'version':1,'updated':'2026-11-18','count':len(public),'animated':sum(a['animated'] for a in public),'added':len(fresh),'bands':[{'id':b[0],'name':b[1],'color':b[2],'short':b[3],'aliases':b[4].split('|'),'characters':CHARACTERS.get(b[0],[]),'count':sum(b[0] in a['bands'] for a in public)} for b in BANDS],'types':[{'id':k,'name':v,'count':sum(a['kind']==k for a in public)} for k,v in TYPE_LABELS.items()],'items':public}
+ manifest={'version':2,'updated':args.updated.isoformat(),'count':len(public),'animated':sum(a['animated'] for a in public),'added':len(fresh),'characterAliases':aliases,'bands':[{'id':b[0],'name':b[1],'color':b[2],'short':b[3],'aliases':b[4].split('|'),'characters':CHARACTERS.get(b[0],[]),'count':sum(b[0] in a['bands'] for a in public)} for b in BANDS],'types':[{'id':k,'name':v,'count':sum(a['kind']==k for a in public)} for k,v in TYPE_LABELS.items()],'items':public}
  (DEST/'data/catalog.json').write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':')),encoding='utf8')
  attrs=[{'id':a['id'],'title':a['title'],'source':a['source'],'original':a['original'],'author':a['author']} for a in public]
  (DEST/'data/sources.json').write_text(json.dumps(attrs,ensure_ascii=False,indent=2),encoding='utf8')

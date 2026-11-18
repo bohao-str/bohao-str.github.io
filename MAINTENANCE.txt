@@ -71,6 +71,11 @@
   更新图片可使用 tools/build-meme-library.py（需要 Python 与 Pillow）：
     python tools/build-meme-library.py --catalog 原目录.json --asset-root 原图目录 --extra 新素材.json
   转换缓存写入 .local/（被 Git 忽略）；输出只包含网页资源与公开来源元数据。
+  后续批次用 --previous-extra 传入早期补充清单，--extra 传入本轮清单，两项均可重复，
+  --updated YYYY-MM-DD 设置本轮日期。图卡 ID 保持稳定，收藏和分享链接能继续使用。
+  核过原图的角色、乐队、标题纠正记录在 tools/meme-corrections.json。characters 只列
+  可辨认的入镜人物；speaker 单列来源站标注的说话角色。修正时也清理旧的误导性 tags。
+  tools/meme-character-aliases.json 将常用译名和英文名关联到已确认的角色。
   更新后执行 node tools/finalize-playground.mjs 更新首页数字，并运行：
     node tools/check.mjs
     node tools/check-meme-library.mjs

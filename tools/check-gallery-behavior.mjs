@@ -38,6 +38,16 @@ assert.equal(api.getVisible().length,catalog.count);assert.equal(get('grid').chi
 get('more').onclick();assert.equal(get('grid').children.length,120);
 for(const band of catalog.bands){api.setBand(band.id);assert.equal(api.getVisible().length,band.count,band.name);}
 checks.push('every band filter, including multi-band membership');
+const reaction=catalog.items.find(a=>a.id==='mygo_search_0076');
+assert.deepEqual(reaction.characters,['要乐奈']);
+assert.equal(reaction.speaker,'长崎爽世');
+api.reset();api.setBand('mygo');get('character').value='长崎爽世';get('character').onchange();
+assert(!api.getVisible().some(a=>a.id===reaction.id),'off-screen speaker must not count as a visible character');
+api.reset();api.getState().q='Tsukushi Futaba';api.render();
+assert(api.getVisible().some(a=>a.id==='web_meme_0296'),'verified romanized character search');
+api.reset();api.getState().q='八潮瑠唯';api.render();
+assert(!api.getVisible().some(a=>a.id==='web_meme_0296'),'discarded name must not survive in search tags');
+checks.push('on-screen characters, attributed lines and corrected search names');
 api.reset();api.setBand('raise-a-suilen');get('character').value='佐藤益木（MASKING）';get('character').onchange();assert(api.getVisible().length>0);assert(api.getVisible().every(a=>a.characters.includes('佐藤益木（MASKING）')));checks.push('dependent character filter');
 api.reset();get('format').value='animated';get('format').onchange();assert.equal(api.getVisible().length,catalog.animated);get('format').value='static';get('format').onchange();assert.equal(api.getVisible().length,catalog.count-catalog.animated);checks.push('animated and static formats');
 for(const type of catalog.types){api.reset();api.getState().kind=type.id;api.render();assert.equal(api.getVisible().length,type.count);}
