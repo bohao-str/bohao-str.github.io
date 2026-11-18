@@ -24,19 +24,20 @@ for (const filename of htmlFiles) {
   const allIds = [...source.matchAll(/\bid=["']([^"']+)["']/g)].map(match => match[1]);
   ids.set(filename, new Set(allIds));
   const label = path.relative(root, filename);
+  const playground = label.split(path.sep)[0] === 'playground';
   if (allIds.length !== ids.get(filename).size) failures.push(`${label}: duplicate IDs`);
   if ((source.match(/<h1\b/gi) ?? []).length !== 1) failures.push(`${label}: needs exactly one h1`);
-  if (!/<html\s+lang="en"/.test(source)) failures.push(`${label}: missing document language`);
+  if (!(playground ? /<html\s+lang="zh-CN"/ : /<html\s+lang="en"/).test(source)) failures.push(`${label}: missing document language`);
   if (!/<meta name="viewport"/.test(source)) failures.push(`${label}: missing viewport`);
   if (!/<title>[^<]+<\/title>/.test(source)) failures.push(`${label}: missing title`);
-  if (/<script\b/i.test(source)) failures.push(`${label}: the site should work without scripts`);
+  if (!playground && /<script\b/i.test(source)) failures.push(`${label}: academic pages should work without scripts`);
   if (/name=["']generator["']/i.test(source)) failures.push(`${label}: old generator metadata`);
 }
 let linkCount = 0;
 for (const [filename, source] of sources) {
   const label = path.relative(root, filename);
   const basePath = `/${path.relative(root, filename).split(path.sep).join('/')}`;
-  for (const tag of source.matchAll(/<(a|link|img|iframe|source|video|audio)\b([^>]*)>/gi)) {
+  for (const tag of source.matchAll(/<(a|link|img|iframe|source|video|audio|script)\b([^>]*)>/gi)) {
     const attributes = Object.fromEntries([...tag[2].matchAll(/([\w-]+)=["']([^"']*)["']/g)]
       .map(match => [match[1].toLowerCase(), match[2]]));
     const address = attributes.href ?? attributes.src;
@@ -80,5 +81,5 @@ if (failures.length) {
   process.exitCode = 1;
 } else {
   console.log(`Checked ${htmlFiles.length} HTML pages and ${linkCount} local links.`);
-  console.log('No missing files, broken anchors, external runtime resources, or page scripts.');
+  console.log('No missing files, broken anchors, or external runtime resources. Academic pages remain script-free.');
 }

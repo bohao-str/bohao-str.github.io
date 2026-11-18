@@ -87,6 +87,9 @@ section { scroll-margin-top: 1rem; }
   font-size: 0.85rem;
 }
 
+.site-footer .off-duty-link { margin-right: auto; color: #777; font-size: 0.85em; text-decoration: none; }
+.site-footer .off-duty-link:hover { color: #333; text-decoration: underline; }
+
 @media (max-width: 480px) {
   body { margin: 1.5rem auto; padding: 0 1rem; }
   .news-list li { grid-template-columns: 1fr; gap: 0.05rem; }

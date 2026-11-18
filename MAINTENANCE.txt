@@ -1,7 +1,8 @@
 个人网站维护说明
 
 这是直接手写维护的静态网站：HTML 是正文，CSS 是排版。
-线上网站不使用 JavaScript、Hexo、jQuery、字体库、CDN 或 npm 包，也不需要构建。
+学术页面不使用 JavaScript；所有页面均不使用 Hexo、jQuery、外部字体库、CDN 或 npm 包。
+课余小站 /playground/ 下的梗图库使用本站的原生 JavaScript 提供筛选与收藏；另有无脚本的完整图片索引。
 托管仍使用原来的 GitHub Pages。仓库根目录就是发布目录。
 
 常用文件
@@ -11,14 +12,18 @@
   notes/*.pdf        研究和学习笔记
   blog/index.html    博客目录；目前还没有正文文章
   .local/CV.pdf      暂时下线的简历备份；此目录被 Git 忽略，不会随网站发布
-  css/site.css       全站排版（包括手机和打印样式）
+  css/site.css       学术页面排版（包括手机和打印样式）
+  playground/        课余小站入口，使用独立样式，不影响学术页面
+  playground/bandori/ 邦邦梗图库、轻量网页图片、静态索引和来源记录
   404.html           页面不存在时显示的页面
   img/               原有图片，文件仍然保留
   .nojekyll          让 GitHub Pages 直接提供静态文件
 
 页面都是完整 HTML。即使浏览器禁用脚本，也能阅读正文、导航和打开 PDF。
+图库禁用脚本时可通过 /playground/bandori/all/ 浏览并保存全部图片。
 导航在 About、Notes、Blog 及 404.html 中分别存在；修改导航时同步修改这四个文件。
 内容链接优先使用 /notes/ 等站内路径；不要添加外部字体、脚本或样式资源。
+学术页页脚的 Off duty 链接通向 /playground/，四个学术页面的页脚保持一致。
 
 本地预览
   在这个文件夹双击 preview.cmd，然后在浏览器打开：
@@ -54,6 +59,22 @@
             再在 blog/index.html 添加链接。正文写完后重新运行检查。
   更新简介：只修改 index.html 的 About me 区域。
   更新样式：只修改 css/site.css。
+
+课余小站与图库
+  /playground/index.html 是课余小站入口；/playground/bandori/index.html 是可筛选图库。
+  样式分别位于 playground/playground.css 与 playground/bandori/gallery.css。
+  gallery.js 只使用浏览器原生 API，收藏留在 localStorage，不上传到服务器。
+  图库按具体乐队、角色、整活/反应/台词/团子及动静态筛选，不再使用含义混杂的 OurNotes 分组。
+  图片使用本站轻量 WebP 版本（含动画）。详情保留原帖、来源署名和原文件链接。
+  data/catalog.json 提供检索数据；data/sources.json 是公开来源记录。
+  原始下载素材不放入仓库，避免挤占 GitHub Pages 容量。不要将压缩包或临时文件提交进来。
+  更新图片可使用 tools/build-meme-library.py（需要 Python 与 Pillow）：
+    python tools/build-meme-library.py --catalog 原目录.json --asset-root 原图目录 --extra 新素材.json
+  转换缓存写入 .local/（被 Git 忽略）；输出只包含网页资源与公开来源元数据。
+  更新后执行 node tools/finalize-playground.mjs 更新首页数字，并运行：
+    node tools/check.mjs
+    node tools/check-meme-library.mjs
+  另用浏览器检查桌面与手机布局、筛选、收藏、分享链接、动图预览与保存。
 
 旧网址
   /archives/、/archives/2026/、/archives/2026/01/ 和
