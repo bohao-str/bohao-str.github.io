@@ -5,3 +5,8 @@
 .search-box input{font-size:13px}.filter-select{font-size:11px;color:#748369}.filter-select select{font-size:12px;color:#4f6543}.quiet-button{font-size:11px}.kind-button{font-size:11px;color:#66795a}.kind-button[aria-pressed=true]{color:white}.kind-button .kind-count{font-size:10px;opacity:.8}
 .results-line{font-size:11px;color:#76876b}.reset-button{font-size:11px;color:#94724d}.card-info h2{font-size:12px;min-height:40px}.card-band{font-size:10px;color:#7b896e}.card-bottom a{font-size:10px;color:#6b805b}.media-badge{font-size:9px}.detail-body>p{color:#7d8d6e}.detail-topline{color:#6e835f}.detail-body .detail-note{color:#8b997e}
 @media(max-width:540px){.search-box input{font-size:12px}.filter-select select{font-size:11px}.kind-button{font-size:10px}.quiet-button{font-size:10px}.card-info h2{font-size:11px;min-height:37px}.card-band{font-size:9px}.card-bottom a{font-size:9px}.results-line,.reset-button{font-size:10px}.media-badge{font-size:8px}}
+
+/* Keep filters on one line and give the collection more room above the fold. */
+.filter-select{white-space:nowrap}
+@media(min-width:801px){.gallery-header{min-height:80px;padding-top:18px;padding-bottom:18px}.gallery-intro{padding-top:20px;padding-bottom:19px}.gallery-intro h1{font-size:37px;margin-bottom:10px}.gallery-intro .eyebrow{margin-bottom:8px}}
+@media(max-width:540px){.filter-select select{width:0;flex:1;max-width:100%}.kind-button.fresh-button{margin-left:0}}

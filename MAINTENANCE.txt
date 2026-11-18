@@ -74,6 +74,7 @@
   更新后执行 node tools/finalize-playground.mjs 更新首页数字，并运行：
     node tools/check.mjs
     node tools/check-meme-library.mjs
+    node tools/check-gallery-behavior.mjs
   另用浏览器检查桌面与手机布局、筛选、收藏、分享链接、动图预览与保存。
 
 旧网址
