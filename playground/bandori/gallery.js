@@ -183,7 +183,7 @@
     const people = a.characters.length ? '画面人物：' + a.characters.join('、') : '';
     const dialogue = a.speaker ? '台词角色（原站标注）：' + a.speaker : '';
     $('detail-meta').textContent = [people,dialogue,a.animated ? '动态图片' : '静态图片',`${a.width} × ${a.height}`,`${Math.round(a.bytes/1024)} KB`,a.author ? `来源署名：${a.author}` : ''].filter(Boolean).join(' · ');
-    $('download').href = a.image;$('download').download = a.id+'.webp';$('original').href = a.original;$('source').href = a.source;paintDetailStar();
+    $('download').href = a.image;$('download').download = a.id+'.webp';$('enlarge').href = a.image;$('original').href = a.original;$('source').href = a.source;paintDetailStar();
     document.body.classList.add('has-dialog');if (!$('viewer').open) $('viewer').showModal();writeURL();
   }
   function stepImage(direction) {

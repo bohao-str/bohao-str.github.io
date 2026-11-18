@@ -12,6 +12,7 @@ from collections import Counter
 from PIL import Image,ImageStat
 import argparse,json,hashlib,re,html,os,time
 from datetime import date
+from io import BytesIO
 
 ROOT=Path(__file__).resolve().parents[1]
 DEST=ROOT/'playground/bandori'
@@ -63,6 +64,11 @@ def band_ids(a):
  if len(ids)>1 and 'other' in ids:ids.remove('other')
  return ids or ['other']
 def characters(a,bands):
+ if 'characters' in a:
+  names=a['characters']
+  if not isinstance(names,list) or any(not isinstance(name,str) or not name.strip() for name in names):
+   raise ValueError('Invalid character list for '+a['key'])
+  return list(dict.fromkeys(name.strip() for name in names))
  text=a.get('character','')
  if isinstance(text,list):text='、'.join(text)
  # Do not infer characters from broad source tags, which often mention other bands.
@@ -95,9 +101,14 @@ def convert(a,cache):
  if a.get('sha256') and a['sha256']!=sha:raise ValueError(f'{key}: original does not match the reviewed file')
  if 'preview_frame' in a or 'thumbnail_frame' in a:sig+=':'+str(a.get('preview_frame',a.get('thumbnail_frame')))
  target=DEST/'media'/f'{key}.webp';thumb=DEST/'thumbs'/f'{key}.webp'
- if key in cache and cache[key]['signature']==sig and target.is_file() and thumb.is_file():return key,cache[key]
- with Image.open(src) as im:
+ with Image.open(BytesIO(raw)) as im:
   n=getattr(im,'n_frames',1);orig_size=im.size
+  bounds=(1200,1000)
+  if n==1 and im.height>1000 and im.height>1.8*im.width:
+   bounds=(1200,4000);sig+=':tall-strip-v1'
+  elif n==1 and im.width>1200 and im.width>2.6*im.height:
+   bounds=(3600,1000);sig+=':wide-strip-v1'
+  if key in cache and cache[key]['signature']==sig and target.is_file() and thumb.is_file():return key,cache[key]
   if isinstance(a.get('preview_frame'),int):index=max(0,min(n-1,a['preview_frame']))
   elif a.get('thumbnail_frame')=='first':index=0
   elif a.get('thumbnail_frame')=='last':index=n-1
@@ -112,7 +123,7 @@ def convert(a,cache):
    frames[0].save(target,'WEBP',save_all=True,append_images=frames[1:],duration=durations,loop=im.info.get('loop',0),quality=74,method=2,minimize_size=False)
    size=frames[0].size
   else:
-   im.seek(0);frame=im.convert('RGBA');frame.thumbnail((1200,1000),Image.Resampling.LANCZOS);frame.save(target,'WEBP',quality=88,method=4);size=frame.size
+   im.seek(0);frame=im.convert('RGBA');frame.thumbnail(bounds,Image.Resampling.LANCZOS);frame.save(target,'WEBP',quality=88,method=4);size=frame.size
  result={'signature':sig,'sha256':sha,'frames':n,'width':size[0],'height':size[1],'originalWidth':orig_size[0],'originalHeight':orig_size[1],'bytes':target.stat().st_size}
  return key,result
 

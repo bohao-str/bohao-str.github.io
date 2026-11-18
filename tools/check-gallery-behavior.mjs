@@ -68,4 +68,13 @@ api.reset();const favorite=catalog.items[0].id;api.toggleFavorite(favorite);asse
 api.reset();api.getState().band='roselia';api.getState().format='animated';api.render();const first=api.getVisible()[0];api.openImage(first.id);assert(get('viewer').open);assert.equal(get('download').href,first.image);assert.equal(get('original').href,first.original);assert.equal(get('source').href,first.source);assert(location.search.includes('m='+first.id));get('next').onclick();assert.notEqual(get('detail-image').src,first.image);get('previous').onclick();assert.equal(get('detail-image').src,first.image);get('close').onclick();assert(!get('viewer').open);assert(!location.search.includes('m='));checks.push('modal, navigation, per-image share URL and downloads');
 api.reset();location.search='?band=mygo&m='+catalog.items[0].id;location.href='https://bohao-str.github.io/playground/bandori/'+location.search;await api.init();assert(get('viewer').open);assert(location.search.includes('m='));get('close').onclick();checks.push('shared image opens even outside current filter');
 api.reset();api.getState().q='__nothing_98237653__';api.render();assert.equal(api.getVisible().length,0);assert(get('random').disabled);api.reset();get('random').onclick();assert(get('viewer').open);checks.push('no results, reset and random image');
+const longComic=catalog.items.find(item=>item.id==='cn19_weibo_5353261520393237_0');
+if(longComic){
+  api.reset();api.openImage(longComic.id);
+  assert(longComic.width>=1000 && longComic.height>=2000,'long panel text should remain legible');
+  assert.equal(get('enlarge').href,longComic.image);
+  assert.equal(get('download').href,longComic.image);
+  assert.equal(get('original').href,longComic.original);
+  get('close').onclick();checks.push('legible long comics and full-size gallery links');
+}
 console.log(JSON.stringify({passed:checks.length,images:catalog.count,checks}));
