@@ -38,6 +38,30 @@ assert.equal(api.getVisible().length,catalog.count);assert.equal(get('grid').chi
 get('more').onclick();assert.equal(get('grid').children.length,120);
 for(const band of catalog.bands){api.setBand(band.id);assert.equal(api.getVisible().length,band.count,band.name);}
 checks.push('every band filter, including multi-band membership');
+if(catalog.bandSections){
+ const allIds=catalog.bands.filter(b=>b.count).map(b=>b.id).sort();
+ const options=get('band-select').children.filter(b=>b.tagName==='OPTGROUP');
+ assert.deepEqual(options.map(b=>b.label),['老邦七团','Our Notes 五团','其他出场']);
+ assert.deepEqual(options.flatMap(g=>g.children.map(o=>o.value)).sort(),allIds);
+ assert.deepEqual(options[1].children.map(o=>o.value),['mygo','ave-mujica','mewtype','millsage','ikka']);
+ const bandGroup=get('band-list').children.find(el=>el.getAttribute('aria-label')==='其他出场');
+ const fairy=bandGroup.children.find(el=>el.dataset.band==='fairy-bouquet');fairy.onclick();
+ assert.equal(Number(fairy.querySelector('.band-count').textContent),api.getVisible().length);
+ assert(api.getVisible().some(a=>a.id==='tw19_baha_47099_17063_0'));
+ assert(!api.getVisible().some(a=>a.id==='tw19_home_6415374_22'),'mention in the joke does not imply Fairy Bouquet appears');
+ checks.push('grouped mobile and desktop band lists, guests and name-only references');
+}
+if(catalog.items.some(a=>a.batch)){
+ api.reset();const chip=get('kind-list').children.find(e=>e.dataset.batch);chip.onclick();
+ const batch=Number(chip.dataset.batch);const expected=catalog.items.filter(a=>a.batch===batch);
+ assert.equal(api.getVisible().length,expected.length);assert(location.search.includes('batch='+batch));
+ assert.equal(chip.getAttribute('aria-pressed'),'true');chip.onclick();assert.equal(api.getVisible().length,catalog.count);
+ get('sort').value='newest';get('sort').onchange();assert(api.getVisible().slice(0,expected.length).every(a=>a.batch===batch));
+ api.openImage('tw19_baha_47099_17063_0');assert(!get('detail-context').hidden);get('close').onclick();
+ api.openImage('mygo_search_0076');assert(get('detail-context').hidden);get('close').onclick();
+ checks.push('new-batch links, chronological ordering and image context');
+}
+
 api.setBand('ave-mujica');
 const groups=get('character').children.filter(option=>option.tagName==='OPTGROUP');
 assert.deepEqual(groups.map(group=>group.label),['本团成员','同图出镜']);

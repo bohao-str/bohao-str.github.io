@@ -29,7 +29,14 @@ BANDS=[
  ('mewtype','梦限大MewType','#bd84bb','MewType','梦限大MewType|夢限大みゅーたいぷ|Mugendai Mewtype|mewtype|yumemita|梦限大|梦限大MewType'),
  ('millsage','millsage','#729b81','millsage','millsage'),
  ('ikka','一家Dumb Rock!','#c88750','一家','一家Dumb Rock!|一家|ikka dumb rock|ikkadumbrock|ikkadanrock'),
+ ('fairy-bouquet','Fairy Bouquet','#947eaa','Fairy Bouquet','Fairy Bouquet|fairybouquet|フェアリィブゥケ'),
  ('other','综合 / 其他角色','#8b8b82','其他','跨团|跨团及其他|其他角色|其他')
+]
+# These sections are browsing groups, not a list of every media appearance of each band.
+BAND_SECTIONS=[
+ {'name':'老邦七团','bands':['poppin-party','afterglow','pastel-palettes','roselia','hello-happy-world','morfonica','raise-a-suilen']},
+ {'name':'Our Notes 五团','bands':['mygo','ave-mujica','mewtype','millsage','ikka']},
+ {'name':'其他出场','bands':['fairy-bouquet','other']}
 ]
 LOOKUP={v.casefold():b[0] for b in BANDS for v in b[4].split('|')}
 LOOKUP.update({b[0]:b[0] for b in BANDS})
@@ -45,7 +52,8 @@ CHARACTERS={
  'ave-mujica':['丰川祥子','若叶睦','三角初华','八幡海铃','祐天寺若麦'],
  'mewtype':['仲町阿拉蕾','宫永野乃花','峰月律','藤都子','千石由乃'],
  'millsage':['汐见萤','伊泽枣','琴平凪','滨崎茉幌','和泉朋花'],
- 'ikka':['须贺蕾叶','马桥心玖','矢仓蓬咲','梅里千樱梨','四宫宁月']
+ 'ikka':['须贺蕾叶','马桥心玖','矢仓蓬咲','梅里千樱梨','四宫宁月'],
+ 'fairy-bouquet':['薇欧拉','Bell','Popo']
 }
 CHAR_ALIASES={
  '佐藤益木（MASKING）':['MASKING','佐藤益木'],'鳰原令王那（PAREO）':['PAREO','鳰原令王那'],
@@ -174,6 +182,10 @@ def main():
   key=a['key'];m=cache[key];bands=band_ids(a);chars=characters(a,bands)
   title=a.get('caption') or a.get('title') or '邦邦反应表情';title=re.sub(r'\s+GIF$','',title)
   entry={'id':key,'title':title,'bands':bands,'characters':chars,'kind':kind(a),'animated':m['frames']>1,'image':f'media/{key}.webp','thumb':f'thumbs/{key}.webp','width':m['width'],'height':m['height'],'bytes':m['bytes'],'source':a['source'],'original':a.get('url',a['source']),'author':a.get('author',''),'tags':list(dict.fromkeys(a.get('tags',[])+[a.get('description','')])), 'featured':bool(a.get('featured')),'fresh':a['_fresh'],'added':a.get('added',args.updated.isoformat() if a['_fresh'] else '2026-11-18')}
+  if a.get('display_title'):
+   entry['title']=a['display_title']
+   if a.get('caption') and a['caption']!=entry['title']:entry['context']=a['caption']
+  if a.get('batch'):entry['batch']=int(a['batch'])
   if key in corrections:
    edit=corrections[key]
    allowed={'title','characters','bands','tags','speaker','kind','featured'}
@@ -185,14 +197,14 @@ def main():
  # A balanced first screen, with curated new items followed by the previous selection.
  fresh=[a for a in public if a['fresh']];previous=[a for a in public if not a['fresh']]
  public=fresh+previous
- manifest={'version':2,'updated':args.updated.isoformat(),'count':len(public),'animated':sum(a['animated'] for a in public),'added':len(fresh),'characterAliases':aliases,'bands':[{'id':b[0],'name':b[1],'color':b[2],'short':b[3],'aliases':b[4].split('|'),'characters':CHARACTERS.get(b[0],[]),'count':sum(b[0] in a['bands'] for a in public)} for b in BANDS],'types':[{'id':k,'name':v,'count':sum(a['kind']==k for a in public)} for k,v in TYPE_LABELS.items()],'items':public}
+ manifest={'version':2,'updated':args.updated.isoformat(),'count':len(public),'animated':sum(a['animated'] for a in public),'added':len(fresh),'characterAliases':aliases,'bandSections':BAND_SECTIONS,'bands':[{'id':b[0],'name':b[1],'color':b[2],'short':b[3],'aliases':b[4].split('|'),'characters':CHARACTERS.get(b[0],[]),'count':sum(b[0] in a['bands'] for a in public)} for b in BANDS],'types':[{'id':k,'name':v,'count':sum(a['kind']==k for a in public)} for k,v in TYPE_LABELS.items()],'items':public}
  (DEST/'data/catalog.json').write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':')),encoding='utf8')
  attrs=[{'id':a['id'],'title':a['title'],'source':a['source'],'original':a['original'],'author':a['author']} for a in public]
  (DEST/'data/sources.json').write_text(json.dumps(attrs,ensure_ascii=False,indent=2),encoding='utf8')
  cards=[]
  for a in public:
   title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="../{a["image"]}"><img src="../{a["thumb"]}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="../{a["image"]}" download>保存图片</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a></div></article>')
- static='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>全部梗图 · Bandori · Playground</title><link rel="stylesheet" href="../../playground.css"><link rel="stylesheet" href="../gallery.css?v=20261118-2"></head><body><header class="pg-header"><a class="brand" href="../../">PLAYGROUND<span>课余时间</span></a><a class="text-link" href="../">返回可筛选图库 ↗</a></header><main class="static-library"><p class="eyebrow">BANDORI / ALL IMAGES</p><h1>全部梗图</h1><p class="intro">不需要脚本的完整图片索引。点击查看，长按或下载保存。</p><div class="meme-grid">'''+''.join(cards)+'''</div></main><footer class="pg-footer"><a href="/">学术主页 ↗</a><span>非官方同人收藏 · 保留原作者署名</span></footer></body></html>'''
+ static='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>全部梗图 · Bandori · Playground</title><link rel="stylesheet" href="../../playground.css"><link rel="stylesheet" href="../gallery.css?v=20261119-4"></head><body><header class="pg-header"><a class="brand" href="../../">PLAYGROUND<span>课余时间</span></a><a class="text-link" href="../">返回可筛选图库 ↗</a></header><main class="static-library"><p class="eyebrow">BANDORI / ALL IMAGES</p><h1>全部梗图</h1><p class="intro">不需要脚本的完整图片索引。点击查看，长按或下载保存。</p><div class="meme-grid">'''+''.join(cards)+'''</div></main><footer class="pg-footer"><a href="/">学术主页 ↗</a><span>非官方同人收藏 · 保留原作者署名</span></footer></body></html>'''
  (DEST/'all/index.html').write_text(static,encoding='utf8')
  totals={'count':manifest['count'],'new':manifest['added'],'animated':manifest['animated'],'media_mb':round(sum(m['bytes'] for key,m in cache.items() if any(a['id']==key for a in public))/1024**2,1),'band_counts':{b['name']:b['count'] for b in manifest['bands']}}
  (ROOT/'.local/build-summary.json').write_text(json.dumps(totals,ensure_ascii=False,indent=2),encoding='utf8')

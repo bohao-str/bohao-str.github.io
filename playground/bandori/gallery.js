@@ -6,8 +6,9 @@
   const FAVORITES_KEY = 'bohao-bandori-favorites-v1';
   let library, items = [], visible = [], shown = 0, current = null, modalItems = [], ordered = [];
   let state, searchTimer, toastTimer, favoriteIds = new Set(), isRestoring = false;
-  const starButtons = new Map();
-  const traditional = Object.fromEntries(['愛爱','樂乐','燈灯','華华','鈴铃','夢梦','麼么','這这','樣样','會会','們们','為为','說说','還还','沒没','來来','開开','對对','實实','點点','時时','歡欢','過过','個个','讓让','見见','覺觉','裡里','裏里','嗎吗','與与','難难','從从','聽听','經经','無无','別别','氣气','擔担','關关','應应','學学','輸输','厲厉','獲获','號号','總总','團团','聲声','錢钱','現现','後后','買买','頭头','發发','長长','該该','種种','給给','錯错','親亲','選选','網网','變变','隻只','葉叶','豐丰','橋桥','澤泽','濱滨','櫻樱','彌弥','麥麦','張张','蘭兰','將将','結结','連连','進进','憶忆','認认','謝谢','驚惊','嗎吗'].map(pair => [pair[0], pair[1]]));
+  const starButtons = new Map(), bandButtons = new Map();
+  let latestBatch = 0;
+  const traditional = Object.fromEntries(['愛爱','樂乐','燈灯','華华','鈴铃','夢梦','麼么','這这','樣样','會会','們们','為为','說说','還还','沒没','來来','開开','對对','實实','點点','時时','歡欢','過过','個个','讓让','見见','覺觉','裡里','裏里','嗎吗','與与','難难','從从','聽听','經经','無无','別别','氣气','擔担','關关','應应','學学','輸输','厲厉','獲获','號号','總总','團团','聲声','錢钱','現现','後后','買买','頭头','發发','長长','該该','種种','給给','錯错','親亲','選选','網网','變变','隻只','葉叶','豐丰','橋桥','澤泽','濱滨','櫻樱','彌弥','麥麦','張张','蘭兰','將将','結结','連连','進进','憶忆','認认','謝谢','驚惊','歐欧','羅罗','軍军','倫伦','腦脑','醫医','藥药','傷伤','燈灯'].map(pair => [pair[0], pair[1]]));
   const normalize = s => String(s || '').normalize('NFKC').toLowerCase().replace(/[\u3400-\u9fff]/g, c => traditional[c] || c);
   const bandById = id => library.bands.find(b => b.id === id);
   const bandNames = a => a.bands.map(id => bandById(id)?.name).filter(Boolean).join(' / ');
@@ -18,7 +19,7 @@
     const p = new URLSearchParams(location.search);
     const previousName = p.get('character') || '';
     const character = previousName === '仲町亚罗蕾' ? '仲町阿拉蕾' : previousName;
-    return { q: p.get('q') || '', band: p.get('band') || '', character, kind: p.get('kind') || '', format: p.get('format') || '', sort: ['featured', 'newest', 'shuffle'].includes(p.get('sort')) ? p.get('sort') : 'featured', saved: p.get('saved') === '1', fresh: p.get('fresh') === '1' };
+    return { q: p.get('q') || '', band: p.get('band') || '', character, kind: p.get('kind') || '', format: p.get('format') || '', sort: ['featured', 'newest', 'shuffle'].includes(p.get('sort')) ? p.get('sort') : 'featured', saved: p.get('saved') === '1', fresh: p.get('fresh') === '1', batch: Number(p.get('batch')) || 0 };
   }
   function writeURL() {
     const p = new URLSearchParams();
@@ -26,6 +27,7 @@
     if (state.sort !== 'featured') p.set('sort',state.sort);
     if (state.saved) p.set('saved','1');
     if (state.fresh) p.set('fresh','1');
+    if (state.batch) p.set('batch',String(state.batch));
     if (current) p.set('m',current);
     const next = location.pathname + (p.size ? '?' + p.toString() : '');
     history.replaceState(null,'',next);
@@ -63,11 +65,12 @@
     if (state.format && a.animated !== (state.format === 'animated')) return false;
     if (state.saved && !favoriteIds.has(a.id)) return false;
     if (state.fresh && !a.fresh) return false;
+    if (state.batch && a.batch !== state.batch) return false;
     const terms = normalize(state.q.trim()).split(/\s+/).filter(Boolean);
     return terms.every(term => a.search.includes(term));
   }
   function makeOrder() {
-    if (state.sort === 'newest') return [...items].sort((a,b) => b.added.localeCompare(a.added) || Number(b.fresh)-Number(a.fresh));
+    if (state.sort === 'newest') return [...items].sort((a,b) => b.added.localeCompare(a.added) || (b.batch||0)-(a.batch||0) || Number(b.fresh)-Number(a.fresh));
     if (state.sort === 'shuffle') return [...items].sort((a,b) => a.shuffle-b.shuffle);
     const featured = items.filter(a => a.featured), rest = items.filter(a => !a.featured);
     const groups = library.bands.map(b => featured.filter(a => a.bands[0] === b.id));
@@ -77,13 +80,14 @@
   }
   function updateFacets() {
     const bandPool = items.filter(a => matches(a,'band'));
-    for (const button of $('band-list').children) {
+    for (const button of bandButtons.values()) {
       const id = button.dataset.band;button.setAttribute('aria-pressed',String(state.band === id));
       button.querySelector('.band-count').textContent = id ? bandPool.filter(a => a.bands.includes(id)).length : bandPool.length;
     }
     const typePool = items.filter(a => matches(a,'kind'));
     for (const button of $('kind-list').children) {
-      if (button.dataset.fresh) { button.setAttribute('aria-pressed',String(state.fresh));continue; }
+      if (button.dataset.fresh) {button.setAttribute('aria-pressed',String(state.fresh));continue;}
+      if (button.dataset.batch) {button.setAttribute('aria-pressed',String(state.batch === latestBatch));continue;}
       const kind = button.dataset.kind;button.setAttribute('aria-pressed',String(state.kind === kind));
       button.querySelector('.kind-count').textContent = kind ? typePool.filter(a => a.kind === kind).length : typePool.length;
     }
@@ -113,13 +117,23 @@
     state.band = id;state.character = '';$('band-select').value = id;fillCharacters();render();
   }
   function buildControls() {
-    $('band-list').replaceChildren();$('band-select').replaceChildren(new Option('全部乐队',''));
-    for (const b of [{id:'',name:'全部乐队',color:'#91a27d'},...library.bands]) {
-      if (b.id && !b.count) continue;
+    const list = $('band-list'), select = $('band-select');
+    list.replaceChildren();select.replaceChildren(new Option('全部乐队',''));bandButtons.clear();
+    function addBand(parent,b) {
       const button = document.createElement('button');button.className = 'band-button';button.dataset.band = b.id;
       button.style.setProperty('--band',b.color);button.append(textElement('span','','dot'),textElement('span',b.name,'band-name'),textElement('span','','band-count'));
-      button.onclick = () => setBand(b.id);$('band-list').append(button);
-      if (b.id) $('band-select').append(new Option(b.name,b.id));
+      button.onclick = () => setBand(b.id);bandButtons.set(b.id,button);parent.append(button);
+    }
+    addBand(list,{id:'',name:'全部乐队',color:'#91a27d'});
+    const sections = library.bandSections || [{name:'乐队',bands:library.bands.map(b=>b.id)}];
+    for (const section of sections) {
+      const bands = section.bands.map(bandById).filter(b => b && b.count);
+      if (!bands.length) continue;
+      const group = document.createElement('div');group.className='band-section';group.setAttribute('role','group');group.setAttribute('aria-label',section.name);
+      group.append(textElement('span',section.name,'band-section-title'));
+      const options = document.createElement('optgroup');options.label=section.name;
+      for (const b of bands) {addBand(group,b);options.append(new Option(b.name,b.id));}
+      list.append(group);select.append(options);
     }
     $('band-total').textContent = library.bands.filter(b => b.id !== 'other' && b.count).length;
     $('kind-list').replaceChildren();
@@ -129,7 +143,13 @@
       button.onclick = () => {state.kind = kind.id;render();};$('kind-list').append(button);
     }
     if (library.added) {
-      const button = textElement('button',`本次新增 ${library.added}`,'kind-button fresh-button');button.dataset.fresh = '1';button.onclick = () => {state.fresh = !state.fresh;render();};$('kind-list').append(button);
+      if (latestBatch) {
+        const count = items.filter(a => a.batch === latestBatch).length;
+        const recent = textElement('button',`最近一批 ${count}`,'kind-button fresh-button');recent.dataset.batch=String(latestBatch);
+        recent.onclick=()=>{state.fresh=false;state.batch=state.batch===latestBatch?0:latestBatch;render();};$('kind-list').append(recent);
+      }
+      const button = textElement('button',`本轮收集 ${library.added}`,'kind-button fresh-button');button.dataset.fresh='1';
+      button.onclick=()=>{state.fresh=!state.fresh;state.batch=0;render();};$('kind-list').append(button);
     }
     syncControls();
   }
@@ -137,7 +157,7 @@
     $('search').value = state.q;$('band-select').value = state.band;$('format').value = state.format;$('sort').value = state.sort;fillCharacters();
   }
   function reset() {
-    clearTimeout(searchTimer);state = {q:'',band:'',character:'',kind:'',format:'',sort:'featured',saved:false,fresh:false};ordered = makeOrder();syncControls();render();
+    clearTimeout(searchTimer);state = {q:'',band:'',character:'',kind:'',format:'',sort:'featured',saved:false,fresh:false,batch:0};ordered = makeOrder();syncControls();render();
   }
   function makeCard(a) {
     const article = document.createElement('article');article.className = 'meme-card';
@@ -170,7 +190,7 @@
     $('empty').hidden = visible.length > 0;$('random').disabled = !visible.length;
     $('empty-title').textContent = state.saved && !favoriteIds.size ? '收藏夹还是空的。' : '暂时没找到这张图。';
     $('empty-copy').textContent = state.saved && !favoriteIds.size ? '点一下图片下面的 ☆，喜欢的图就能留在这里。' : '换个词，或者减少一个筛选条件试试。';
-    $('reset').hidden = !['q','band','character','kind','format','saved','fresh'].some(k => state[k]);
+    $('reset').hidden = !['q','band','character','kind','format','saved','fresh','batch'].some(k => state[k]);
     writeURL();
   }
   function openImage(id) {
@@ -179,6 +199,7 @@
     $('image-loading').hidden = false;$('image-loading').textContent = '图片加载中…';
     $('detail-image').alt = a.title;$('detail-image').src = a.image;
     $('detail-title').textContent = a.title;$('detail-band').textContent = bandNames(a);
+    $('detail-context').textContent = a.context || ''; $('detail-context').hidden = !a.context;
     $('detail-position').textContent = `${modalItems.findIndex(x => x.id === id)+1} / ${modalItems.length}`;
     const people = a.characters.length ? '画面人物：' + a.characters.join('、') : '';
     const dialogue = a.speaker ? '台词角色（原站标注）：' + a.speaker : '';
@@ -221,9 +242,11 @@
       items = library.items.map(a => {
         const names = a.characters.flatMap(name => [name,...(library.characterAliases?.[name] || [])]);
         const bands = a.bands.flatMap(id => {const band = bandById(id);return band ? [band.name,...band.aliases] : [];});
-        return {...a,shuffle:Math.random(),search:normalize([a.title,...names,...a.tags,...bands].join(' '))};
+        return {...a,shuffle:Math.random(),search:normalize([a.title,a.context,...names,...a.tags,...bands].join(' '))};
       });
-      state = readState();if (state.band && !bandById(state.band)) state.band = '';if (state.kind && !library.types.some(t => t.id === state.kind)) state.kind = '';if (!['','animated','static'].includes(state.format)) state.format = '';
+      latestBatch = Math.max(0,...items.map(a => a.batch || 0));
+      state = readState();if (state.batch && !items.some(a => a.batch === state.batch)) state.batch=0;
+      if (state.band && !bandById(state.band)) state.band = '';if (state.kind && !library.types.some(t => t.id === state.kind)) state.kind = '';if (!['','animated','static'].includes(state.format)) state.format = '';
       try {const saved = JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]');favoriteIds = new Set(Array.isArray(saved) ? saved.filter(id => items.some(a => a.id === id)) : []);} catch {favoriteIds = new Set();}
       $('saved-count').textContent = favoriteIds.size;$('total-count').textContent = library.count;$('animated-count').textContent = library.animated;
       const sharedId = new URLSearchParams(location.search).get('m');buildControls();ordered = makeOrder();render();if (sharedId) openImage(sharedId);

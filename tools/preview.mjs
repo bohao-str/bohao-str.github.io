@@ -18,6 +18,7 @@ const types = {
   '.json': 'application/json; charset=utf-8',
   '.webp': 'image/webp',
   '.gif': 'image/gif',
+  '.zip': 'application/zip',
   '.pdf': 'application/pdf',
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
@@ -54,9 +55,14 @@ const server = http.createServer(async (request, response) => {
     }
     const type = types[path.extname(filename).toLowerCase()];
     if (!type) throw new Error('Not a public file');
+    if (request.method === 'HEAD') {
+      response.writeHead(200, { 'Content-Type': type, 'Content-Length': (await stat(filename)).size });
+      response.end();
+      return;
+    }
     const content = await readFile(filename);
     response.writeHead(200, { 'Content-Type': type, 'Content-Length': content.length });
-    response.end(request.method === 'HEAD' ? undefined : content);
+    response.end(content);
   } catch {
     const content = await readFile(path.join(root, '404.html'));
     response.writeHead(404, { 'Content-Type': types['.html'], 'Content-Length': content.length });

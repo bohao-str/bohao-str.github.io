@@ -7,6 +7,8 @@ for(const name of ['playground/index.html','playground/bandori/index.html']){
  const p=path.join(root,name);let html=await readFile(p,'utf8');
  for(const key of ['count','animated'])html=html.replace(new RegExp(`(<!--lib:${key}-->)[\\s\\S]*?(<!--/lib:${key}-->)`,'g'),`$1${data[key]}$2`);
  if(name === 'playground/bandori/index.html'){
+   const groups=data.bands.filter(b=>b.count && b.id!=='other').length;
+   html=html.replace(/<!--lib:bands-->\d+<!--\/lib:bands-->/g,`<!--lib:bands-->${groups}<!--/lib:bands-->`);
    html=html.replace(/(<span class="updated">更新于 <time datetime=")[\d-]+(">)[\d.]+(<\/time>)/,
      (_,before,middle,after) => before+data.updated+middle+data.updated.replaceAll('-','.')+after);
  }

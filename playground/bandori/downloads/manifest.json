@@ -1,0 +1,43 @@
+{
+  "batch": 4,
+  "date": "2026-11-19",
+  "count": 116,
+  "parts": [
+    {
+      "file": "bandori-04-01.zip",
+      "items": 22,
+      "bytes": 24306586,
+      "sha256": "8e1377e278fcbfaf81b7f194a13b0206aab81bb66c3039f16c3a608db8d71940"
+    },
+    {
+      "file": "bandori-04-02.zip",
+      "items": 27,
+      "bytes": 24023032,
+      "sha256": "47f61e5daa116db519bfab2646e86a40d9343af13feb6a049049453650338eec"
+    },
+    {
+      "file": "bandori-04-03.zip",
+      "items": 3,
+      "bytes": 23564086,
+      "sha256": "3b25910b17ab948a298777d54f10cd723b28c9a0cab1a6bb62d4bcb7b0b5e958"
+    },
+    {
+      "file": "bandori-04-04.zip",
+      "items": 8,
+      "bytes": 24687036,
+      "sha256": "e62018e0828c0636ed10960c24036119d982fe8b72ae07f56b68bc956d527ae1"
+    },
+    {
+      "file": "bandori-04-05.zip",
+      "items": 36,
+      "bytes": 25149514,
+      "sha256": "ec3a69fefa166a73258e35d34d78c316bff07e1e06f7a1afd4688bffef164e06"
+    },
+    {
+      "file": "bandori-04-06.zip",
+      "items": 20,
+      "bytes": 2483686,
+      "sha256": "7dd218eaa42b1e6c428625c27fcc32644882d72c4b79155c4f6bbc9d4f0b97d4"
+    }
+  ]
+}
