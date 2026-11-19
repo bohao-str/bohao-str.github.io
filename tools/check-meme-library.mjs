@@ -14,8 +14,40 @@ assert.equal(data.added,data.items.filter(a=>a.fresh).length);
 assert.equal(new Set(data.items.map(a=>a.id)).size,data.count);
 const bands=new Set(data.bands.map(b=>b.id));
 const types=new Set(data.types.map(t=>t.id));
-let size=0;
+const index=await fs.readFile(path.join(gallery,'all/index.html'),'utf8');
+const saves=[...index.matchAll(/href="\.\.\/([^"]+)" download="([^"]+)"/g)].map(m=>m.slice(1));
+const pictures=[...index.matchAll(/class="picture" href="\.\.\/([^"]+)"/g)].map(m=>m[1]);
+assert.equal(saves.length,data.count);assert.equal(pictures.length,data.count);
+// Walk GIF blocks: counting 0x2C bytes in compressed image data would give false frames.
+function gifInfo(buf){
+ assert.match(buf.toString('ascii',0,6),/^GIF8[79]a$/);
+ const table=flags=>(flags&128)?3*(2**((flags&7)+1)):0;
+ let pos=13+table(buf[10]), frames=0;
+ function subblocks(){while(pos<buf.length){const n=buf[pos++];if(!n)return;pos+=n;}throw Error('truncated GIF');}
+ while(pos<buf.length){
+  const kind=buf[pos++];
+  if(kind===0x3b)return {width:buf.readUInt16LE(6),height:buf.readUInt16LE(8),frames};
+  if(kind===0x21){pos++;subblocks();continue;}
+  assert.equal(kind,0x2c,'bad GIF image descriptor');frames++;
+  pos+=9+table(buf[pos+8])+1;subblocks();
+ }
+ throw Error('missing GIF trailer');
+}
+let size=0,gifs=0;
+let i=0;
 for(const a of data.items){
+ const file=a.download?.path || a.image;
+ assert.deepEqual(saves[i],[file,path.posix.basename(file)],a.id+' static download');
+ assert.equal(pictures[i++],file,a.id+' static full-size image');
+ assert(!a.animated||a.download,a.id+' needs GIF download');
+ if(a.download){
+  assert.equal(file,`gifs/${a.id}.gif`);
+  const bytes=await fs.readFile(path.join(gallery,file)), info=gifInfo(bytes);
+  assert.equal(bytes.length,a.download.bytes,file);
+  assert.deepEqual([info.width,info.height],[a.download.width,a.download.height],file);
+  assert.equal(info.frames>1,a.animated,file+' animation');assert(info.frames>=1,file);
+  size+=bytes.length;gifs++;
+ }
  assert(a.title&&a.characters&&a.bands.length,a.id);
  assert(a.bands.every(b=>bands.has(b)),a.id+' band');assert(types.has(a.kind),a.id+' kind');
  assert(/^https:\/\//.test(a.source),a.id+' source');assert(/^https:\/\//.test(a.original),a.id+' original');
@@ -41,4 +73,4 @@ const ids=new Set([...html.matchAll(/id="([^"]+)"/g)].map(m=>m[1]));
 for(const m of js.matchAll(/\$\('([^']+)'\)/g))assert(ids.has(m[1]),'missing UI element '+m[1]);
 assert(!html.includes('OurNotes 各团'));
 assert(!/C:\\Users|file:\/\/|_file|\\downloads\\/.test(JSON.stringify(data)),'private local path in public catalog');
-console.log(JSON.stringify({images:data.count,animations:data.animated,new:data.added,assets:data.count*2,assetMB:Math.round(size/1024**2),checks:'metadata, paths, WebP signatures, CSS balance, navigation, JS syntax and UI bindings passed'}));
+console.log(JSON.stringify({images:data.count,animations:data.animated,new:data.added,assets:data.count*2+gifs,gifDownloads:gifs,assetMB:Math.round(size/1024**2),checks:'metadata, paths, WebP signatures, GIF frames and static downloads, CSS balance, navigation, JS syntax and UI bindings passed'}));

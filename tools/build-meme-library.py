@@ -10,6 +10,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from collections import Counter
 from PIL import Image,ImageStat
+from gallery_gif import gif_download, RECIPE as GIF_RECIPE
 import argparse,json,hashlib,re,html,os,time
 from datetime import date
 from io import BytesIO
@@ -116,7 +117,15 @@ def convert(a,cache):
    bounds=(1200,4000);sig+=':tall-strip-v1'
   elif n==1 and im.width>1200 and im.width>2.6*im.height:
    bounds=(3600,1000);sig+=':wide-strip-v1'
-  if key in cache and cache[key]['signature']==sig and target.is_file() and thumb.is_file():return key,cache[key]
+  gif_target=DEST/'gifs'/f'{key}.gif'
+  old=cache.get(key,{})
+  same_source=old.get('sha256')==sha
+  needs_gif=n>1 or im.format=='GIF'
+  if same_source and old.get('gifRecipe')==GIF_RECIPE and (not needs_gif or (old.get('download') and gif_target.is_file() and gif_target.stat().st_size==old['download']['bytes'])):
+   download=old.get('download')
+  else:
+   download=gif_download(raw,im,gif_target);im.seek(0)
+  if old.get('signature')==sig and target.is_file() and thumb.is_file():return key,{**old,'gifRecipe':GIF_RECIPE,'download':download}
   if isinstance(a.get('preview_frame'),int):index=max(0,min(n-1,a['preview_frame']))
   elif a.get('thumbnail_frame')=='first':index=0
   elif a.get('thumbnail_frame')=='last':index=n-1
@@ -132,7 +141,7 @@ def convert(a,cache):
    size=frames[0].size
   else:
    im.seek(0);frame=im.convert('RGBA');frame.thumbnail(bounds,Image.Resampling.LANCZOS);frame.save(target,'WEBP',quality=88,method=4);size=frame.size
- result={'signature':sig,'sha256':sha,'frames':n,'width':size[0],'height':size[1],'originalWidth':orig_size[0],'originalHeight':orig_size[1],'bytes':target.stat().st_size}
+ result={'signature':sig,'sha256':sha,'gifRecipe':GIF_RECIPE,'download':download,'frames':n,'width':size[0],'height':size[1],'originalWidth':orig_size[0],'originalHeight':orig_size[1],'bytes':target.stat().st_size}
  return key,result
 
 def main():
@@ -144,7 +153,7 @@ def main():
  ap.add_argument('--updated',type=date.fromisoformat,default=date(2026,11,18))
  ap.add_argument('--workers',type=int,default=4)
  args=ap.parse_args()
- for sub in ['media','thumbs','data','all']:(DEST/sub).mkdir(parents=True,exist_ok=True)
+ for sub in ['media','thumbs','gifs','data','all']:(DEST/sub).mkdir(parents=True,exist_ok=True)
  state=ROOT/'.local/meme-build-cache.json';state.parent.mkdir(exist_ok=True)
  cache=json.loads(state.read_text(encoding='utf8')) if state.exists() else {}
  data=load(args.catalog)
@@ -182,6 +191,7 @@ def main():
   key=a['key'];m=cache[key];bands=band_ids(a);chars=characters(a,bands)
   title=a.get('caption') or a.get('title') or '邦邦反应表情';title=re.sub(r'\s+GIF$','',title)
   entry={'id':key,'title':title,'bands':bands,'characters':chars,'kind':kind(a),'animated':m['frames']>1,'image':f'media/{key}.webp','thumb':f'thumbs/{key}.webp','width':m['width'],'height':m['height'],'bytes':m['bytes'],'source':a['source'],'original':a.get('url',a['source']),'author':a.get('author',''),'tags':list(dict.fromkeys(a.get('tags',[])+[a.get('description','')])), 'featured':bool(a.get('featured')),'fresh':a['_fresh'],'added':a.get('added',args.updated.isoformat() if a['_fresh'] else '2026-11-18')}
+  if m.get('download'):entry['download']=m['download']
   if a.get('display_title'):
    entry['title']=a['display_title']
    if a.get('caption') and a['caption']!=entry['title']:entry['context']=a['caption']
@@ -203,8 +213,9 @@ def main():
  (DEST/'data/sources.json').write_text(json.dumps(attrs,ensure_ascii=False,indent=2),encoding='utf8')
  cards=[]
  for a in public:
-  title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="../{a["image"]}"><img src="../{a["thumb"]}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="../{a["image"]}" download>保存图片</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a></div></article>')
- static='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>全部梗图 · Bandori · Playground</title><link rel="stylesheet" href="../../playground.css"><link rel="stylesheet" href="../gallery.css?v=20261119-4"></head><body><header class="pg-header"><a class="brand" href="../../">PLAYGROUND<span>课余时间</span></a><a class="text-link" href="../">返回可筛选图库 ↗</a></header><main class="static-library"><p class="eyebrow">BANDORI / ALL IMAGES</p><h1>全部梗图</h1><p class="intro">不需要脚本的完整图片索引。点击查看，长按或下载保存。</p><div class="meme-grid">'''+''.join(cards)+'''</div></main><footer class="pg-footer"><a href="/">学术主页 ↗</a><span>非官方同人收藏 · 保留原作者署名</span></footer></body></html>'''
+  asset=a.get('download',{}).get('path',a['image']);label='保存 GIF' if a.get('download') else '保存图片'
+  title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="../{asset}"><img src="../{a["thumb"]}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="../{asset}" download="{Path(asset).name}">{label}</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a></div></article>')
+ static='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>全部梗图 · Bandori · Playground</title><link rel="stylesheet" href="../../playground.css"><link rel="stylesheet" href="../gallery.css?v=20261119-gif1"></head><body><header class="pg-header"><a class="brand" href="../../">PLAYGROUND<span>课余时间</span></a><a class="text-link" href="../">返回可筛选图库 ↗</a></header><main class="static-library"><p class="eyebrow">BANDORI / ALL IMAGES</p><h1>全部梗图</h1><p class="intro">不需要脚本的完整图片索引。点击查看，长按或下载保存。</p><div class="meme-grid">'''+''.join(cards)+'''</div></main><footer class="pg-footer"><a href="/">学术主页 ↗</a><span>非官方同人收藏 · 保留原作者署名</span></footer></body></html>'''
  (DEST/'all/index.html').write_text(static,encoding='utf8')
  totals={'count':manifest['count'],'new':manifest['added'],'animated':manifest['animated'],'media_mb':round(sum(m['bytes'] for key,m in cache.items() if any(a['id']==key for a in public))/1024**2,1),'band_counts':{b['name']:b['count'] for b in manifest['bands']}}
  (ROOT/'.local/build-summary.json').write_text(json.dumps(totals,ensure_ascii=False,indent=2),encoding='utf8')

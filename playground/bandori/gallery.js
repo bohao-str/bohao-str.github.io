@@ -159,20 +159,29 @@
   function reset() {
     clearTimeout(searchTimer);state = {q:'',band:'',character:'',kind:'',format:'',sort:'featured',saved:false,fresh:false,batch:0};ordered = makeOrder();syncControls();render();
   }
+  function setDownload(link,a) {
+    const file = a.download?.path || a.image;
+    link.href = file;link.download = file.split('/').pop();
+    link.textContent = a.download ? '保存 GIF ↓' : '保存图片 ↓';
+    return file;
+  }
   function makeCard(a) {
     const article = document.createElement('article');article.className = 'meme-card';
-    const button = document.createElement('button');button.className = 'picture';button.setAttribute('aria-label','查看 '+a.title);
-    const img = document.createElement('img');img.src = a.thumb;img.alt = a.title;img.width = 380;img.height = 350;img.loading = 'lazy';img.decoding = 'async';button.append(img);
-    if (a.animated) button.append(textElement('span','▶ 动图','media-badge'));
-    if (a.fresh) button.append(textElement('span','NEW','fresh-badge'));
-    button.onclick = () => openImage(a.id);
+    const picture = document.createElement('a');picture.className = 'picture';picture.href = a.download?.path || a.image;picture.setAttribute('aria-label','查看 '+a.title);
+    const img = document.createElement('img');img.src = a.thumb;img.alt = a.title;img.width = 380;img.height = 350;img.loading = 'lazy';img.decoding = 'async';picture.append(img);
+    if (a.animated) picture.append(textElement('span','▶ 动图','media-badge'));
+    if (a.fresh) picture.append(textElement('span','NEW','fresh-badge'));
+    picture.onclick = e => {
+      if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();openImage(a.id);
+    };
     const info = document.createElement('div');info.className = 'card-info';
     const title = textElement('h2',a.title);title.title = a.title;
     const band = textElement('p',bandNames(a),'card-band');band.title = bandNames(a);
     const bottom = document.createElement('div');bottom.className = 'card-bottom';
-    const download = textElement('a','保存 ↓');download.href = a.image;download.download = a.id+'.webp';
+    const download = document.createElement('a');setDownload(download,a);
     const star = document.createElement('button');star.className = 'star-button';paintStar(star,a.id);star.onclick = () => toggleFavorite(a.id);starButtons.set(a.id,star);
-    bottom.append(download,star);info.append(title,band,bottom);article.append(button,info);return article;
+    bottom.append(download,star);info.append(title,band,bottom);article.append(picture,info);return article;
   }
   function appendPage() {
     const end = Math.min(visible.length,shown+PAGE_SIZE),fragment = document.createDocumentFragment();
@@ -197,14 +206,17 @@
     const a = items.find(x => x.id === id);if (!a) return;
     current = id;modalItems = visible.some(x => x.id === id) ? visible : ordered;
     $('image-loading').hidden = false;$('image-loading').textContent = '图片加载中…';
-    $('detail-image').alt = a.title;$('detail-image').src = a.image;
+    const file = setDownload($('download'),a), media = a.download || a;
+    $('detail-image').alt = a.title;$('detail-image').src = file;
     $('detail-title').textContent = a.title;$('detail-band').textContent = bandNames(a);
     $('detail-context').textContent = a.context || ''; $('detail-context').hidden = !a.context;
     $('detail-position').textContent = `${modalItems.findIndex(x => x.id === id)+1} / ${modalItems.length}`;
     const people = a.characters.length ? '画面人物：' + a.characters.join('、') : '';
     const dialogue = a.speaker ? '台词角色（原站标注）：' + a.speaker : '';
-    $('detail-meta').textContent = [people,dialogue,a.animated ? '动态图片' : '静态图片',`${a.width} × ${a.height}`,`${Math.round(a.bytes/1024)} KB`,a.author ? `来源署名：${a.author}` : ''].filter(Boolean).join(' · ');
-    $('download').href = a.image;$('download').download = a.id+'.webp';$('enlarge').href = a.image;$('original').href = a.original;$('source').href = a.source;paintDetailStar();
+    $('detail-meta').textContent = [people,dialogue,a.animated ? '动态图片' : '静态图片',`${media.width} × ${media.height}`,`${Math.round(media.bytes/1024)} KB`,a.author ? `来源署名：${a.author}` : ''].filter(Boolean).join(' · ');
+    const larger = $('larger-preview');larger.hidden = !a.download || (a.width <= media.width && a.height <= media.height);
+    if (larger.hidden) larger.removeAttribute('href');else larger.href = a.image;
+    $('enlarge').href = file;$('original').href = a.original;$('source').href = a.source;paintDetailStar();
     document.body.classList.add('has-dialog');if (!$('viewer').open) $('viewer').showModal();writeURL();
   }
   function stepImage(direction) {

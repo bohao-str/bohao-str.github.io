@@ -2,3 +2,4 @@
 Thumbs.db
 .preview/
 .local/
+__pycache__/

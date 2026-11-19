@@ -65,7 +65,8 @@
   样式分别位于 playground/playground.css 与 playground/bandori/gallery.css。
   gallery.js 只使用浏览器原生 API，收藏留在 localStorage，不上传到服务器。
   图库按具体乐队、角色、整活/反应/台词/团子及动静态筛选，不再使用含义混杂的 OurNotes 分组。
-  图片使用本站轻量 WebP 版本（含动画）。详情保留原帖、来源署名和原文件链接。
+  列表缩略图使用 WebP。动图和本来就是 GIF 的静态图使用本站 gifs/ 下的真正 GIF 查看与下载；其他静图仍用 WebP。
+  详情保留原帖、署名和原文件链接。小 GIF 保留原件；大动图用 Pillow 制作聊天用 GIF，保留播放时长和循环。
   data/catalog.json 提供检索数据；data/sources.json 是公开来源记录。
   原始下载素材不放入仓库，避免挤占 GitHub Pages 容量。不要将压缩包或临时文件提交进来。
   更新图片可使用 tools/build-meme-library.py（需要 Python 与 Pillow）：
@@ -79,6 +80,7 @@
   更新后执行 node tools/finalize-playground.mjs 更新首页数字，并运行：
     node tools/check.mjs
     node tools/check-meme-library.mjs
+    python tools/check-gallery-gif.py
     node tools/check-gallery-behavior.mjs
   另用浏览器检查桌面与手机布局、筛选、收藏、分享链接、动图预览与保存。
 
