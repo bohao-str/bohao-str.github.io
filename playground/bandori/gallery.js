@@ -217,7 +217,10 @@
     $('detail-meta').textContent = [people,dialogue,a.animated ? '动态图片' : '静态图片',`${media.width} × ${media.height}`,`${Math.round(media.bytes/1024)} KB`,a.author ? `来源署名：${a.author}` : ''].filter(Boolean).join(' · ');
     const larger = $('larger-preview');larger.hidden = !a.download || (a.width <= media.width && a.height <= media.height);
     if (larger.hidden) larger.removeAttribute('href');else larger.href = a.image;
-    $('enlarge').href = file;$('original').href = a.original;$('source').href = a.source;paintDetailStar();
+    $('enlarge').href = file;$('original').href = a.original;$('source').href = a.source;
+    const credit=$('credit-source');credit.hidden=!a.creditSource;
+    if(a.creditSource)credit.href=a.creditSource;else credit.removeAttribute('href');
+    paintDetailStar();
     document.body.classList.add('has-dialog');if (!$('viewer').open) $('viewer').showModal();writeURL();
   }
   function stepImage(direction) {

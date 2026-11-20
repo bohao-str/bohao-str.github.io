@@ -223,6 +223,9 @@ def main():
    entry['imageSha256']=hosted['preview_sha256']
    assert bool(hosted.get('gif'))==bool(m.get('download')),key
    if m.get('download'):entry['download']['path']=hosted['gif']
+  if a.get('creditSource'):
+   if not re.fullmatch(r'https://x\.com/[A-Za-z0-9_]{1,15}/status/\d+',a['creditSource']):raise ValueError('Invalid linked credit: '+key)
+   entry['creditSource']=a['creditSource']
   if a.get('display_title'):
    entry['title']=a['display_title']
    if a.get('caption') and a['caption']!=entry['title']:entry['context']=a['caption']
@@ -240,12 +243,13 @@ def main():
  public=fresh+previous
  manifest={'version':2,'updated':args.updated.isoformat(),'count':len(public),'animated':sum(a['animated'] for a in public),'added':len(fresh),'characterAliases':aliases,'bandSections':BAND_SECTIONS,'bands':[{'id':b[0],'name':b[1],'color':b[2],'short':b[3],'aliases':b[4].split('|'),'characters':CHARACTERS.get(b[0],[]),'count':sum(b[0] in a['bands'] for a in public)} for b in BANDS],'types':[{'id':k,'name':v,'count':sum(a['kind']==k for a in public)} for k,v in TYPE_LABELS.items()],'items':public}
  (DEST/'data/catalog.json').write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':')),encoding='utf8')
- attrs=[{'id':a['id'],'title':a['title'],'source':a['source'],'original':a['original'],'author':a['author']} for a in public]
+ attrs=[{'id':a['id'],'title':a['title'],'source':a['source'],'original':a['original'],'author':a['author'],**({'creditSource':a['creditSource']} if a.get('creditSource') else {})} for a in public]
  (DEST/'data/sources.json').write_text(json.dumps(attrs,ensure_ascii=False,indent=2),encoding='utf8')
  cards=[]
  for a in public:
   asset=a.get('download',{}).get('path',a['image']);save=a.get('save',asset);label='保存 GIF' if a.get('download') else '保存图片'
-  title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="{static_href(asset)}"><img src="../{a["thumb"]}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="{static_href(save)}" download="{save.rsplit(chr(47),1)[-1]}">{label}</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a></div></article>')
+  credited=(f' · <a href="{html.escape(a["creditSource"],quote=True)}" target="_blank" rel="noreferrer">图源帖子 ↗</a>' if a.get('creditSource') else '')
+  title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="{static_href(asset)}"><img src="../{a["thumb"]}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="{static_href(save)}" download="{save.rsplit(chr(47),1)[-1]}">{label}</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a>{credited}</div></article>')
  static='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>全部梗图 · Bandori · Playground</title><link rel="stylesheet" href="../../playground.css"><link rel="stylesheet" href="../gallery.css?v=20261119-gif1"></head><body><header class="pg-header"><a class="brand" href="../../">PLAYGROUND<span>课余时间</span></a><a class="text-link" href="../">返回可筛选图库 ↗</a></header><main class="static-library"><p class="eyebrow">BANDORI / ALL IMAGES</p><h1>全部梗图</h1><p class="intro">不需要脚本的完整图片索引。点击查看，长按或下载保存。</p><div class="meme-grid">'''+''.join(cards)+'''</div></main><footer class="pg-footer"><a href="/">学术主页 ↗</a><span>非官方同人收藏 · 保留原作者署名</span></footer></body></html>'''
  (DEST/'all/index.html').write_text(static,encoding='utf8')
  totals={'count':manifest['count'],'new':manifest['added'],'animated':manifest['animated'],'media_mb':round(sum(m['bytes'] for key,m in cache.items() if any(a['id']==key for a in public))/1024**2,1),'band_counts':{b['name']:b['count'] for b in manifest['bands']}}
