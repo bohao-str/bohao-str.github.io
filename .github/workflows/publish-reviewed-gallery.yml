@@ -1,0 +1,21 @@
+name: Publish reviewed gallery downloads
+on:
+  push:
+    branches: [bandori-archives]
+    paths: ['publications/2026-11-20/*/assets.json']
+permissions:
+  contents: write
+jobs:
+  publish:
+    if: github.repository == 'bohao-str/bohao-str.github.io'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Publish the images in this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/publish-reviewed-media.py

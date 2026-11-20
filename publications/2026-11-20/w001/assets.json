@@ -1,0 +1,95 @@
+{
+  "tag": "bandori-cn-20261120-w001",
+  "files": [
+    {
+      "file": "cn20_bili_263312920336_0.gif",
+      "sha256": "a9534d8ddabc40e9f26dbf07a9971293b83b6e6c59bff6b8efc4d3fb58705d4d",
+      "bytes": 780945,
+      "width": 376,
+      "height": 480,
+      "preview_sha256": "28b0d8952065762d8a9a816e4a462134394e631cadc097ba3d6ede7e201fa924",
+      "original_sha256": "3067d0525f629509d60eb51257087f33e5d36fbf862df0ee356e75d63fbecd75"
+    },
+    {
+      "file": "cn20_bili_263297527888_0.gif",
+      "sha256": "82c0ce30571aa3261dbff8dd6a6fa5ab61cced6bf5bdd9726f06c63c22015721",
+      "bytes": 379031,
+      "width": 480,
+      "height": 317,
+      "preview_sha256": "3a6224cb585ca918cb14bbb5673f4a427f359f4dfbf36463f1a3091bf754b912",
+      "original_sha256": "f4039f7c2a003633df8f2e8bf11ad222034dc6b22a274f9a814eee8fa7a4b0ec"
+    },
+    {
+      "file": "cn20_bili_264349554816_2.webp",
+      "sha256": "a3539ab09f6a962399c0bad6dc0fd20a158b9931fe3fa88ddcc4f7b191314995",
+      "bytes": 33794,
+      "width": 550,
+      "height": 544,
+      "preview_sha256": "a3539ab09f6a962399c0bad6dc0fd20a158b9931fe3fa88ddcc4f7b191314995",
+      "original_sha256": "bb2f25b6dfa73fcb084fb14dd8a0f5b42ce37b6bd576d85edab4671cee28bad7"
+    },
+    {
+      "file": "cn20_bili_264349554816_3.webp",
+      "sha256": "72f7e00d46fe7cd894ac0035e93246a14ca0c024ca079cb3a61b86aec8ae2350",
+      "bytes": 96602,
+      "width": 1200,
+      "height": 675,
+      "preview_sha256": "72f7e00d46fe7cd894ac0035e93246a14ca0c024ca079cb3a61b86aec8ae2350",
+      "original_sha256": "d5121c5c59663a1796b05999da1ea874ee5c854f49a044dc403125fcee84ebb8"
+    },
+    {
+      "file": "cn20_bili_264349554816_5.webp",
+      "sha256": "d7d44cd119f8e1ec11d2687441aafe9106e6a4671125a64d11aab9ec17359cc9",
+      "bytes": 47536,
+      "width": 586,
+      "height": 828,
+      "preview_sha256": "d7d44cd119f8e1ec11d2687441aafe9106e6a4671125a64d11aab9ec17359cc9",
+      "original_sha256": "fdd8e744d84a3e87d13deeb8508443b25a9ec7ab00483f416713d2c5cafceba0"
+    },
+    {
+      "file": "cn20_bili_264380422528_1.webp",
+      "sha256": "7a8c1c5d8a3a0a95ad148e64e01169c44a0d9c1a658cf61869bcaefdf8cc774d",
+      "bytes": 73744,
+      "width": 737,
+      "height": 1000,
+      "preview_sha256": "7a8c1c5d8a3a0a95ad148e64e01169c44a0d9c1a658cf61869bcaefdf8cc774d",
+      "original_sha256": "b7d2834eae7b598004eaea4f7cf2abe82d0c7600e3ea23f48c0830b0efe05e61"
+    },
+    {
+      "file": "cn20_bili_265099161472_3.webp",
+      "sha256": "bbdbe3debdf073d8b75492594ed6deb65a3c6bcfa20d91d1e2fcea20c61dcfc0",
+      "bytes": 31238,
+      "width": 600,
+      "height": 450,
+      "preview_sha256": "bbdbe3debdf073d8b75492594ed6deb65a3c6bcfa20d91d1e2fcea20c61dcfc0",
+      "original_sha256": "7a7cce2187409701e59da18e351c6b5ff73e285e1aee4e661bb01e8894551a04"
+    },
+    {
+      "file": "cn20_bili_265099161472_6.webp",
+      "sha256": "992b7b2c27a30bb70982a7083b1fe055af7fd987d74164fba6c0c596a6133f02",
+      "bytes": 49776,
+      "width": 750,
+      "height": 1000,
+      "preview_sha256": "992b7b2c27a30bb70982a7083b1fe055af7fd987d74164fba6c0c596a6133f02",
+      "original_sha256": "7fed31567e66bf816478c85cf173067ad9d3d890356313c5892b9a0f3aab0a72"
+    },
+    {
+      "file": "cn20_bili_265099161472_7.webp",
+      "sha256": "6b2563dda9e1c08b98c1ffc4891e7c45b6ee2b236b2f22b7b03cacae26e42892",
+      "bytes": 73914,
+      "width": 1000,
+      "height": 1000,
+      "preview_sha256": "6b2563dda9e1c08b98c1ffc4891e7c45b6ee2b236b2f22b7b03cacae26e42892",
+      "original_sha256": "b44b4d33a39bc3adb61939fcc2f9b2ce8924bcae9c117b3ab9507cf7433693ac"
+    },
+    {
+      "file": "cn20_bili_265100971792_0.webp",
+      "sha256": "6168ae383df6fbe3f33dfc0439d63efd83b3106e0a247869ab6a8148a9cc8cf6",
+      "bytes": 43516,
+      "width": 370,
+      "height": 320,
+      "preview_sha256": "6168ae383df6fbe3f33dfc0439d63efd83b3106e0a247869ab6a8148a9cc8cf6",
+      "original_sha256": "b08c0ba8dc2b8e1a20b20db6c37a362b574fd807428e668e74f59153d627f933"
+    }
+  ]
+}
