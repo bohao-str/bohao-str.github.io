@@ -9,7 +9,7 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 const folder=path.join(root,'playground/bandori');
 const html=await fs.readFile(path.join(folder,'index.html'),'utf8');
 const catalog=JSON.parse(await fs.readFile(path.join(folder,'data/catalog.json'),'utf8'));
-let source=await fs.readFile(path.join(folder,'gallery.js'),'utf8');
+let source=(await fs.readFile(path.join(folder,'gallery.js'),'utf8')).replace(/\r\n/g,'\n');
 class Element{
  constructor(tag='div'){this.tagName=tag.toUpperCase();this.children=[];this.value='';this.checked=false;this.hidden=false;this.disabled=false;this.open=false;this.textContent='';this.dataset={};this.attrs={};this.events={};this.style={setProperty(){}};this.classList={add(){},remove(){}};}
  append(...nodes){for(const n of nodes){if(n.tagName==='FRAGMENT')this.children.push(...n.children);else this.children.push(n);}}
