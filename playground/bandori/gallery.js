@@ -161,7 +161,8 @@
   }
   function setDownload(link,a) {
     const file = a.download?.path || a.image;
-    link.href = file;link.download = file.split('/').pop();
+    const download = a.save || file;
+    link.href = download;link.download = download.split('/').pop();
     link.textContent = a.download ? '保存 GIF ↓' : '保存图片 ↓';
     return file;
   }

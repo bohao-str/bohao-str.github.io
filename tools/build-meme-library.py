@@ -105,11 +105,30 @@ def poster_frame(im,n):
   stat=ImageStat.Stat(g);score=stat.stddev[0]-(40 if stat.mean[0]<25 else 0)
   choices.append((score,index))
  return max(choices)[1]
+def static_href(path):
+ return path if path.startswith('https://') else '../'+path
+
+def hosted_urls(key, hosting, original_sha, generated):
+ repo='bohao-str/bohao-str.github.io'
+ if hosting.get('sha256')!=original_sha:raise ValueError('Archive source differs: '+key)
+ image=hosting.get('image','');save=hosting.get('save','')
+ if not re.fullmatch(r'https://raw\.githubusercontent\.com/'+re.escape(repo)+r'/[a-f0-9]{40}/publications/2026-11-20/(w\d{3})/'+re.escape(key)+r'\.webp',image):
+  raise ValueError('Invalid archive preview: '+key)
+ wave=image.split('/')[-2]
+ if len(hosting.get('preview_sha256',''))!=64 or hashlib.sha256(generated.read_bytes()).hexdigest()!=hosting['preview_sha256']:
+  raise ValueError('Archive preview differs: '+key)
+ ext='gif' if hosting.get('gif') else 'webp'
+ if ext=='gif' and hosting['gif']!=image[:-4]+'gif':raise ValueError('Invalid archive GIF: '+key)
+ expected=f'https://github.com/{repo}/releases/download/bandori-cn-20261120-{wave}/{key}.{ext}'
+ if save!=expected:raise ValueError('Invalid native download: '+key)
+ return image,save
+
 def convert(a,cache):
  key=a['key'];src=Path(a['_file']);raw=src.read_bytes();sha=hashlib.sha256(raw).hexdigest();sig=sha+':web-v2'
  if a.get('sha256') and a['sha256']!=sha:raise ValueError(f'{key}: original does not match the reviewed file')
  if 'preview_frame' in a or 'thumbnail_frame' in a:sig+=':'+str(a.get('preview_frame',a.get('thumbnail_frame')))
- target=DEST/'media'/f'{key}.webp';thumb=DEST/'thumbs'/f'{key}.webp'
+ media_root=ROOT/'.local/gallery-hosted' if a.get('_hosting') else DEST
+ target=media_root/'media'/f'{key}.webp';thumb=DEST/'thumbs'/f'{key}.webp'
  with Image.open(BytesIO(raw)) as im:
   n=getattr(im,'n_frames',1);orig_size=im.size
   bounds=(1200,1000)
@@ -117,7 +136,7 @@ def convert(a,cache):
    bounds=(1200,4000);sig+=':tall-strip-v1'
   elif n==1 and im.width>1200 and im.width>2.6*im.height:
    bounds=(3600,1000);sig+=':wide-strip-v1'
-  gif_target=DEST/'gifs'/f'{key}.gif'
+  gif_target=media_root/'gifs'/f'{key}.gif'
   old=cache.get(key,{})
   same_source=old.get('sha256')==sha
   needs_gif=n>1 or im.format=='GIF'
@@ -147,12 +166,16 @@ def convert(a,cache):
 def main():
  ap=argparse.ArgumentParser()
  ap.add_argument('--catalog',required=True)
+ ap.add_argument('--media-hosting',help='Optional map of immutable archive previews and release downloads')
  ap.add_argument('--asset-root',required=True)
  ap.add_argument('--extra',action='append',default=[])
  ap.add_argument('--previous-extra',action='append',default=[])
  ap.add_argument('--updated',type=date.fromisoformat,default=date(2026,11,18))
  ap.add_argument('--workers',type=int,default=4)
  args=ap.parse_args()
+ hosting=json.loads(Path(args.media_hosting).read_text('utf8')) if args.media_hosting else {}
+ if hosting:
+  for folder in ('media','gifs'):(ROOT/'.local/gallery-hosted'/folder).mkdir(parents=True,exist_ok=True)
  for sub in ['media','thumbs','gifs','data','all']:(DEST/sub).mkdir(parents=True,exist_ok=True)
  state=ROOT/'.local/meme-build-cache.json';state.parent.mkdir(exist_ok=True)
  cache=json.loads(state.read_text(encoding='utf8')) if state.exists() else {}
@@ -173,7 +196,9 @@ def main():
   if a['key'] in seen_keys:raise ValueError('Duplicate image ID: '+a['key'])
   seen_keys.add(a['key'])
   if original:seen_urls.add(original)
-  seen.add(sha);unique.append(a)
+  seen.add(sha)
+  if a['key'] in hosting:a['_hosting']=hosting[a['key']]
+  unique.append(a)
  corrections=json.loads((ROOT/'tools/meme-corrections.json').read_text(encoding='utf8'))
  aliases=json.loads((ROOT/'tools/meme-character-aliases.json').read_text(encoding='utf8'))
  bad=[]
@@ -191,7 +216,13 @@ def main():
   key=a['key'];m=cache[key];bands=band_ids(a);chars=characters(a,bands)
   title=a.get('caption') or a.get('title') or '邦邦反应表情';title=re.sub(r'\s+GIF$','',title)
   entry={'id':key,'title':title,'bands':bands,'characters':chars,'kind':kind(a),'animated':m['frames']>1,'image':f'media/{key}.webp','thumb':f'thumbs/{key}.webp','width':m['width'],'height':m['height'],'bytes':m['bytes'],'source':a['source'],'original':a.get('url',a['source']),'author':a.get('author',''),'tags':list(dict.fromkeys(a.get('tags',[])+[a.get('description','')])), 'featured':bool(a.get('featured')),'fresh':a['_fresh'],'added':a.get('added',args.updated.isoformat() if a['_fresh'] else '2026-11-18')}
-  if m.get('download'):entry['download']=m['download']
+  if m.get('download'):entry['download']=dict(m['download'])
+  if a.get('_hosting'):
+   hosted=a['_hosting']
+   entry['image'],entry['save']=hosted_urls(key,hosted,m['sha256'],ROOT/'.local/gallery-hosted/media'/f'{key}.webp')
+   entry['imageSha256']=hosted['preview_sha256']
+   assert bool(hosted.get('gif'))==bool(m.get('download')),key
+   if m.get('download'):entry['download']['path']=hosted['gif']
   if a.get('display_title'):
    entry['title']=a['display_title']
    if a.get('caption') and a['caption']!=entry['title']:entry['context']=a['caption']
@@ -213,8 +244,8 @@ def main():
  (DEST/'data/sources.json').write_text(json.dumps(attrs,ensure_ascii=False,indent=2),encoding='utf8')
  cards=[]
  for a in public:
-  asset=a.get('download',{}).get('path',a['image']);label='保存 GIF' if a.get('download') else '保存图片'
-  title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="../{asset}"><img src="../{a["thumb"]}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="../{asset}" download="{Path(asset).name}">{label}</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a></div></article>')
+  asset=a.get('download',{}).get('path',a['image']);save=a.get('save',asset);label='保存 GIF' if a.get('download') else '保存图片'
+  title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="{static_href(asset)}"><img src="../{a["thumb"]}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="{static_href(save)}" download="{save.rsplit(chr(47),1)[-1]}">{label}</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a></div></article>')
  static='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>全部梗图 · Bandori · Playground</title><link rel="stylesheet" href="../../playground.css"><link rel="stylesheet" href="../gallery.css?v=20261119-gif1"></head><body><header class="pg-header"><a class="brand" href="../../">PLAYGROUND<span>课余时间</span></a><a class="text-link" href="../">返回可筛选图库 ↗</a></header><main class="static-library"><p class="eyebrow">BANDORI / ALL IMAGES</p><h1>全部梗图</h1><p class="intro">不需要脚本的完整图片索引。点击查看，长按或下载保存。</p><div class="meme-grid">'''+''.join(cards)+'''</div></main><footer class="pg-footer"><a href="/">学术主页 ↗</a><span>非官方同人收藏 · 保留原作者署名</span></footer></body></html>'''
  (DEST/'all/index.html').write_text(static,encoding='utf8')
  totals={'count':manifest['count'],'new':manifest['added'],'animated':manifest['animated'],'media_mb':round(sum(m['bytes'] for key,m in cache.items() if any(a['id']==key for a in public))/1024**2,1),'band_counts':{b['name']:b['count'] for b in manifest['bands']}}

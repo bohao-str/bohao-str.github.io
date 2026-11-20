@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import vm from 'node:vm';
+import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const gallery=path.join(root,'playground/bandori');
@@ -15,8 +16,8 @@ assert.equal(new Set(data.items.map(a=>a.id)).size,data.count);
 const bands=new Set(data.bands.map(b=>b.id));
 const types=new Set(data.types.map(t=>t.id));
 const index=await fs.readFile(path.join(gallery,'all/index.html'),'utf8');
-const saves=[...index.matchAll(/href="\.\.\/([^"]+)" download="([^"]+)"/g)].map(m=>m.slice(1));
-const pictures=[...index.matchAll(/class="picture" href="\.\.\/([^"]+)"/g)].map(m=>m[1]);
+const saves=[...index.matchAll(/href="([^"]+)" download="([^"]+)"/g)].map(m=>m.slice(1));
+const pictures=[...index.matchAll(/class="picture" href="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(saves.length,data.count);assert.equal(pictures.length,data.count);
 // Walk GIF blocks: counting 0x2C bytes in compressed image data would give false frames.
 function gifInfo(buf){
@@ -37,21 +38,41 @@ let size=0,gifs=0;
 let i=0;
 for(const a of data.items){
  const file=a.download?.path || a.image;
- assert.deepEqual(saves[i],[file,path.posix.basename(file)],a.id+' static download');
- assert.equal(pictures[i++],file,a.id+' static full-size image');
+ const saving=a.save || file;
+ const staticHref=url=>url.startsWith('https://')?url:'../'+url;
+ assert.deepEqual(saves[i],[staticHref(saving),path.posix.basename(saving)],a.id+' static download');
+ assert.equal(pictures[i++],staticHref(file),a.id+' static full-size image');
+ if(a.save){
+  const match=/^https:\/\/raw\.githubusercontent\.com\/bohao-str\/bohao-str\.github\.io\/[0-9a-f]{40}\/publications\/2026-11-20\/(w\d{3})\/([^/]+)$/.exec(a.image);
+  assert(match && match[2]===a.id+'.webp',a.id+' immutable browser preview');
+  const ext=a.download?'gif':'webp';
+  assert.equal(a.save,'https://github.com/bohao-str/bohao-str.github.io/releases/download/bandori-cn-20261120-'+match[1]+'/'+a.id+'.'+ext);
+  if(a.download)assert.equal(a.download.path,a.image.slice(0,-4)+'gif');
+  assert.match(a.imageSha256,/^[0-9a-f]{64}$/);
+ }
  assert(!a.animated||a.download,a.id+' needs GIF download');
  if(a.download){
-  assert.equal(file,`gifs/${a.id}.gif`);
-  const bytes=await fs.readFile(path.join(gallery,file)), info=gifInfo(bytes);
+  if(!a.save)assert.equal(file,'gifs/'+a.id+'.gif');
+  const disk=a.save?path.join(root,'.local/gallery-hosted/gifs',a.id+'.gif'):path.join(gallery,file);
+  const bytes=await fs.readFile(disk).catch(e=>{if(a.save && e.code==='ENOENT')return null;throw e;});
+  if(bytes){
+  const info=gifInfo(bytes);
   assert.equal(bytes.length,a.download.bytes,file);
   assert.deepEqual([info.width,info.height],[a.download.width,a.download.height],file);
   assert.equal(info.frames>1,a.animated,file+' animation');assert(info.frames>=1,file);
-  size+=bytes.length;gifs++;
+  size+=bytes.length;
+  }
+  gifs++;
  }
  assert(a.title&&a.characters&&a.bands.length,a.id);
  assert(a.bands.every(b=>bands.has(b)),a.id+' band');assert(types.has(a.kind),a.id+' kind');
  assert(/^https:\/\//.test(a.source),a.id+' source');assert(/^https:\/\//.test(a.original),a.id+' original');
  for(const rel of [a.image,a.thumb]){
+  if(a.save && rel===a.image){
+   const preview=await fs.readFile(path.join(root,'.local/gallery-hosted/media',a.id+'.webp')).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
+   if(preview){assert.equal(preview.length,a.bytes);assert.equal(createHash('sha256').update(preview).digest('hex'),a.imageSha256);}
+   continue;
+  }
   assert(!rel.includes('..')&&!path.isAbsolute(rel),a.id+' path');
   const p=path.join(gallery,rel);const stat=await fs.stat(p);assert(stat.size>100,p);size+=stat.size;
   const buf=await fs.readFile(p);assert.equal(buf.toString('ascii',0,4),'RIFF',p);assert.equal(buf.toString('ascii',8,12),'WEBP',p);

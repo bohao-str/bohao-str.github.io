@@ -92,18 +92,28 @@ api.reset();const favorite=catalog.items[0].id;api.toggleFavorite(favorite);asse
 // Check actual card anchors and dialog state as the user switches between formats.
 for(const format of ['animated','static']){
  api.reset();get('format').value=format;get('format').onchange();
- const row=api.getVisible()[0], file=row.download?.path || row.image;
+ const row=api.getVisible()[0], file=row.download?.path || row.image, save=row.save || file;
  const card=get('grid').children[0], link=card.querySelector('.card-bottom').children[0];
- assert.equal(link.href,file);assert.equal(link.download,path.posix.basename(file));
+ assert.equal(link.href,save);assert.equal(link.download,path.posix.basename(save));
  if(format==='animated'){assert.match(file,/\.gif$/);assert.match(link.textContent,/GIF/);}
  const picture=card.querySelector('.picture');assert.equal(picture.href,file);
  picture.onclick({ctrlKey:true,preventDefault(){throw Error('modified link click intercepted');}});assert(!get('viewer').open);
  picture.onclick({preventDefault(){}});
- for(const el of [link,get('download')]){assert.equal(el.href,file);assert.equal(el.download,path.posix.basename(file));}
+ for(const el of [link,get('download')]){assert.equal(el.href,save);assert.equal(el.download,path.posix.basename(save));}
  assert.equal(get('detail-image').src,file);assert.equal(get('enlarge').href,file);get('close').onclick();
 }
 checks.push('download filename, card, native save in detail and full-size link for each format');
-api.reset();api.getState().band='roselia';api.getState().format='animated';api.render();const first=api.getVisible()[0];api.openImage(first.id);assert(get('viewer').open);assert.equal(get('download').href,first.download.path);assert.equal(get('original').href,first.original);assert.equal(get('source').href,first.source);assert(location.search.includes('m='+first.id));get('next').onclick();assert.notEqual(get('detail-image').src,first.download.path);get('previous').onclick();assert.equal(get('detail-image').src,first.download.path);get('close').onclick();assert(!get('viewer').open);assert(!location.search.includes('m='));checks.push('modal, navigation, per-image share URL and downloads');
+for(const format of ['gif','webp']){
+ const item=catalog.items.find(a=>a.save && a.save.endsWith('.'+format));
+ if(!item)continue;
+ api.reset();api.openImage(item.id);
+ assert.equal(get('download').href,item.save);assert.equal(get('download').download,item.id+'.'+format);
+ assert.equal(get('detail-image').src,item.download?.path || item.image);
+ assert.equal(get('enlarge').href,get('detail-image').src);
+ get('close').onclick();
+}
+checks.push('archived downloads keep the correct filename and full-size image');
+api.reset();api.getState().band='roselia';api.getState().format='animated';api.render();const first=api.getVisible()[0];api.openImage(first.id);assert(get('viewer').open);assert.equal(get('download').href,first.save || first.download.path);assert.equal(get('original').href,first.original);assert.equal(get('source').href,first.source);assert(location.search.includes('m='+first.id));get('next').onclick();assert.notEqual(get('detail-image').src,first.download.path);get('previous').onclick();assert.equal(get('detail-image').src,first.download.path);get('close').onclick();assert(!get('viewer').open);assert(!location.search.includes('m='));checks.push('modal, navigation, per-image share URL and downloads');
 api.reset();location.search='?band=mygo&m='+catalog.items[0].id;location.href='https://bohao-str.github.io/playground/bandori/'+location.search;await api.init();assert(get('viewer').open);assert(location.search.includes('m='));get('close').onclick();checks.push('shared image opens even outside current filter');
 api.reset();api.getState().q='__nothing_98237653__';api.render();assert.equal(api.getVisible().length,0);assert(get('random').disabled);api.reset();get('random').onclick();assert(get('viewer').open);checks.push('no results, reset and random image');
 const longComic=catalog.items.find(item=>item.id==='cn19_weibo_5353261520393237_0');
@@ -111,7 +121,7 @@ if(longComic){
   api.reset();api.openImage(longComic.id);
   assert(longComic.width>=1000 && longComic.height>=2000,'long panel text should remain legible');
   assert.equal(get('enlarge').href,longComic.image);
-  assert.equal(get('download').href,longComic.image);
+  assert.equal(get('download').href,longComic.save || longComic.image);
   assert.equal(get('original').href,longComic.original);
   get('close').onclick();checks.push('legible long comics and full-size gallery links');
 }
