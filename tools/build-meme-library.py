@@ -224,7 +224,7 @@ def main():
    assert bool(hosted.get('gif'))==bool(m.get('download')),key
    if m.get('download'):entry['download']['path']=hosted['gif']
   if a.get('creditSource'):
-   if not re.fullmatch(r'https://(?:x\.com/[A-Za-z0-9_]{1,15}/status/\d+|www\.facebook\.com/\d+/photos/a\.\d+/\d+/)',a['creditSource']):raise ValueError('Invalid linked credit: '+key)
+   if not re.fullmatch(r'https://(?:x\.com/[A-Za-z0-9_]{1,15}/status/\d+|www\.facebook\.com/(?:\d+/photos/a\.\d+/\d+/|photo/\?fbid=\d+|[A-Za-z0-9_.]{1,80}/posts/(?:pfbid[A-Za-z0-9]{12,160}|\d{6,30})))',a['creditSource']):raise ValueError('Invalid linked credit: '+key)
    entry['creditSource']=a['creditSource']
   if a.get('display_title'):
    entry['title']=a['display_title']
