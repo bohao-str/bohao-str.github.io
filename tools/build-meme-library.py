@@ -260,7 +260,7 @@ def main():
    entry['nativeOriginal']={k:native[k] for k in ('path','sha256','width','height','bytes','frames')}
    entry['original']=native['original']
   if a.get('creditSource'):
-   if not re.fullmatch(r'https://(?:x\.com/[A-Za-z0-9_]{1,15}/status/\d+|www\.facebook\.com/(?:\d+/photos/a\.\d+/\d+/|photo/\?fbid=\d+|[A-Za-z0-9_.]{1,80}/posts/(?:pfbid[A-Za-z0-9]{12,160}|\d{6,30}))|www\.pixiv\.net/artworks/\d{1,12}|www\.ptt\.cc/bbs/BanG_Dream/M\.\d{9,12}\.A\.[0-9A-Fa-f]{3}\.html)',a['creditSource']):raise ValueError('Invalid linked credit: '+key)
+   if not re.fullmatch(r'https://(?:tieba\.baidu\.com/p/\d+\?pid=\d+#\d+|x\.com/[A-Za-z0-9_]{1,15}/status/\d+|www\.facebook\.com/(?:\d+/photos/a\.\d+/\d+/|photo/\?fbid=\d+|[A-Za-z0-9_.]{1,80}/posts/(?:pfbid[A-Za-z0-9]{12,160}|\d{6,30}))|www\.pixiv\.net/artworks/\d{1,12}|www\.ptt\.cc/bbs/BanG_Dream/M\.\d{9,12}\.A\.[0-9A-Fa-f]{3}\.html)',a['creditSource']):raise ValueError('Invalid linked credit: '+key)
    entry['creditSource']=a['creditSource']
   if a.get('display_title'):
    entry['title']=a['display_title']
