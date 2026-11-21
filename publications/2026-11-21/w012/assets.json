@@ -1,0 +1,69 @@
+{
+  "tag": "bandori-cn-20261121-w012",
+  "files": [
+    {
+      "file": "cn21_bili_316369159040_0.jpg",
+      "bytes": 1183605,
+      "sha256": "c1a4885af7d3ffbd750685a4cabdc95d8ce8987546caec4e870fd641c8e1eadd",
+      "preview_sha256": "505784ce480ab73df7d4073715a61edf9f0f51d8166e1fb8df749b75e3673eee",
+      "thumb_sha256": "71739929237ff42df0219088fc350d2baabc2e84bc01e6a6a15ab006f287a524",
+      "original_sha256": "c1a4885af7d3ffbd750685a4cabdc95d8ce8987546caec4e870fd641c8e1eadd",
+      "width": 836,
+      "height": 1000,
+      "preview_bytes": 145128,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-061.zip",
+        "member": "原图/千樱梨举起双马尾，下一格就把它当球投了出去 [cn21_bili_316369159040_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bili_316369159040_1.webp",
+      "bytes": 178770,
+      "sha256": "0fcf7a06701547160159a1fcf94ec14f3944bd4e0eb0962271a7d1afa2ed5365",
+      "preview_sha256": "df9e088d73aa1ffb3f39a6a617d2951848f7358e9efc9379dff4e9b88ae4dc60",
+      "thumb_sha256": "3731c2996d695c1d8ae4233c8316dbc1648fa75808fb7de431e42fd7cb2944e5",
+      "original_sha256": "0fcf7a06701547160159a1fcf94ec14f3944bd4e0eb0962271a7d1afa2ed5365",
+      "width": 1200,
+      "height": 799,
+      "preview_bytes": 142340,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-061.zip",
+        "member": "原图/满屋游泳圈散了一地，千樱梨还在向大家展示肌肉 [cn21_bili_316369159040_1].webp"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_144710.png",
+      "bytes": 37181,
+      "sha256": "b511e77ed0f96f66a1c921058b6a89deb4fc14e9544ef6adb132f8e54f33ea55",
+      "preview_sha256": "2b4da33cd03c83181aba01f3cb1891f1c696d1636bf9cd401934115eb1c88138",
+      "thumb_sha256": "11bb9524c1c4989a18660bfee33ef9396d903c9090f3e40d09ace93142347930",
+      "original_sha256": "b511e77ed0f96f66a1c921058b6a89deb4fc14e9544ef6adb132f8e54f33ea55",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12726,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-061.zip",
+        "member": "原图/幸福 [cn21_bilistamp_144710].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110187.png",
+      "bytes": 44276,
+      "sha256": "e416c92185888538773c802dabdf0e5be3e1c0335d18dcf8d4b5d6c6962fd464",
+      "preview_sha256": "63bcf369b3522b27976f3724447f49961be4cacac88a417e5525d2a90137c0d3",
+      "thumb_sha256": "c1844c399cd3d2f47675ad2466753796f7c6063f3185afe9662deceb98fe8d22",
+      "original_sha256": "e416c92185888538773c802dabdf0e5be3e1c0335d18dcf8d4b5d6c6962fd464",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11474,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-061.zip",
+        "member": "原图/哦？ [cn21_bilistamp_110187].png"
+      }
+    }
+  ]
+}
