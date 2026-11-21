@@ -39,11 +39,18 @@ function gifInfo(buf){
 let size=0,gifs=0;
 let i=0;
 for(const a of data.items){
- const file=a.download?.path || a.image;
- const saving=a.save || file;
+ const file=a.nativeOriginal?.path || a.download?.path || a.image;
+ const saving=a.nativeOriginal?.path || a.save || file;
  const staticHref=url=>url.startsWith('https://')?url:'../'+url;
  assert.deepEqual(saves[i],[staticHref(saving),path.posix.basename(saving)],a.id+' static download');
  assert.equal(pictures[i++],staticHref(file),a.id+' static full-size image');
+ if(a.nativeOriginal){
+  const original=a.nativeOriginal;
+  assert.match(original.path,new RegExp('^full/'+a.id+'[.](jpg|png|webp|gif)$'));
+  const source=await fs.readFile(path.join(gallery,original.path));
+  assert.equal(source.length,original.bytes);assert.equal(createHash('sha256').update(source).digest('hex'),original.sha256);
+  assert(original.width>0 && original.height>0 && (original.frames>1)===a.animated);
+ }
  if(a.save){
   const match=/^https:\/\/raw\.githubusercontent\.com\/bohao-str\/bohao-str\.github\.io\/[0-9a-f]{40}\/publications\/(\d{4}-\d{2}-\d{2})\/(w\d{3})\/([^/]+)$/.exec(a.image);
   assert(match && match[3]===a.id+'.webp',a.id+' immutable browser preview');

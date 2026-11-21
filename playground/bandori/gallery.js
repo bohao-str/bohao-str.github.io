@@ -159,16 +159,19 @@
   function reset() {
     clearTimeout(searchTimer);state = {q:'',band:'',character:'',kind:'',format:'',sort:'featured',saved:false,fresh:false,batch:0};ordered = makeOrder();syncControls();render();
   }
+  function fullSizePath(a) {
+    return a.nativeOriginal?.path || a.download?.path || a.image;
+  }
   function setDownload(link,a) {
-    const file = a.download?.path || a.image;
-    const download = a.save || file;
+    const file = fullSizePath(a);
+    const download = a.nativeOriginal?.path || a.save || file;
     link.href = download;link.download = download.split('/').pop();
     link.textContent = a.download ? '保存 GIF ↓' : '保存图片 ↓';
     return file;
   }
   function makeCard(a) {
     const article = document.createElement('article');article.className = 'meme-card';
-    const picture = document.createElement('a');picture.className = 'picture';picture.href = a.download?.path || a.image;picture.setAttribute('aria-label','查看 '+a.title);
+    const picture = document.createElement('a');picture.className = 'picture';picture.href = fullSizePath(a);picture.setAttribute('aria-label','查看 '+a.title);
     const img = document.createElement('img');img.src = a.thumb;img.alt = a.title;img.width = 380;img.height = 350;img.loading = 'lazy';img.decoding = 'async';picture.append(img);
     if (a.animated) picture.append(textElement('span','▶ 动图','media-badge'));
     if (a.fresh) picture.append(textElement('span','NEW','fresh-badge'));
@@ -207,7 +210,7 @@
     const a = items.find(x => x.id === id);if (!a) return;
     current = id;modalItems = visible.some(x => x.id === id) ? visible : ordered;
     $('image-loading').hidden = false;$('image-loading').textContent = '图片加载中…';
-    const file = setDownload($('download'),a), media = a.download || a;
+    const file = setDownload($('download'),a), media = a.nativeOriginal || a.download || a;
     $('detail-image').alt = a.title;$('detail-image').src = file;
     $('detail-title').textContent = a.title;$('detail-band').textContent = bandNames(a);
     $('detail-context').textContent = a.context || ''; $('detail-context').hidden = !a.context;

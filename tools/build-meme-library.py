@@ -222,6 +222,8 @@ def main():
   seen.add(sha)
   if a['key'] in hosting:a['_hosting']=hosting[a['key']]
   unique.append(a)
+ original_index=DEST/'full/index.json'
+ originals=json.loads(original_index.read_bytes()) if original_index.is_file() else {}
  corrections=json.loads((ROOT/'tools/meme-corrections.json').read_text(encoding='utf8'))
  aliases=json.loads((ROOT/'tools/meme-character-aliases.json').read_text(encoding='utf8'))
  bad=[]
@@ -248,6 +250,15 @@ def main():
     entry['thumb']=hosted['thumb'];entry['thumbSha256']=hosted['thumb_sha256']
    assert bool(hosted.get('gif'))==bool(m.get('download')),key
    if m.get('download'):entry['download']['path']=hosted['gif']
+  if key in originals:
+   native=originals[key];name=Path(native['path']).name
+   if native['path']!='full/'+name or Path(name).stem!=key or (Path(name).suffix=='.gif')!=bool(entry.get('download')):
+    raise ValueError(f'{key}: invalid full-size still image')
+   data=(DEST/native['path']).read_bytes()
+   if len(data)!=native['bytes'] or hashlib.sha256(data).hexdigest()!=native['sha256']:
+    raise ValueError(f'{key}: full-size file differs from the preserved source')
+   entry['nativeOriginal']={k:native[k] for k in ('path','sha256','width','height','bytes','frames')}
+   entry['original']=native['original']
   if a.get('creditSource'):
    if not re.fullmatch(r'https://(?:x\.com/[A-Za-z0-9_]{1,15}/status/\d+|www\.facebook\.com/(?:\d+/photos/a\.\d+/\d+/|photo/\?fbid=\d+|[A-Za-z0-9_.]{1,80}/posts/(?:pfbid[A-Za-z0-9]{12,160}|\d{6,30})))',a['creditSource']):raise ValueError('Invalid linked credit: '+key)
    entry['creditSource']=a['creditSource']
@@ -272,7 +283,7 @@ def main():
  (DEST/'data/sources.json').write_text(json.dumps(attrs,ensure_ascii=False,indent=2),encoding='utf8')
  cards=[]
  for a in public:
-  asset=a.get('download',{}).get('path',a['image']);save=a.get('save',asset);label='保存 GIF' if a.get('download') else '保存图片'
+  asset=a.get('nativeOriginal',{}).get('path') or a.get('download',{}).get('path') or a['image'];save=a.get('nativeOriginal',{}).get('path') or a.get('save',asset);label='保存 GIF' if a.get('download') else '保存图片'
   credited=(f' · <a href="{html.escape(a["creditSource"],quote=True)}" target="_blank" rel="noreferrer">图源帖子 ↗</a>' if a.get('creditSource') else '')
   title=html.escape(a['title']);cards.append(f'<article class="meme-card"><a class="picture" href="{static_href(asset)}"><img src="{static_href(a["thumb"])}" alt="{title}" loading="lazy" width="380" height="350"></a><div class="card-info"><h2>{title}</h2><a href="{static_href(save)}" download="{save.rsplit(chr(47),1)[-1]}">{label}</a> · <a href="{html.escape(a["source"],quote=True)}" target="_blank" rel="noreferrer">出处 ↗</a>{credited}</div></article>')
  static='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>全部梗图 · Bandori · Playground</title><link rel="stylesheet" href="../../playground.css"><link rel="stylesheet" href="../gallery.css?v=20261119-gif1"></head><body><header class="pg-header"><a class="brand" href="../../">PLAYGROUND<span>课余时间</span></a><a class="text-link" href="../">返回可筛选图库 ↗</a></header><main class="static-library"><p class="eyebrow">BANDORI / ALL IMAGES</p><h1>全部梗图</h1><p class="intro">不需要脚本的完整图片索引。点击查看，长按或下载保存。</p><div class="meme-grid">'''+''.join(cards)+'''</div></main><footer class="pg-footer"><a href="/">学术主页 ↗</a><span>非官方同人收藏 · 保留原作者署名</span></footer></body></html>'''

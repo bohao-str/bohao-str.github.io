@@ -92,7 +92,7 @@ api.reset();const favorite=catalog.items[0].id;api.toggleFavorite(favorite);asse
 // Check actual card anchors and dialog state as the user switches between formats.
 for(const format of ['animated','static']){
  api.reset();get('format').value=format;get('format').onchange();
- const row=api.getVisible()[0], file=row.download?.path || row.image, save=row.save || file;
+ const row=api.getVisible()[0], file=row.nativeOriginal?.path || row.download?.path || row.image, save=row.nativeOriginal?.path || row.save || file;
  const card=get('grid').children[0], link=card.querySelector('.card-bottom').children[0];
  assert.equal(link.href,save);assert.equal(link.download,path.posix.basename(save));
  if(format==='animated'){assert.match(file,/\.gif$/);assert.match(link.textContent,/GIF/);}
@@ -103,12 +103,18 @@ for(const format of ['animated','static']){
  assert.equal(get('detail-image').src,file);assert.equal(get('enlarge').href,file);get('close').onclick();
 }
 checks.push('download filename, card, native save in detail and full-size link for each format');
+for(const item of catalog.items.filter(a=>a.nativeOriginal)){
+ api.reset();api.openImage(item.id);
+ assert.equal(get('download').href,item.nativeOriginal.path);
+ assert.equal(get('download').download,path.posix.basename(item.nativeOriginal.path));
+ assert.equal(get('detail-image').src,item.nativeOriginal.path);get('close').onclick();
+}
 for(const format of ['gif','webp','png','jpg']){
  const item=catalog.items.find(a=>a.save && a.save.endsWith('.'+format));
  if(!item)continue;
  api.reset();api.openImage(item.id);
- assert.equal(get('download').href,item.save);assert.equal(get('download').download,item.id+'.'+format);
- assert.equal(get('detail-image').src,item.download?.path || item.image);
+ assert.equal(get('download').href,item.nativeOriginal?.path || item.save);assert.equal(get('download').download,item.id+'.'+format);
+ assert.equal(get('detail-image').src,item.nativeOriginal?.path || item.download?.path || item.image);
  assert.equal(get('enlarge').href,get('detail-image').src);
  get('close').onclick();
 }
