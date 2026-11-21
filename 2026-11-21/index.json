@@ -1224,5 +1224,265 @@
       "cn21_tbmobile_11012965960_2",
       "cn21_postreply_309080732400_0"
     ]
+  },
+  {
+    "file": "bandori-cn-20261121-035.zip",
+    "count": 38,
+    "bytes": 18960083,
+    "sha256": "c6f9631e712421d39a7a0f1e11460bbb85b938bc2e550cfa63c9dfae4699b8f2",
+    "ids": [
+      "cn21_bilistamp_113318",
+      "cn21_bilistamp_130865",
+      "cn21_bilistamp_68523",
+      "cn21_bilistamp_130855",
+      "cn21_bilistamp_109731",
+      "cn21_bilistamp_109746",
+      "cn21_bilistamp_128923",
+      "cn21_bilistamp_115536",
+      "cn21_bilistamp_143284",
+      "cn21_bilistamp_113307",
+      "cn21_bilistamp_113298",
+      "cn21_bilistamp_105563",
+      "cn21_bilistamp_113310",
+      "cn21_bilistamp_113303",
+      "cn21_bilistamp_68492",
+      "cn21_bilistamp_105569",
+      "cn21_bilistamp_149614",
+      "cn21_bilistamp_128928",
+      "cn21_bilistamp_112929",
+      "cn21_bilistamp_110360",
+      "cn21_bilistamp_130196",
+      "cn21_bilistamp_130195",
+      "cn21_bilistamp_110372",
+      "cn21_bilistamp_128921",
+      "cn21_bilistamp_108797",
+      "cn21_bilistamp_128933",
+      "cn21_bilistamp_128936",
+      "cn21_bilistamp_138553",
+      "cn21_bilistamp_114906",
+      "cn21_bilistamp_137358",
+      "cn21_bilistamp_128939",
+      "cn21_bilistamp_113319",
+      "cn21_bilistamp_113295",
+      "cn21_bilistamp_113313",
+      "cn21_bilicolumn_15335180_2",
+      "cn21_bilicolumn_14655780_0",
+      "cn21_bilicolumn_14655780_1",
+      "cn21_bilicolumn_14655780_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-036.zip",
+    "count": 4,
+    "bytes": 16949348,
+    "sha256": "896d8dcbc479440ab8ab5d8c9eb2e3b99292e380c8c87aaf04057cb9f919ae5d",
+    "ids": [
+      "cn21_bilicolumn_14654926_0",
+      "cn21_bilicolumn_12948138_2",
+      "cn21_bilicolumn_11338717_0",
+      "cn21_bilicolumn_11338717_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-037.zip",
+    "count": 5,
+    "bytes": 17214558,
+    "sha256": "84f276b5e5c9fa91a90af23ef27e3f16ccbca78c01d4569f01f4f747080b6966",
+    "ids": [
+      "cn21_bilicolumn_11338717_2",
+      "cn21_bilicolumn_10091665_0",
+      "cn21_bilicolumn_10091665_1",
+      "cn21_bilicolumn_9673380_2",
+      "cn21_bilicolumn_9414992_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-038.zip",
+    "count": 7,
+    "bytes": 19617174,
+    "sha256": "336266769a2f270989379aa70ba9642b17279f36281425b8a7d7ef03e67aaf54",
+    "ids": [
+      "cn21_bilicolumn_9388042_0",
+      "cn21_bilicolumn_9388042_2",
+      "cn21_bilicolumn_9116475_0",
+      "cn21_bilicolumn_9116475_1",
+      "cn21_bilicolumn_9116475_2",
+      "cn21_bilicolumn_9030351_0",
+      "cn21_bilicolumn_9030351_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-039.zip",
+    "count": 4,
+    "bytes": 16845926,
+    "sha256": "9aea9d8b0e55fb85e7b9d01827f97aeaa48bb92bed602c5b41210c9d4643bd20",
+    "ids": [
+      "cn21_bilicolumn_8961974_0",
+      "cn21_bilicolumn_8961974_1",
+      "cn21_bilicolumn_8961974_2",
+      "cn21_bilicolumn_8792242_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-040.zip",
+    "count": 4,
+    "bytes": 18713375,
+    "sha256": "2af3619f23d950b15ad75fe72d43da98446e76db8533e96f0cde29ebebbaa795",
+    "ids": [
+      "cn21_bilicolumn_8792242_1",
+      "cn21_bilicolumn_8792242_2",
+      "cn21_bilicolumn_8781200_0",
+      "cn21_bilicolumn_8781200_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-041.zip",
+    "count": 6,
+    "bytes": 18811695,
+    "sha256": "4178dc7438030e1b22aa919a16c6e74690a23e91821c2a2bd4cb26a5c723dde3",
+    "ids": [
+      "cn21_bilicolumn_8781200_2",
+      "cn21_bilicolumn_8781036_0",
+      "cn21_bilicolumn_8781036_1",
+      "cn21_bilicolumn_8781036_2",
+      "cn21_bilicolumn_8762921_0",
+      "cn21_bilicolumn_8762921_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-042.zip",
+    "count": 4,
+    "bytes": 17699145,
+    "sha256": "575e3658193782580b6cfb227b09ff8896251049d1cfb8122af61e27d4066837",
+    "ids": [
+      "cn21_bilicolumn_8762921_2",
+      "cn21_bilicolumn_8697492_0",
+      "cn21_bilicolumn_8697492_1",
+      "cn21_bilicolumn_8697492_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-043.zip",
+    "count": 4,
+    "bytes": 19781366,
+    "sha256": "22b052d064031c262c464029f19b433b19d4a3b7881e17a7f76d4c20f93bfec6",
+    "ids": [
+      "cn21_bilicolumn_8695612_0",
+      "cn21_bilicolumn_8695612_1",
+      "cn21_bilicolumn_8695612_2",
+      "cn21_bilicolumn_8695558_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-044.zip",
+    "count": 5,
+    "bytes": 19273324,
+    "sha256": "3ef586c75113c176efd9dc43cd916808d3a7065b9d4583656ac00cd7fe3fb316",
+    "ids": [
+      "cn21_bilicolumn_8695558_1",
+      "cn21_bilicolumn_8695558_2",
+      "cn21_bilicolumn_8695506_0",
+      "cn21_bilicolumn_8695506_1",
+      "cn21_bilicolumn_8695506_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-045.zip",
+    "count": 4,
+    "bytes": 19233931,
+    "sha256": "a3f32914fb8979a625dec58905a8934d871b3a534a3a592740c8a1f5e23dea1f",
+    "ids": [
+      "cn21_bilicolumn_8675712_0",
+      "cn21_bilicolumn_8675712_1",
+      "cn21_bilicolumn_8675712_2",
+      "cn21_bilicolumn_8675479_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-046.zip",
+    "count": 4,
+    "bytes": 19601677,
+    "sha256": "fbd9ae69aed6431669404e3e27caeb33334e4262a31fd6f070897f52c6e5c60d",
+    "ids": [
+      "cn21_bilicolumn_8675479_1",
+      "cn21_bilicolumn_8675479_2",
+      "cn21_bilicolumn_8675420_0",
+      "cn21_bilicolumn_8675420_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-047.zip",
+    "count": 5,
+    "bytes": 20140983,
+    "sha256": "74deb14d3335b4bd664dc61e111dfc86b8d3720ea0eae0478abca54a8cc0d930",
+    "ids": [
+      "cn21_bilicolumn_8675420_2",
+      "cn21_bilicolumn_8666741_0",
+      "cn21_bilicolumn_8666741_1",
+      "cn21_bilicolumn_8666741_2",
+      "cn21_bilicolumn_8666708_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-048.zip",
+    "count": 25,
+    "bytes": 20915007,
+    "sha256": "bb19f7b3fe4671b0c86c146df6079961f61a3924da3714ff8e26544d5f9e5366",
+    "ids": [
+      "cn21_bilicolumn_8666708_1",
+      "cn21_bilicolumn_8666708_2",
+      "cn21_pub6f7572_1255684923682979846_29_0",
+      "cn21_pub6f7572_1237466874976927778_0_0",
+      "cn21_pub6f7572_1236326586989412390_6_0",
+      "cn21_bili_315172922497_0",
+      "cn21_bili_315172922497_1",
+      "cn21_tbmobile_11202718192_0",
+      "cn21_tbmobile_11199243447_0",
+      "cn21_tbmobile_11164611379_0",
+      "cn21_tbmobile_11170031242_0",
+      "cn21_bili_318947404560_0",
+      "cn21_tbalbum_11082663141_154005751682_1",
+      "cn21_tbalbum_11082663141_154005769969_2",
+      "cn21_tbalbum_11082663141_154006566507_4",
+      "cn21_tbalbum_11082663141_154006584603_5",
+      "cn21_tbalbum_11082663141_154006658694_6",
+      "cn21_tbalbum_11082663141_154008755835_9",
+      "cn21_tbalbum_11082663141_154005607394_11",
+      "cn21_tbalbum_11082663141_154012317821_12",
+      "cn21_tbalbum_11082663141_154012332947_14",
+      "cn21_tbalbum_11082663141_154025668256_17",
+      "cn21_tbalbum_11082663141_154005629391_18",
+      "cn21_tbalbum_11082663141_154005685931_20",
+      "cn21_tbalbum_11082663141_154005716626_22"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-049.zip",
+    "count": 21,
+    "bytes": 6085134,
+    "sha256": "b8da0cc8ab5e0827189330a8e564ab96f17b7159c9d09c153e6d8da98b0802c1",
+    "ids": [
+      "cn21_tbalbum_11082663141_154005725643_23",
+      "cn21_tbmobile_11207227740_0",
+      "cn21_pub6f7572_1242718408856829958_0_0",
+      "cn21_postreply_309681218144_0",
+      "cn21_pub6f7572_1228290999530291221_5_0",
+      "cn21_pub6f7572_1228290999530291221_9_0",
+      "cn21_pub6f7572_1228290999530291221_17_0",
+      "cn21_tbmobile_10994946541_2",
+      "cn21_tbmobile_10994607922_0",
+      "cn21_tbmobile_10959456171_0",
+      "cn21_gengtu_60adf48a774068faec97009e3836a6fc",
+      "cn21_gengtu_2919cb066b0de5260466826442ec8a05",
+      "cn21_gengtu_389996fa44ae98b474e20c0bb89e24d5",
+      "cn21_gengtu_1fb9f7c71f01b8304ad6eeef739c40d4",
+      "cn21_gengtu_de344dacb4126b442bb022ada34c2a39",
+      "cn21_gengtu_c125d0f4538bafa147f8070756842ed6",
+      "cn21_gengtu_f2d62584cee410b46035a46fcf6cfb49",
+      "cn21_gengtu_19f9d8f4fb70f9b8d9371685dace5731",
+      "cn21_gengtu_bd524d0fc0470705f484b806d432ed79",
+      "cn21_gengtu_fefb6b910ee9885ff931fa65d8ca9674",
+      "cn21_gengtu_a413bb25808acd46a5ee24825832ba34"
+    ]
   }
 ]
