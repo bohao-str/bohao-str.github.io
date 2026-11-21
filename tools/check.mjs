@@ -45,7 +45,10 @@ for (const [filename, source] of sources) {
     const url = new URL(address, `https://bohao-str.github.io${basePath}`);
     const isRemote = /^(?:[a-z][\w+.-]*:|\/\/)/i.test(address);
     if (isRemote) {
-      if (tag[1].toLowerCase() !== 'a' && attributes.rel !== 'canonical') {
+      const archiveThumbnail = basePath === '/playground/bandori/all/index.html'
+        && tag[1].toLowerCase() === 'img'
+        && /^https:\/\/raw\.githubusercontent\.com\/bohao-str\/bohao-str\.github\.io\/[a-f0-9]{40}\/publications\/\d{4}-\d{2}-\d{2}\/w\d{3}\/thumbs\/cn\d{2}_[A-Za-z0-9_-]+\.webp$/.test(address);
+      if (tag[1].toLowerCase() !== 'a' && attributes.rel !== 'canonical' && !archiveThumbnail) {
         failures.push(`${label}: external runtime resource ${address}`);
       }
       continue;

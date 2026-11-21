@@ -103,7 +103,7 @@ for(const format of ['animated','static']){
  assert.equal(get('detail-image').src,file);assert.equal(get('enlarge').href,file);get('close').onclick();
 }
 checks.push('download filename, card, native save in detail and full-size link for each format');
-for(const format of ['gif','webp']){
+for(const format of ['gif','webp','png','jpg']){
  const item=catalog.items.find(a=>a.save && a.save.endsWith('.'+format));
  if(!item)continue;
  api.reset();api.openImage(item.id);

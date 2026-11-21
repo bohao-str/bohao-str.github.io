@@ -18,6 +18,8 @@ const types=new Set(data.types.map(t=>t.id));
 const index=await fs.readFile(path.join(gallery,'all/index.html'),'utf8');
 const saves=[...index.matchAll(/href="([^"]+)" download="([^"]+)"/g)].map(m=>m.slice(1));
 const pictures=[...index.matchAll(/class="picture" href="([^"]+)"/g)].map(m=>m[1]);
+const thumbnails=[...index.matchAll(/<img src="([^"]+)"/g)].map(m=>m[1]);
+assert.deepEqual(thumbnails,data.items.map(a=>a.thumb.startsWith('https://')?a.thumb:'../'+a.thumb));
 assert.equal(saves.length,data.count);assert.equal(pictures.length,data.count);
 // Walk GIF blocks: counting 0x2C bytes in compressed image data would give false frames.
 function gifInfo(buf){
@@ -43,10 +45,11 @@ for(const a of data.items){
  assert.deepEqual(saves[i],[staticHref(saving),path.posix.basename(saving)],a.id+' static download');
  assert.equal(pictures[i++],staticHref(file),a.id+' static full-size image');
  if(a.save){
-  const match=/^https:\/\/raw\.githubusercontent\.com\/bohao-str\/bohao-str\.github\.io\/[0-9a-f]{40}\/publications\/2026-11-20\/(w\d{3})\/([^/]+)$/.exec(a.image);
-  assert(match && match[2]===a.id+'.webp',a.id+' immutable browser preview');
-  const ext=a.download?'gif':'webp';
-  assert.equal(a.save,'https://github.com/bohao-str/bohao-str.github.io/releases/download/bandori-cn-20261120-'+match[1]+'/'+a.id+'.'+ext);
+  const match=/^https:\/\/raw\.githubusercontent\.com\/bohao-str\/bohao-str\.github\.io\/[0-9a-f]{40}\/publications\/(\d{4}-\d{2}-\d{2})\/(w\d{3})\/([^/]+)$/.exec(a.image);
+  assert(match && match[3]===a.id+'.webp',a.id+' immutable browser preview');
+  const ext=path.posix.extname(a.save).slice(1);
+  assert(a.download ? ext==='gif' : ['jpg','png','webp'].includes(ext),a.id+' native download format');
+  assert.equal(a.save,'https://github.com/bohao-str/bohao-str.github.io/releases/download/bandori-cn-'+match[1].replaceAll('-','')+'-'+match[2]+'/'+a.id+'.'+ext);
   if(a.download)assert.equal(a.download.path,a.image.slice(0,-4)+'gif');
   assert.match(a.imageSha256,/^[0-9a-f]{64}$/);
  }
@@ -71,6 +74,14 @@ for(const a of data.items){
   if(a.save && rel===a.image){
    const preview=await fs.readFile(path.join(root,'.local/gallery-hosted/media',a.id+'.webp')).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
    if(preview){assert.equal(preview.length,a.bytes);assert.equal(createHash('sha256').update(preview).digest('hex'),a.imageSha256);}
+   continue;
+  }
+  if(rel===a.thumb && rel.startsWith('https://')){
+   assert(a.save,a.id+' hosted thumbnail needs a published asset');
+   assert.equal(rel,a.image.slice(0,a.image.lastIndexOf('/')+1)+'thumbs/'+a.id+'.webp');
+   assert.match(a.thumbSha256,/^[a-f0-9]{64}$/);
+   const thumb=await fs.readFile(path.join(root,'.local/gallery-hosted/thumbs',a.id+'.webp')).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
+   if(thumb)assert.equal(createHash('sha256').update(thumb).digest('hex'),a.thumbSha256);
    continue;
   }
   assert(!rel.includes('..')&&!path.isAbsolute(rel),a.id+' path');
