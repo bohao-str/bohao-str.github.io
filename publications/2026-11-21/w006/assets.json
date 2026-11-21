@@ -1,0 +1,2837 @@
+{
+  "tag": "bandori-cn-20261121-w006",
+  "files": [
+    {
+      "file": "cn20_baha_47099_15373_1.jpg",
+      "bytes": 357413,
+      "sha256": "bbd955c2cc8d0e4960de559720f2ba72f3fa0563d435728530a916aa5ce8735a",
+      "preview_sha256": "c47a5943a1c6c20943b165076397b878dccf431adadc23b66eaab48aab302f69",
+      "thumb_sha256": "fcd199ebc8b00d0b7fe83c072cc50a1299b136b50d6af25cf9138d19e93b325b",
+      "original_sha256": "bbd955c2cc8d0e4960de559720f2ba72f3fa0563d435728530a916aa5ce8735a",
+      "width": 674,
+      "height": 1000,
+      "preview_bytes": 129154,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/睦想再和大家多待一会儿，立希当场把五人都留下 [cn20_baha_47099_15373_1].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15380_0.jpg",
+      "bytes": 198531,
+      "sha256": "c8725b101b8fcb5345bcee8ef6707869c7f9d9ea668856495989aee729d0c626",
+      "preview_sha256": "82f83a69e5c8df1abe13f2ba1a3c985d9723267e7b8adca7b3e220066bdc2267",
+      "thumb_sha256": "307b65418d09e9a0f0c0d86cd47b0b8c95f9591c83966d067ddf14bbacaa5d10",
+      "original_sha256": "c8725b101b8fcb5345bcee8ef6707869c7f9d9ea668856495989aee729d0c626",
+      "width": 615,
+      "height": 1790,
+      "preview_bytes": 192046,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/一排小鼓手围住爱音 [cn20_baha_47099_15380_0].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15382_0.jpg",
+      "bytes": 303109,
+      "sha256": "2ccaabb65c9e2468fcef0980e6a2e600b933bd4b02814fd71a2760ddd0f33836",
+      "preview_sha256": "dc03e4cf6095524b6f2954f8485e8cd75117249a176f91be582c8f4cfe214810",
+      "thumb_sha256": "77de2584c6d0c5794bb18a251ab1c9d1057b72b99ba9b61ecacca994740008ea",
+      "original_sha256": "2ccaabb65c9e2468fcef0980e6a2e600b933bd4b02814fd71a2760ddd0f33836",
+      "width": 812,
+      "height": 1000,
+      "preview_bytes": 171126,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/初华说她在看和小祥的合照，其实只有帽子 [cn20_baha_47099_15382_0].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15389_0.jpg",
+      "bytes": 189807,
+      "sha256": "384778331255c21c3fdd2b9703f122f02f6b742abe46d1a066e599f1a6dbf569",
+      "preview_sha256": "6e1bd0dc8d8477c78dd0ef624fa3f3fa0a65737515b7754742f072c5c7c8d0a8",
+      "thumb_sha256": "4755c6717f3fcfc6eebdfabe36324e913076290cd07f96c074a7bef1dd8aaca2",
+      "original_sha256": "384778331255c21c3fdd2b9703f122f02f6b742abe46d1a066e599f1a6dbf569",
+      "width": 750,
+      "height": 1000,
+      "preview_bytes": 101774,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/海铃被拒绝以后，偷偷「啧」了一声 [cn20_baha_47099_15389_0].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15389_1.jpg",
+      "bytes": 271934,
+      "sha256": "e49e6e98a091d6b95054413ad2c184a637b9eab3b2d48afa70499df2beaebd9c",
+      "preview_sha256": "031f745e96d33aedde2e7874f6fa7b3e63676632fbb773b15c3ee53d27c108d0",
+      "thumb_sha256": "e3c2798ce1c0b5ff3bc998d9703b71363f1fdf261bac4222b2b433d74e73a9e1",
+      "original_sha256": "e49e6e98a091d6b95054413ad2c184a637b9eab3b2d48afa70499df2beaebd9c",
+      "width": 807,
+      "height": 1000,
+      "preview_bytes": 164810,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/「开车回家做饭」「直接外食啦！」 [cn20_baha_47099_15389_1].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15390_0.jpg",
+      "bytes": 162443,
+      "sha256": "6bdebad40e09b8b197efd6225c1d346c4406aff3a195309f71e43b5c325b6973",
+      "preview_sha256": "a1ba2e70e296562d6886eecd2afe97c6c676e2b30a3a7f385a64770e485f0be4",
+      "thumb_sha256": "39591721982771aa1f9f53f847996bc2e421d7053573b18da7cfcac82201fc32",
+      "original_sha256": "6bdebad40e09b8b197efd6225c1d346c4406aff3a195309f71e43b5c325b6973",
+      "width": 1200,
+      "height": 797,
+      "preview_bytes": 133408,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/若麦打手势求救，海铃也学会了 [cn20_baha_47099_15390_0].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15396_0.jpg",
+      "bytes": 203119,
+      "sha256": "6353ad6f80a1d2c8d832a4ace4cbabfee1cdb8aa853aac05392f2155db56e41f",
+      "preview_sha256": "84a8b660a469e71044043ee3c71ac9ff635d553abb7a3354f73592e1279c51cb",
+      "thumb_sha256": "ae45463e8aff038f1a439efe927bb19e13d433d4ce431a1db903eaaa538ed299",
+      "original_sha256": "6353ad6f80a1d2c8d832a4ace4cbabfee1cdb8aa853aac05392f2155db56e41f",
+      "width": 750,
+      "height": 1000,
+      "preview_bytes": 128210,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/节分当天，祥子戴上鬼面具 [cn20_baha_47099_15396_0].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15396_1.jpg",
+      "bytes": 313389,
+      "sha256": "3e190e51e3122105726ae7393149f7e37c4b0e3646e28b5d518dc2c6538233ef",
+      "preview_sha256": "21dea9321eec65bdbcdc0e35e5dffa5359ab917846139cf63c709718ce3bf1e3",
+      "thumb_sha256": "ccd139675a2b1934563222ce672027377d25f03b1a0b40f219f012fcdd900574",
+      "original_sha256": "3e190e51e3122105726ae7393149f7e37c4b0e3646e28b5d518dc2c6538233ef",
+      "width": 767,
+      "height": 2271,
+      "preview_bytes": 283034,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/撒豆子啦，冲在最前面的却是立希 [cn20_baha_47099_15396_1].jpg"
+      }
+    },
+    {
+      "file": "cn20_baha_47099_15402_0.jpg",
+      "bytes": 170952,
+      "sha256": "c04bf31440b686bad9b7f85f11c211e3f48111270a10a6710ba319fd2cc45c04",
+      "preview_sha256": "3c7372ec180abefedd0d6ba5fcbe147f3495a48207e4934bad568bccfc0a8d16",
+      "thumb_sha256": "b0261947b308107632157ebd746a558bc9859d2b6ff76651098bd849567c1618",
+      "original_sha256": "c04bf31440b686bad9b7f85f11c211e3f48111270a10a6710ba319fd2cc45c04",
+      "width": 709,
+      "height": 1000,
+      "preview_bytes": 51600,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/拿出抹茶味香水，睦抬起了头 [cn20_baha_47099_15402_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_11157896572_0.jpg",
+      "bytes": 199079,
+      "sha256": "f77297b6fcddfa38d94c5eddad8f8d17207c6dbc09e87ab3d32c359d168fcd7a",
+      "preview_sha256": "d4146c20c13d84d40344f060e7b454d4c392143ff887a86ee5cb482c9a00187e",
+      "thumb_sha256": "d9c753de7693bb208b5a7907cb96d20242fc06a767f5b6b81cdc6b81f5741604",
+      "original_sha256": "f77297b6fcddfa38d94c5eddad8f8d17207c6dbc09e87ab3d32c359d168fcd7a",
+      "width": 632,
+      "height": 1000,
+      "preview_bytes": 173660,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/爱音的生日大头贴，许愿前先试一口蛋糕 [cn21_tbcover_11157896572_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_11157896572_1.jpg",
+      "bytes": 167584,
+      "sha256": "cdfd45d9dc9fa2819564ea47bfa1612868a323580f584c3272436e4a57d310cd",
+      "preview_sha256": "6d628f67b86f959fb64b67f42ebebb76424f273eb45e464b7dfcb716d85b8cda",
+      "thumb_sha256": "b4744f57d339057b6efb2e4fce987b177aaac537290de8a3ab19336b8c69d2f9",
+      "original_sha256": "cdfd45d9dc9fa2819564ea47bfa1612868a323580f584c3272436e4a57d310cd",
+      "width": 632,
+      "height": 1000,
+      "preview_bytes": 144526,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/刚想再靠近一点，叉子上的蛋糕先掉了 [cn21_tbcover_11157896572_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_11157896572_2.jpg",
+      "bytes": 56125,
+      "sha256": "88bc38711a2404b188cba1c53e95bfcdb5b7d7dc90ba932a9f6e6fead422c41f",
+      "preview_sha256": "4490dbee5fae9b71c4c87c2aaa6b9eaf43b390e95baf618dc9811d4a6580b94d",
+      "thumb_sha256": "f7b8e955d9b0224998c51ab697c3d3dcac6a5920505e77dc01827e21cbd815d1",
+      "original_sha256": "88bc38711a2404b188cba1c53e95bfcdb5b7d7dc90ba932a9f6e6fead422c41f",
+      "width": 632,
+      "height": 1000,
+      "preview_bytes": 38554,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/发 SNS 前，为一句生日愿望反复推敲 [cn21_tbcover_11157896572_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_10888584236_0.jpg",
+      "bytes": 62683,
+      "sha256": "7b7d9ab6e53b2ae3de34d6d6721a453053cafb1ae70d11ece80abace817397c9",
+      "preview_sha256": "98dc475a4d668c739f583b70654ba1e15fbe7751e8ad76a7de046027e4783fc5",
+      "thumb_sha256": "c8e80b50f4cec175ea256e9167c04b5f7ba7d1dd5152ef6d28bd1d5299f98c3a",
+      "original_sha256": "7b7d9ab6e53b2ae3de34d6d6721a453053cafb1ae70d11ece80abace817397c9",
+      "width": 574,
+      "height": 594,
+      "preview_bytes": 60218,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/戴着花饰的爱音眨一只眼 [cn21_tbcover_10888584236_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_9441543943_1.jpg",
+      "bytes": 73563,
+      "sha256": "ba46821f695fa5ea984c026a827293bf6d7cb58bb0dab16873ba2c6276e7c3cf",
+      "preview_sha256": "ff0731d53139420a1f4a847f9b1e6a4670c574dc652cd7e40f7a7df79fcab65f",
+      "thumb_sha256": "dc58e4dcca3aaefbbd9720f28621c587a1f41dad0f4caebc4c22e97a6b2bc6f4",
+      "original_sha256": "ba46821f695fa5ea984c026a827293bf6d7cb58bb0dab16873ba2c6276e7c3cf",
+      "width": 720,
+      "height": 796,
+      "preview_bytes": 81264,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/爽世一动也不想动 [cn21_tbcover_9441543943_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_10981860500_0.jpg",
+      "bytes": 42732,
+      "sha256": "2261cb78d54096133bb719745d7f7fa37500522752d3bd8409b30a5ee8f628c7",
+      "preview_sha256": "2fe747f1290c320a038f0c30c1dd0002aec816f7ead26082efa7a10eaf013fa4",
+      "thumb_sha256": "a0bc26e292916225126a2e063afb01c0f9027e536d56eea592f74bddf1d9cf50",
+      "original_sha256": "2261cb78d54096133bb719745d7f7fa37500522752d3bd8409b30a5ee8f628c7",
+      "width": 720,
+      "height": 702,
+      "preview_bytes": 32794,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/全算在我头上就行了 [cn21_tbcover_10981860500_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_10342036523_0.jpg",
+      "bytes": 58460,
+      "sha256": "db40ad5ec5db1c3409e21299e1159d50d4b30b2196de536f32c283c7c5e3c029",
+      "preview_sha256": "a23d81ddb1044281cedd8a9485c5fd8c1518bfda09bde74b71255d855f2742be",
+      "thumb_sha256": "35318b03c31d8a2088fec2cd942fdf536811e58b983a037b832ff861a9e6a8bd",
+      "original_sha256": "db40ad5ec5db1c3409e21299e1159d50d4b30b2196de536f32c283c7c5e3c029",
+      "width": 720,
+      "height": 575,
+      "preview_bytes": 47394,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/戴好墨镜，让你忘掉刚才看到的事 [cn21_tbcover_10342036523_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_10059311143_0.jpg",
+      "bytes": 66818,
+      "sha256": "8cabe3b387961d1d609c5836ea067d23b18c9aa45528051e0aaa2bf5d1011cbb",
+      "preview_sha256": "d9be2d124bb5543efbf76140ad4d83c954598ad7237b85b5a95d8dac5ecbef1c",
+      "thumb_sha256": "5b0acc895b9896efc9ab0a7294dfcefb6060917db7fc13f40119e6ad519d0d7e",
+      "original_sha256": "8cabe3b387961d1d609c5836ea067d23b18c9aa45528051e0aaa2bf5d1011cbb",
+      "width": 720,
+      "height": 720,
+      "preview_bytes": 57286,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/初华端来一壶咖啡 [cn21_tbcover_10059311143_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_10014445948_0.jpg",
+      "bytes": 47726,
+      "sha256": "7aedbe77c11bbfae1c57f5aee04e9496831b29716c61607c563a7f4d8ae5bc0a",
+      "preview_sha256": "161db42bdafee3ebacc48be16ab7a562fc6cd96e9b9c232d93c7a2091b7c5e5f",
+      "thumb_sha256": "f5704c02187e860b20949d560f7367de689ee57a0392a4ce2cfa2784355e449e",
+      "original_sha256": "7aedbe77c11bbfae1c57f5aee04e9496831b29716c61607c563a7f4d8ae5bc0a",
+      "width": 720,
+      "height": 704,
+      "preview_bytes": 38648,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/校服希轻轻摇一摇 [cn21_tbcover_10014445948_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_10014445948_1.jpg",
+      "bytes": 43167,
+      "sha256": "4fe4a0206c0dcb432c6e1b9aca5dd546b0f0258f19d7eff684b2698e1f4c59c4",
+      "preview_sha256": "985e479de2a3257b52b67052874477bfe3df42c0f6f91778c72bd864680f6913",
+      "thumb_sha256": "0b3f043f1768dbc8427ec214fef8d6bd3672645ae6437ce2f196a9535462ea3e",
+      "original_sha256": "4fe4a0206c0dcb432c6e1b9aca5dd546b0f0258f19d7eff684b2698e1f4c59c4",
+      "width": 720,
+      "height": 720,
+      "preview_bytes": 33948,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/双手背在身后，小立希有点疑惑 [cn21_tbcover_10014445948_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbcover_10014445948_2.jpg",
+      "bytes": 46761,
+      "sha256": "4c3334dd18a6a35be33af189bcdda6d38985aac0c185aadda751610cae459789",
+      "preview_sha256": "f2cf9069641b5727bb10c2ee7481442ad4f98b96c56aa247cf072cd955e6d975",
+      "thumb_sha256": "b9d138932a83c56643ca1f455617233ae73914a0909eb39baae04c0d278cbf55",
+      "original_sha256": "4c3334dd18a6a35be33af189bcdda6d38985aac0c185aadda751610cae459789",
+      "width": 720,
+      "height": 720,
+      "preview_bytes": 37624,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/立希竖起一根手指，准备发言 [cn21_tbcover_10014445948_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79039.png",
+      "bytes": 38648,
+      "sha256": "02d3ee6d24825f1c6250c104b8871fd0f6bd0706802f67fd8ce62201a96e4c49",
+      "preview_sha256": "fc60614fe3071af6ec1086582e2a2e1d45751c70e623e711e8d582471ccc5803",
+      "thumb_sha256": "2dd5f07482d70a1c30384e38c9168968dbe50b8131377ae96ab5520a87131cd5",
+      "original_sha256": "02d3ee6d24825f1c6250c104b8871fd0f6bd0706802f67fd8ce62201a96e4c49",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10172,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/生气 [cn21_bilistamp_79039].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68507.png",
+      "bytes": 48862,
+      "sha256": "8c2b5047a7538ee769fb08f54af0cc5e05e428f4eef2d813f5785f27c8322b06",
+      "preview_sha256": "056fac788fda4e321fc0dc8ee1c9e0fab900392b1bc46e4606bb3d7badf1ec40",
+      "thumb_sha256": "39fcdc0755b2e0f92145e8ec661189f6a8d6b9578e9b9ccd9eb55a8bcf7f5be4",
+      "original_sha256": "8c2b5047a7538ee769fb08f54af0cc5e05e428f4eef2d813f5785f27c8322b06",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10396,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/莉莎-点赞 [cn21_bilistamp_68507].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79044.png",
+      "bytes": 42731,
+      "sha256": "14676c5e94c77ab85b7a9a164848326b006cee41aa2dddebfe5b9a0b5cd95d24",
+      "preview_sha256": "2f86797ade6104189ec8a8d4cc7d5727bf55d341fc28782badc2ae8ba58d4288",
+      "thumb_sha256": "741c057ca762de34f0d9c316036731e0ec86c5215245dd5dc622058a354db6f1",
+      "original_sha256": "14676c5e94c77ab85b7a9a164848326b006cee41aa2dddebfe5b9a0b5cd95d24",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10730,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/Love [cn21_bilistamp_79044].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105562.png",
+      "bytes": 48778,
+      "sha256": "2dac81311cb84869222dc32f1ef814127c97196673c29e8cf90238938bcb1b48",
+      "preview_sha256": "c05a92a5df77438cde76c1d20ccac681e428e65c55ba1060970f028782fff618",
+      "thumb_sha256": "38135528c41233a7891850b847631a8c48cc96da19dda378e677a62d25f500b8",
+      "original_sha256": "2dac81311cb84869222dc32f1ef814127c97196673c29e8cf90238938bcb1b48",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12584,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/拜托了 [cn21_bilistamp_105562].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105565.png",
+      "bytes": 38431,
+      "sha256": "2dadebc2cb9ead16fb49f7cc144d5023241f0068f9982fced63c5a0c9bec44bc",
+      "preview_sha256": "e843ea5287404a59a12d3bd1ca6805f633eb3dd0e0212d9b86a3498d091dcca5",
+      "thumb_sha256": "0e23776720d9d1586485b3ff65e812d7cf8fede46517448d20fd6ea4d4b318bb",
+      "original_sha256": "2dadebc2cb9ead16fb49f7cc144d5023241f0068f9982fced63c5a0c9bec44bc",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10782,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/微笑 [cn21_bilistamp_105565].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105580.png",
+      "bytes": 48974,
+      "sha256": "48d6b05823f6309fa76e85468f42e0eace303abdf5fcdefaba71f94d3e0a5db1",
+      "preview_sha256": "e14813383851bce2dbb15616b03343cd0740c16cab5d03a5653ab2d2bd5cf1da",
+      "thumb_sha256": "3c3eeb3a9d72f07c45b3e33f5ae1145a0be2ed66f8615e9c96b34032fc9ec362",
+      "original_sha256": "48d6b05823f6309fa76e85468f42e0eace303abdf5fcdefaba71f94d3e0a5db1",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 13678,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/啊啊？ [cn21_bilistamp_105580].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105582.png",
+      "bytes": 44850,
+      "sha256": "e51188f96991acfb5d491c3b7459d5c07b3c1f7cad41cab6bf37af53dd232976",
+      "preview_sha256": "a2915db4115e11b7591447bccd73847f1d9d54c42c60cf7511f27ff0772a00cc",
+      "thumb_sha256": "a35629e3e48fd7f952126818a6f0e0dcf8f6447d8d77607815853606a7ff1f81",
+      "original_sha256": "e51188f96991acfb5d491c3b7459d5c07b3c1f7cad41cab6bf37af53dd232976",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12406,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/生气 [cn21_bilistamp_105582].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105579.png",
+      "bytes": 42801,
+      "sha256": "0546453b6cdb78259ee7ad91aaff73eca5f597dd4671ab577c69d858757a6d98",
+      "preview_sha256": "36ad7c9a2f161b941370909305d14cfc990a9ee8152b8360acafed923c789a23",
+      "thumb_sha256": "ce44c6fe5491df260e5f86ca251d4ed194884e950f7a30dfa73986e5c5259c54",
+      "original_sha256": "0546453b6cdb78259ee7ad91aaff73eca5f597dd4671ab577c69d858757a6d98",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12082,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/冲 [cn21_bilistamp_105579].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105572.png",
+      "bytes": 40391,
+      "sha256": "7c86f415ad3531ce5206fb3bf7b235d7c6a303ac9fd4ceda2493d7ccb58e1eeb",
+      "preview_sha256": "2b6b8b4ccd648785f0771a8c42d1282b5d3f1210f9053137316aaad75c67a943",
+      "thumb_sha256": "26ed88087cab0673c870061da4005ce471d4fe865c5597ca036bd84f1543400e",
+      "original_sha256": "7c86f415ad3531ce5206fb3bf7b235d7c6a303ac9fd4ceda2493d7ccb58e1eeb",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10548,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/冲鸭 [cn21_bilistamp_105572].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105577.png",
+      "bytes": 41400,
+      "sha256": "e3f30f58ce9f985337a392076cbfeeeaf8163dfc8a76d1b51af536fb34769712",
+      "preview_sha256": "e5f82ad0f7210825b4bda381906fb9945bf66c3f4db167ca4d87cc2b6a4cfa1e",
+      "thumb_sha256": "c495d0dd71c8fe46b848fecf2a5be6345fe3fa3a740fa037725ef7effd547bc4",
+      "original_sha256": "e3f30f58ce9f985337a392076cbfeeeaf8163dfc8a76d1b51af536fb34769712",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11752,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/机智 [cn21_bilistamp_105577].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109732.gif",
+      "bytes": 128622,
+      "sha256": "dc9f4456a0500b552b54dea0a9e73042795dcc05113aeb9a44fe70c50f21c270",
+      "preview_sha256": "ea3f3e08664f69c55ec716fe287b30b26434ea4b9430bf8662591a79e3a2ba7d",
+      "thumb_sha256": "0984ef6933e72b181c47446d007306a5d3432048980c648ed4473759c4f13183",
+      "original_sha256": "dc9f4456a0500b552b54dea0a9e73042795dcc05113aeb9a44fe70c50f21c270",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 45076,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109732.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 128622
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79055.png",
+      "bytes": 39006,
+      "sha256": "e724c1f2cc2842dc98e5fe5185f431c48591e14d04ed3ea20b5e14977bcd86ae",
+      "preview_sha256": "716863217b6e7f69e5f0bd19389199cc13c0be69b4d27c23378e3b1e607c9645",
+      "thumb_sha256": "60466d488b65f44f1d7d7d294e89e2294469f2a9b944f5893042a31ad503a9ba",
+      "original_sha256": "e724c1f2cc2842dc98e5fe5185f431c48591e14d04ed3ea20b5e14977bcd86ae",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9786,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/大哭 [cn21_bilistamp_79055].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79045.png",
+      "bytes": 35593,
+      "sha256": "f35bf6d0d3956543fdfafa40eb38aff6de57514e862e11191313d48984cbacfb",
+      "preview_sha256": "aa4f5350f31279bfb05a48b39ebcb3efeb41a29840c3f10954c4eb81e8779232",
+      "thumb_sha256": "0808af68d9f5061303bff507f2bc7c92fe35e152d2fe61f3735c550108028f4d",
+      "original_sha256": "f35bf6d0d3956543fdfafa40eb38aff6de57514e862e11191313d48984cbacfb",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 7456,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/让我看看 [cn21_bilistamp_79045].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79040.png",
+      "bytes": 43674,
+      "sha256": "baf184f994ebfc29739d17ae082d193d0b78b20ecd406edd69ba6f454af5dbef",
+      "preview_sha256": "369cd565aaec90bc0456b190b6ad7e8e831f0890930d054b9905f02de4b22934",
+      "thumb_sha256": "9ff8857524fb469cfed70d1bb378c245663bf2627a81fffe0c56201427fbd965",
+      "original_sha256": "baf184f994ebfc29739d17ae082d193d0b78b20ecd406edd69ba6f454af5dbef",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8722,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/发送消息 [cn21_bilistamp_79040].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79051.png",
+      "bytes": 38373,
+      "sha256": "ca3f2b7219ded0e07b0bc01e97f58d97aa82d1a9ac5b619aff0bfcd6ba3a81a3",
+      "preview_sha256": "3cfc919304cc002bd50feaffdf8078d109cde9bd5be204d4dd425f56103d85b4",
+      "thumb_sha256": "061c6621ea8d7ad53d3a8197df033c49ad05951906b0c507e46518ce8cd7203e",
+      "original_sha256": "ca3f2b7219ded0e07b0bc01e97f58d97aa82d1a9ac5b619aff0bfcd6ba3a81a3",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 7998,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/刚睡醒 [cn21_bilistamp_79051].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79049.png",
+      "bytes": 36019,
+      "sha256": "24366f349d8445b99d7a06edec8d9f3054362013f4a80840dd0ddb3224058145",
+      "preview_sha256": "c4470391aa8eba62d52a51a397498eae86025d9fe46c303feb00739f53dfb88b",
+      "thumb_sha256": "8f5bbeded531558e8bfd9fa827810eb2bfcfb8ff3e1d9fd15719a9c4bb26b42c",
+      "original_sha256": "24366f349d8445b99d7a06edec8d9f3054362013f4a80840dd0ddb3224058145",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9176,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/探头 [cn21_bilistamp_79049].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_108786.png",
+      "bytes": 39099,
+      "sha256": "0321ba81047be76f3f06364741bfbf7a4ae5c534456054377e9c447cf224dc71",
+      "preview_sha256": "271fab5a5c3b058a17b59a9535b9d29ff4a993719911961f90cd90a84f3ff8e9",
+      "thumb_sha256": "655138ecc346ed897226697fdb780ca7369692b617d5a8a4914055bb48e645ca",
+      "original_sha256": "0321ba81047be76f3f06364741bfbf7a4ae5c534456054377e9c447cf224dc71",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10594,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/开心 [cn21_bilistamp_108786].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_128934.png",
+      "bytes": 45246,
+      "sha256": "08edbc24bd8e80e38f5d57532fea6692c6a3378648e0304e63a8ef87b35e9f45",
+      "preview_sha256": "5eae5d4a647f6ea350cdbcd4e89c7df902a3f527b3e986a6335b567fe6c620a8",
+      "thumb_sha256": "f43c37da068cd518688931dbf2c25a8808aa6f4b8c55f85476a7d0ec73601059",
+      "original_sha256": "08edbc24bd8e80e38f5d57532fea6692c6a3378648e0304e63a8ef87b35e9f45",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11864,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/难道说 [cn21_bilistamp_128934].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105578.png",
+      "bytes": 46222,
+      "sha256": "b64203f090fe75a9ac28775f5ef3103cfe1e158fdac147eaa9a6424f567663e3",
+      "preview_sha256": "a1925953d3bf4dbeefa5223adc3543d67b8a6f4297b1b3d7153ef017ac6f8837",
+      "thumb_sha256": "0fab23105c73cf34eb2fe32bedfc7f7bc3dfb9c58f39261d1005d0bb8df2f430",
+      "original_sha256": "b64203f090fe75a9ac28775f5ef3103cfe1e158fdac147eaa9a6424f567663e3",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12132,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/讨厌 [cn21_bilistamp_105578].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110170.png",
+      "bytes": 48671,
+      "sha256": "b1480c97b14a072524ea462e92e24e904d167145c7d251969fe8e71c75c416dd",
+      "preview_sha256": "6767d964922dbd8ce3ccea13e4300b38c98aea15b81f6279161cbc787263269b",
+      "thumb_sha256": "0c930a5f9eeefe4cb1e9bb2b214ef4647bd8465df9e7fab93c675ca106445607",
+      "original_sha256": "b1480c97b14a072524ea462e92e24e904d167145c7d251969fe8e71c75c416dd",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12616,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/哇啊！ [cn21_bilistamp_110170].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_108796.png",
+      "bytes": 36314,
+      "sha256": "eb973144f8d135b8e761c79f8435e26409256effbe318a57e0feb8f6f5b5f36d",
+      "preview_sha256": "df89b8e11f68d5515154d46a912fb51aeb2396bffa991dffe598845a2d14cbae",
+      "thumb_sha256": "4460c8056e476195d13c7fe94e12e8eac4a9ed03cbc4d2fcfc20b8673746b553",
+      "original_sha256": "eb973144f8d135b8e761c79f8435e26409256effbe318a57e0feb8f6f5b5f36d",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9102,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/委屈 [cn21_bilistamp_108796].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_112926.gif",
+      "bytes": 178482,
+      "sha256": "2776f060863f62b9814ed0f9c2ea7a00291075c4aae0bffb32e8806c7133e2e4",
+      "preview_sha256": "107287004c2c3e39315ed1e1cacea252eee1fe33dd512d0b3c401c3f0a0e3c16",
+      "thumb_sha256": "a4bfb5db5e86612dc6830e70d8fc4cd1f49a2b72694f8c24710132e7078ccf11",
+      "original_sha256": "2776f060863f62b9814ed0f9c2ea7a00291075c4aae0bffb32e8806c7133e2e4",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 57456,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_112926.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 178482
+      }
+    },
+    {
+      "file": "cn21_bilistamp_82704.gif",
+      "bytes": 174214,
+      "sha256": "0f7d11db193c973fa2e6c54fcc49a56d519cbcfc404ec8241ce5f5ad27023c63",
+      "preview_sha256": "68d6c33c0d211d6224566fb96c9b0b0170573230a1f9b285d9482d4518c1edab",
+      "thumb_sha256": "fe062265e485bc13f9184098f21f9881d10070f257944135fedce06e0fbe77d0",
+      "original_sha256": "0f7d11db193c973fa2e6c54fcc49a56d519cbcfc404ec8241ce5f5ad27023c63",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 53750,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_82704.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 174214
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109736.gif",
+      "bytes": 138135,
+      "sha256": "03ccc04e1ee18d5c0f8b2f4e6a5fa074174eb5de5559f806b8dad5c49b9f8eb5",
+      "preview_sha256": "0cedc282b44c60358232366798c4722aacef628ff6af3695b47682cb9b9c29e6",
+      "thumb_sha256": "492934aaa4c6b04fb8d716f2df7c95a80d579360256b352b94b419bef2ce9bcf",
+      "original_sha256": "03ccc04e1ee18d5c0f8b2f4e6a5fa074174eb5de5559f806b8dad5c49b9f8eb5",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 46718,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109736.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 138135
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109735.gif",
+      "bytes": 134141,
+      "sha256": "7c5f6e6d1878fd93158ac823b480e6c365935b41f45d8964fc582d3a49b55d19",
+      "preview_sha256": "3db9a59d0e328fdc2d567d5cae5ceed401362451330f87ed4aee21b3d6b458a4",
+      "thumb_sha256": "5dd4d30adc4a432f5f672451abd81ae97e5be9af30eb457ae2f266469e144ef3",
+      "original_sha256": "7c5f6e6d1878fd93158ac823b480e6c365935b41f45d8964fc582d3a49b55d19",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 45152,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109735.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 134141
+      }
+    },
+    {
+      "file": "cn21_bilistamp_108783.png",
+      "bytes": 40304,
+      "sha256": "1f5a1b8afa620bf15bddf2815e425b6179f9f44cb1d4eb7cbc30a17cfc03cf5d",
+      "preview_sha256": "f4143a6f22c2902803d9729311a3c0fbd5160418210b8df11865a691827bd380",
+      "thumb_sha256": "568e38c4758fbef5901466806bb71989ccb6e697ce0afa6626cf3e6963ab7177",
+      "original_sha256": "1f5a1b8afa620bf15bddf2815e425b6179f9f44cb1d4eb7cbc30a17cfc03cf5d",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10726,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/再等一下 [cn21_bilistamp_108783].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105560.png",
+      "bytes": 37837,
+      "sha256": "a0d3e1bf29d28b8bd942c1a105fd000eca4fcca3b3ff92694c20839a69fcd9be",
+      "preview_sha256": "4406e1807216dfe335d89e0d872f160d540684e011bb6d362251b244224d7c55",
+      "thumb_sha256": "fdc0e87252253e665cabcf58e60296f7082df1cd211d656e98be5e65c38239fc",
+      "original_sha256": "a0d3e1bf29d28b8bd942c1a105fd000eca4fcca3b3ff92694c20839a69fcd9be",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10600,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/诶？ [cn21_bilistamp_105560].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_135428.png",
+      "bytes": 43248,
+      "sha256": "12110526fb3043e5c35e5c8c2d79211d344834253adb583ac2874ee94db32020",
+      "preview_sha256": "afe371d6117373e8cfa30ee48919fc58b22a3bf7775b45ae666ffcb36cd5054c",
+      "thumb_sha256": "0143e21067702a1aea7738c4a8a276963c7855de5b0601aefd1b3a6dd29b8185",
+      "original_sha256": "12110526fb3043e5c35e5c8c2d79211d344834253adb583ac2874ee94db32020",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10938,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/敲敲 [cn21_bilistamp_135428].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105559.png",
+      "bytes": 44049,
+      "sha256": "431026a9824be2d1d320875749427efef95dbce14b7bb78ca9af18d5b5a97917",
+      "preview_sha256": "cc1fb5f20fb316a22cd03b9de21bf34a319abafe7a620d6da19bb722829d764d",
+      "thumb_sha256": "868725d039e5d28ba576fdef2e56bd20fd5e5e29c778c785c54b3b36226f62c3",
+      "original_sha256": "431026a9824be2d1d320875749427efef95dbce14b7bb78ca9af18d5b5a97917",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11878,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/你是？ [cn21_bilistamp_105559].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79046.png",
+      "bytes": 33044,
+      "sha256": "95faaedb6da1727518bed96e6cf9779e36237c7879ce7880897811aa670ccda7",
+      "preview_sha256": "44b6143567edd01d4dfa1998df46a1b04de428153c015925cc67bdb380296df4",
+      "thumb_sha256": "e33b99e72a207f98bc48c1d554970a2f4276b984fc55f47e721b8e45eb8fac47",
+      "original_sha256": "95faaedb6da1727518bed96e6cf9779e36237c7879ce7880897811aa670ccda7",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8012,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/溜了溜了 [cn21_bilistamp_79046].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_108790.png",
+      "bytes": 44846,
+      "sha256": "5ab7002a6e93fb3d734cf44b455cb8fe8aadabb4c40519a7d4784f455ef32ba9",
+      "preview_sha256": "3c47c18f268c27647ff34411b76cf058a77f36a5ae65c0924b425653ded09d4c",
+      "thumb_sha256": "d0dd11685e1031ebc1c7fed7d89b1f10cda9d6442333ac8480001e67b726d18d",
+      "original_sha256": "5ab7002a6e93fb3d734cf44b455cb8fe8aadabb4c40519a7d4784f455ef32ba9",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12158,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/一次买够 [cn21_bilistamp_108790].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105573.png",
+      "bytes": 40635,
+      "sha256": "d473a4f95aa184b55b24ff0a23e469fc33b8489278cee95a93ca0908f0718c8e",
+      "preview_sha256": "de184e733aedf0abf694bc94bd4b7353e0c7ea4fd89d5b54cac94b018726f491",
+      "thumb_sha256": "5adf487425eb70c67d11e8a3739b9591ad7f7f3a694874ea18137632874e4e61",
+      "original_sha256": "d473a4f95aa184b55b24ff0a23e469fc33b8489278cee95a93ca0908f0718c8e",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11544,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/哦！ [cn21_bilistamp_105573].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_130862.png",
+      "bytes": 42778,
+      "sha256": "bdd0f342aae31444f185f2282bee9b744a7c7d29ede93945de5954d34e766576",
+      "preview_sha256": "beebfed85b3b5c9cc35f9b59115f4511c57727770ecdfbd50b9ae8ca739be838",
+      "thumb_sha256": "6cf0406c9551e0817bbc13686161848c41bc1c5bb8f9e41cd9a9db76d3b6561c",
+      "original_sha256": "bdd0f342aae31444f185f2282bee9b744a7c7d29ede93945de5954d34e766576",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11586,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/惊！！！ [cn21_bilistamp_130862].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_135438.png",
+      "bytes": 36231,
+      "sha256": "f2de6b1776c61277931682dfcfc51ca1da44ccb942d62e881bf417f936d296ee",
+      "preview_sha256": "4e511459cc14c7ae355bab7fff6e4b7d5fbc208417df499a545d10f8949b3f3b",
+      "thumb_sha256": "e2e0043b2533112b4930bf58a7b97ecd304e8a39b3ec91b22fb469ad17170bfb",
+      "original_sha256": "f2de6b1776c61277931682dfcfc51ca1da44ccb942d62e881bf417f936d296ee",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9120,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/叠鼠鼠 [cn21_bilistamp_135438].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110175.png",
+      "bytes": 43856,
+      "sha256": "2448941cf07fdd6f6a2e2ef4553bbb556cfc136a662b6cd152d48208147d8cb5",
+      "preview_sha256": "3b1170a48b072237ac91fb43b4f5d619457cb5fcce85178e4d789bf8461d564d",
+      "thumb_sha256": "ec99b34e2d87c933059a07e9c7657ae2f0e79d13d9b6c8c647b27f5487c06dba",
+      "original_sha256": "2448941cf07fdd6f6a2e2ef4553bbb556cfc136a662b6cd152d48208147d8cb5",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11004,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/好吧 [cn21_bilistamp_110175].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_125071.gif",
+      "bytes": 149053,
+      "sha256": "a92cec2bdd52bb5807ba9cf8cdf7c798ab45a8c1e1d18f7cb869550f55631cdb",
+      "preview_sha256": "d1c0551567d0cb8e231591f0aff44803462302b08a92dc13730f97728fc4d8e5",
+      "thumb_sha256": "959ef584f3f65f7c756f11211ebc53544045ad5031150ee602f80ff3a2a6439b",
+      "original_sha256": "a92cec2bdd52bb5807ba9cf8cdf7c798ab45a8c1e1d18f7cb869550f55631cdb",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 41938,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_125071.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 149053
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68495.png",
+      "bytes": 35847,
+      "sha256": "31c0dcec777b0618f8591501c23d2ef9084b65cfb12e85ed20934c39113c6643",
+      "preview_sha256": "e028618e636298cd14eba380f62c39ae6662cc1727e48bd3ff3da31de8055cf1",
+      "thumb_sha256": "598e38799188d2a61e2c5ebadd2d612f3340ba1ae3319c0aea187e9bc12b84f8",
+      "original_sha256": "31c0dcec777b0618f8591501c23d2ef9084b65cfb12e85ed20934c39113c6643",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8314,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/心-好耶 [cn21_bilistamp_68495].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68510.png",
+      "bytes": 43128,
+      "sha256": "1f9cfe00e7d632927dec13261d9b8a621887f31cb5e0b6e161bb259248815980",
+      "preview_sha256": "4926869f0c2b8427027b72a5b997a6f7033c92292bfb9312b16998d4a2ea227d",
+      "thumb_sha256": "baa8adf12e50f22b3132558ad4b068dc3a93eaa2c12f8c84edc78b9c40856b46",
+      "original_sha256": "1f9cfe00e7d632927dec13261d9b8a621887f31cb5e0b6e161bb259248815980",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9982,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/真白-惊慌 [cn21_bilistamp_68510].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_120932.png",
+      "bytes": 42505,
+      "sha256": "7f231e552c792641fd2465c106643de14d1fb0f9f98d868ed695f5e711cdae4d",
+      "preview_sha256": "4c031594d08923c58538d8abd88c8809e51557515583e55b754cd1fb1f3ec4eb",
+      "thumb_sha256": "24b2d46f3b052441c8587de350e9260dd7872e6446851467ac4f5944551ebc89",
+      "original_sha256": "7f231e552c792641fd2465c106643de14d1fb0f9f98d868ed695f5e711cdae4d",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9976,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/开唱 [cn21_bilistamp_120932].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_115522.gif",
+      "bytes": 162681,
+      "sha256": "c141c51548bf7548832a6f7e04b4f5263fe81f12e2426c8b0a786777ce98933d",
+      "preview_sha256": "f0ec0967f62ff82bd896687a27a41d27c12e1a89d3d06e6932beccd60d2c4c1c",
+      "thumb_sha256": "edf5288c28f926e0ecd058fdeea7f25ba0928f3a8544c41a3581de981db0853c",
+      "original_sha256": "c141c51548bf7548832a6f7e04b4f5263fe81f12e2426c8b0a786777ce98933d",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 57414,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_115522.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 162681
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109729.gif",
+      "bytes": 152615,
+      "sha256": "e928f44b25be771d5ff74afeb54936d3449af4295be91bf739c238e27ee69cc5",
+      "preview_sha256": "211f42b2d676e169763a79221ad6f3b65913e5dce7367f091572f927b9a7a606",
+      "thumb_sha256": "b62552ecf5b8072cdd1243d91f24238adf453c0ed09a90de34485d27a413e6bb",
+      "original_sha256": "e928f44b25be771d5ff74afeb54936d3449af4295be91bf739c238e27ee69cc5",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 51198,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109729.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 152615
+      }
+    },
+    {
+      "file": "cn21_bilistamp_114895.png",
+      "bytes": 54549,
+      "sha256": "0e16d4019efc17908b60649506880890b5802bce4c4533b3e909e43e1981c016",
+      "preview_sha256": "407a96628deb5e3649c0481fe554cc63bb7fa917ec176059fc91955c0ebceb0e",
+      "thumb_sha256": "67eb34be5d6235b3ec0e79bb1e7ebf5c352bf0d1c6cdcb5f639901810f906b7c",
+      "original_sha256": "0e16d4019efc17908b60649506880890b5802bce4c4533b3e909e43e1981c016",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8278,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/登场 [cn21_bilistamp_114895].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_128927.png",
+      "bytes": 41660,
+      "sha256": "fa9a7fd335c6cb961066a33d188d14394653c75891d3b72d04c442cbc545d39d",
+      "preview_sha256": "2b4228c8c39b0babe69f5037f4710fb5b85366e64528a5e971613285b8b7d922",
+      "thumb_sha256": "87097966b6335916e2556a332ebad482bb6268f718dc5d83b6399c11f9906ddb",
+      "original_sha256": "fa9a7fd335c6cb961066a33d188d14394653c75891d3b72d04c442cbc545d39d",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12100,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/点赞 [cn21_bilistamp_128927].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110359.gif",
+      "bytes": 181305,
+      "sha256": "a6fd9a90195064b96eed3b3bfb61f34d6f09f89d6ea2165a24530360fa153d4b",
+      "preview_sha256": "4b7be0d16331e48b2470b910d905a0f29db1a1c30ccb0e10e7db5409da30d340",
+      "thumb_sha256": "829df7d0c00ac03504619351c05facbc84b0e0a2c286b4643cef89506ee18c3a",
+      "original_sha256": "a6fd9a90195064b96eed3b3bfb61f34d6f09f89d6ea2165a24530360fa153d4b",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 58010,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_110359.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 181305
+      }
+    },
+    {
+      "file": "cn21_bilistamp_82702.gif",
+      "bytes": 96378,
+      "sha256": "b8f00d69fbc8815d35e50c31946b8c3d9a6c66531610374fe7fbfa29639c6462",
+      "preview_sha256": "39aabbc7834c0b41695347d2abaa9d5780317daec041480d5cc839d8cc9f3f2a",
+      "thumb_sha256": "04323db8d76cdb93632a664f7d4764a337cb9592c361056a584c725bc80e6e6d",
+      "original_sha256": "b8f00d69fbc8815d35e50c31946b8c3d9a6c66531610374fe7fbfa29639c6462",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 27782,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_82702.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 96378
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105574.png",
+      "bytes": 44179,
+      "sha256": "6780c2b3e743f697988f80627a9f274536840dd5d1bdbf86c4a69f6c3e3cb45b",
+      "preview_sha256": "f50186adf4439233a43d672fe5604556c2012d1a6099085bd4e347641b2aca65",
+      "thumb_sha256": "488f453529436ee87a31e2858d023236b250ce3f66c78fb697bb93ed335f85c1",
+      "original_sha256": "6780c2b3e743f697988f80627a9f274536840dd5d1bdbf86c4a69f6c3e3cb45b",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11924,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/哎呀 [cn21_bilistamp_105574].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105575.png",
+      "bytes": 45012,
+      "sha256": "62962bda6a0d90ebda494831e0e24a4f082617ee89c29fb6c9c2ae06b912a867",
+      "preview_sha256": "07a43a0d1ee52ab88208dfdeb8434008923e7907aef8f376977f1b770be4b8ec",
+      "thumb_sha256": "69d1f9238c412b2255718782330b54cd5df45044c1c77f166beeab8076b8a8a6",
+      "original_sha256": "62962bda6a0d90ebda494831e0e24a4f082617ee89c29fb6c9c2ae06b912a867",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12372,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/汗 [cn21_bilistamp_105575].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_72805.png",
+      "bytes": 21959,
+      "sha256": "554d5a544507be804b6798ab53366480c52187bb9815d1200ebf71eeda7f472e",
+      "preview_sha256": "b0a35db3e52977c388fc8e6c803d5f4618b91b2ac7497b97215abdd6815ecec3",
+      "thumb_sha256": "a8c97abef73c94b2d6144174fe8dc8b081c0b3c9ac3f10a219a2ceb1fe8070fe",
+      "original_sha256": "554d5a544507be804b6798ab53366480c52187bb9815d1200ebf71eeda7f472e",
+      "width": 96,
+      "height": 96,
+      "preview_bytes": 5542,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/感想 [cn21_bilistamp_72805].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105568.png",
+      "bytes": 36823,
+      "sha256": "e11c0c027a95c3c62acf50abff02d76bca9a69e40faff678f4c6d7905b6774bb",
+      "preview_sha256": "4e4c83c834d124265e7b44ded31f2af083a997949ec45435aafbab60a12ad26e",
+      "thumb_sha256": "bddc3af2799376af1431b0a5e26c6a8c9dad8ddb575d700baabf4382c454e9d3",
+      "original_sha256": "e11c0c027a95c3c62acf50abff02d76bca9a69e40faff678f4c6d7905b6774bb",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9268,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/呜呜 [cn21_bilistamp_105568].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109741.gif",
+      "bytes": 142121,
+      "sha256": "0b5afe2b9d178c78c5ff0266e38e4f9a411ecf1f41691f20d2287acd647017af",
+      "preview_sha256": "2e6a5b26fedb9ef9ada4fb54c57f22918ce16f28b0f59abccd8a2596d6a9e2ec",
+      "thumb_sha256": "15cc4fb5d0e7ed50b94ada801a402e11e414bb749ff78bf4c6eff05dbcfea2b3",
+      "original_sha256": "0b5afe2b9d178c78c5ff0266e38e4f9a411ecf1f41691f20d2287acd647017af",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 53278,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109741.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 142121
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109730.gif",
+      "bytes": 140507,
+      "sha256": "ed6fcbca740ce02acbf5bc1a858fe75eb9b149484d637384afc3a2153e4e679e",
+      "preview_sha256": "5b38de46366a649e8e66b757ce0333e475742a45fc3ce28452421936d558126b",
+      "thumb_sha256": "5e742eae7423917d7214b41ca4413f9f4121b6ddeb0823add70e7155ad0785c8",
+      "original_sha256": "ed6fcbca740ce02acbf5bc1a858fe75eb9b149484d637384afc3a2153e4e679e",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 45496,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109730.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 140507
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109740.gif",
+      "bytes": 127849,
+      "sha256": "794a11bb76be9c7d018b82f88d52c192402ea7b785e0bc9b457ffa5943c1c6bd",
+      "preview_sha256": "86bd645c47915defcde7d7c143a66fa122651fea03daef2bc75b27ee5b9f5c11",
+      "thumb_sha256": "b231382dfea0b88018c7f57132f5132bac2350474cf5205ede6cb03658e6cb5a",
+      "original_sha256": "794a11bb76be9c7d018b82f88d52c192402ea7b785e0bc9b457ffa5943c1c6bd",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 45118,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109740.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 127849
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109745.gif",
+      "bytes": 81838,
+      "sha256": "433362f0caa407596f4c0081b79896ff4ea571c5cfba95caaa81095dab9d439c",
+      "preview_sha256": "4ca06e71b3b076a7a81221afa4c85025472465f40cb09234249b5d9f9f59bd3f",
+      "thumb_sha256": "2b23082a6f3200475c0521479149bd16ce613bb64197a713743a15998d6a91bc",
+      "original_sha256": "433362f0caa407596f4c0081b79896ff4ea571c5cfba95caaa81095dab9d439c",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 26822,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109745.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 81838
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109738.gif",
+      "bytes": 144578,
+      "sha256": "309716abc4f90d1010f2ce5b03fd7f6203990ea8057afbfbc05bdf2de4febe55",
+      "preview_sha256": "49ccf67f36a10e56ed99c5b9d3934d7c57df276d6d3dc48b3f85a1c68ae6254d",
+      "thumb_sha256": "ce64fbc38b030d23d58e7e1b334e0bfe05e5e2268a9c8815aed0007f19941a21",
+      "original_sha256": "309716abc4f90d1010f2ce5b03fd7f6203990ea8057afbfbc05bdf2de4febe55",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 52076,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109738.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 144578
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109742.gif",
+      "bytes": 145143,
+      "sha256": "0b4aa69ed14f8da60898a6bf93b4776c3726a73cd0b2b4a8dab0136d4ae6a43e",
+      "preview_sha256": "f7cfe09bc7aa5d457ed776d6fb42c5a40e01be85e9b6bca3c6653c211985fce9",
+      "thumb_sha256": "9f9714d78efab0c7fabb8f4e5f97b11f9ba1fa16ef0327704f4d06af04c51876",
+      "original_sha256": "0b4aa69ed14f8da60898a6bf93b4776c3726a73cd0b2b4a8dab0136d4ae6a43e",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 52260,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109742.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 145143
+      }
+    },
+    {
+      "file": "cn21_bilistamp_114896.png",
+      "bytes": 44380,
+      "sha256": "d0bede6a6528bc19a60572f0087ed37f160ffc2697092bf7caf731f73414cae2",
+      "preview_sha256": "2124d66251c02d1298cc210c69802922ebdcd0d95cf275112e680901ddee59df",
+      "thumb_sha256": "ca1be7c0c39848a3837d1e2f0e6973a032285685a5cd362edc2762f6ee88abf7",
+      "original_sha256": "d0bede6a6528bc19a60572f0087ed37f160ffc2697092bf7caf731f73414cae2",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9952,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/你这家伙 [cn21_bilistamp_114896].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_114914.png",
+      "bytes": 61467,
+      "sha256": "9620747c132101949ad829da411214562b112bc9f18f12e92ce7d856e282634a",
+      "preview_sha256": "1675ed12ae4522bd575e09b27d15e8acdc16280324bcf1bdc0895b8657a20f89",
+      "thumb_sha256": "0d78a7a1961434569e5a04d5db39c5fd96dfbf5cc62ecb97204f5f08360d7161",
+      "original_sha256": "9620747c132101949ad829da411214562b112bc9f18f12e92ce7d856e282634a",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 17700,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/冲呀 [cn21_bilistamp_114914].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_114907.png",
+      "bytes": 45303,
+      "sha256": "8803b2fb4248c1fe6f4be661c6d86121c46e38deed4db5dbeec975973ab1d91a",
+      "preview_sha256": "a846df2396f11c5090cdb0580ffe66fadd0079244a684042d80068a5a188d26a",
+      "thumb_sha256": "117891481c8af2fd430cd4a1a3f724198fcd37eddb19547c5db9c5338d818f12",
+      "original_sha256": "8803b2fb4248c1fe6f4be661c6d86121c46e38deed4db5dbeec975973ab1d91a",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11206,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/嗷呜！ [cn21_bilistamp_114907].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_114901.png",
+      "bytes": 44575,
+      "sha256": "21e1206a161fba316bf823a1547bf2a6857d60ca07919e8a26063a0ad13a6470",
+      "preview_sha256": "d13e7b4d3c32c4c588788d5b7c290b89e6d970de0253d29fcdc5edfce6dbe530",
+      "thumb_sha256": "bbf62f9068fbbd4261fe16e1286e7d4b854d488cc9ef6d165941c3931432b388",
+      "original_sha256": "21e1206a161fba316bf823a1547bf2a6857d60ca07919e8a26063a0ad13a6470",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9806,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/突然出现 [cn21_bilistamp_114901].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68486.png",
+      "bytes": 42797,
+      "sha256": "e003d55b06432e3f0e7491410141b7631ef7d7d2a8fcd38dfd115a047335a29b",
+      "preview_sha256": "48a313059653df21f80170cbecd485e37a0d2b5a0ccfb1eda027bfedc16bccef",
+      "thumb_sha256": "aa4bbf404de256ca5727ea58a4b215cbf405c218ba5d0cb3fd91dfdb6fc75fa1",
+      "original_sha256": "e003d55b06432e3f0e7491410141b7631ef7d7d2a8fcd38dfd115a047335a29b",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9820,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/多惠-震惊 [cn21_bilistamp_68486].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_115530.gif",
+      "bytes": 140604,
+      "sha256": "7308ec8346d15b8450ccc82f406f886df72d83ad172e119d5bc6f15bf647f293",
+      "preview_sha256": "7701c96d09d5304f6723fa056c21f5a4d24fed52884c138558a80a28a6f1bdbc",
+      "thumb_sha256": "61374554a1e9e16456ba9b81f2e293893030ae8013640acd37dbcf00f42110a2",
+      "original_sha256": "7308ec8346d15b8450ccc82f406f886df72d83ad172e119d5bc6f15bf647f293",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 56862,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_115530.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 140604
+      }
+    },
+    {
+      "file": "cn21_bilistamp_72803.png",
+      "bytes": 16517,
+      "sha256": "309ccae5b582f2db391c36a47efc7da7ac9f193b15cad2bf758f577c92d50f19",
+      "preview_sha256": "8e143e8372ba239c4485456ebfad2278d333e83ac7a3a402d3fdda4c6017c4d1",
+      "thumb_sha256": "4a5dd0b571d93b79aace3ef9b1d5f7a8b46316863a4da1340b7edc46c21f44a1",
+      "original_sha256": "309ccae5b582f2db391c36a47efc7da7ac9f193b15cad2bf758f577c92d50f19",
+      "width": 96,
+      "height": 96,
+      "preview_bytes": 4244,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/等一下 [cn21_bilistamp_72803].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_72806.png",
+      "bytes": 20690,
+      "sha256": "48691bae1fd2bd3234e4df212e38fadfe88e222e73f747814944a2108933fbfd",
+      "preview_sha256": "2c7a10ed996859697e5b91eacda3286481599c923b82bd93e9a30de15579ebe4",
+      "thumb_sha256": "af4726b4b7875d5061404261ff6771b3bce513ffb9a12b86b1d63e1d51b0c6f4",
+      "original_sha256": "48691bae1fd2bd3234e4df212e38fadfe88e222e73f747814944a2108933fbfd",
+      "width": 96,
+      "height": 96,
+      "preview_bytes": 5518,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/开心 [cn21_bilistamp_72806].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68517.png",
+      "bytes": 38088,
+      "sha256": "3c6186572fbcd50514c2b1687dce97adc7a4f1def2361736ddde98ecad30e478",
+      "preview_sha256": "dadc74456792c553b984921838acc12337ceed146e6a15171479b3df92be1f22",
+      "thumb_sha256": "2524e28b8a7b0a333e01f75c7ebd7f7fe5e136847ad7cc2b11a40d9e7e0e8eaf",
+      "original_sha256": "3c6186572fbcd50514c2b1687dce97adc7a4f1def2361736ddde98ecad30e478",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9436,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/MASKING-来了 [cn21_bilistamp_68517].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68518.png",
+      "bytes": 34907,
+      "sha256": "7144f09f123973b41f5efa8b6aac96b851666d877ca9684a0c04f50247cc64c6",
+      "preview_sha256": "9420c66ce315d07a8d8771714356b8c6af3ef4b384dda9bb9765ba1a9828303e",
+      "thumb_sha256": "73039a6986904a8b6d0c3f6965f68181bac4ad147fe3f1bf3c092bde27708265",
+      "original_sha256": "7144f09f123973b41f5efa8b6aac96b851666d877ca9684a0c04f50247cc64c6",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9520,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/PAREO-太好了 [cn21_bilistamp_68518].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68504.png",
+      "bytes": 39156,
+      "sha256": "ecc7842c0b5558b466d6a38a67c462549d881c43a68ba174c74c56d35756698c",
+      "preview_sha256": "593bf1769431a41bb08aae53d1e635a9942fe01908ac6cd17f70fd732b163355",
+      "thumb_sha256": "2f730b68cc0ef11791043020f07d6889c9ec74984d964ffa18666ada1c0414b8",
+      "original_sha256": "ecc7842c0b5558b466d6a38a67c462549d881c43a68ba174c74c56d35756698c",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8618,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/伊芙-比心 [cn21_bilistamp_68504].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68502.png",
+      "bytes": 20037,
+      "sha256": "5db374b1e4a4f7c41eb17559f922af2269308baa5c68f24a250eb87066da1d71",
+      "preview_sha256": "ef1191c5d6dd2713122a3f64fcd96d26cd982f2c1635e9de9cb0b4e3dd2158e4",
+      "thumb_sha256": "1d5e096d48f32c356a98f469e4deea1087dd51e81a1808690cdfd9ca3c48ffbf",
+      "original_sha256": "5db374b1e4a4f7c41eb17559f922af2269308baa5c68f24a250eb87066da1d71",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 4574,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/千圣-暗中观察 [cn21_bilistamp_68502].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68500.png",
+      "bytes": 35050,
+      "sha256": "7658e9ab34fe67abf4c18eea8f2d6c56112befba8417745120acbd58a5a898ca",
+      "preview_sha256": "e8c0c69dde901434357a12aea7a2466357414cf9f5af60bc426c6c2cece19bec",
+      "thumb_sha256": "6b15d5d10a3b6ac55f5dbaad76f38b14e5ea17042e270aa41230ff8af53058c0",
+      "original_sha256": "7658e9ab34fe67abf4c18eea8f2d6c56112befba8417745120acbd58a5a898ca",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8308,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/彩-躲藏 [cn21_bilistamp_68500].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68501.png",
+      "bytes": 39130,
+      "sha256": "d8c10a2baee242b533ff437b5659c18e9639bfbc8d58d5246f186fd6a7426b98",
+      "preview_sha256": "ea97fc030634fe1e2c0fdc734548147e55b8a63dd953261dd8160bcc55b53f90",
+      "thumb_sha256": "2b557e48543b169bfea41b49eb50162d869de8509b2417ca7f60e9f75b1ff143",
+      "original_sha256": "d8c10a2baee242b533ff437b5659c18e9639bfbc8d58d5246f186fd6a7426b98",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9416,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/日菜-挽留 [cn21_bilistamp_68501].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68498.png",
+      "bytes": 42379,
+      "sha256": "1e40327436aa55bb85437349cd1f69401a6e8f23ee7185e7df5b4bb4576d7c70",
+      "preview_sha256": "3e1050f8843cb2093efa21eb4686196136d5730e9d592d6cc8069890eac43dc8",
+      "thumb_sha256": "ddbb312571b102d9b560927e4258095adcaba5e012a7e6fbef1d4dd6db6cc8bb",
+      "original_sha256": "1e40327436aa55bb85437349cd1f69401a6e8f23ee7185e7df5b4bb4576d7c70",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10252,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/花音-害怕 [cn21_bilistamp_68498].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68496.png",
+      "bytes": 29701,
+      "sha256": "51539b6e97b8ed85e7aa2c209530c5617b8ecb9b04cc30d33a26a65de0cc803f",
+      "preview_sha256": "fcf95b82119393892fedc8985d0b9e243852c5f846734ac2031d7f1d9ae26bcf",
+      "thumb_sha256": "cfa3abbbb6573311e2c01505af7fb78dfdc3ece733abf58c1e19fbd263d39706",
+      "original_sha256": "51539b6e97b8ed85e7aa2c209530c5617b8ecb9b04cc30d33a26a65de0cc803f",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8518,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/薰-送花 [cn21_bilistamp_68496].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68487.png",
+      "bytes": 37613,
+      "sha256": "38c00db869f41c0d781f55fd6da93bc9b55c0d45b04cc1e1f83bc841231847d5",
+      "preview_sha256": "3459a4cc99b9d2758c8107ae82048d6fc14896ef6f0bd8fd4ca7c35c7e457377",
+      "thumb_sha256": "9f98b5ba0e07e0bd2c81a509db9872acca029930d20640ac0bdd27b63da46965",
+      "original_sha256": "38c00db869f41c0d781f55fd6da93bc9b55c0d45b04cc1e1f83bc841231847d5",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9704,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/里美-害羞 [cn21_bilistamp_68487].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68494.png",
+      "bytes": 36384,
+      "sha256": "5f44569580de1317798522895885f10ef6d69181386d7acf5c84e0e67c245530",
+      "preview_sha256": "b802e4d91f1e2f15b7c9230cd04a3971dfb59ecf252e72679bb7da6aac10bd11",
+      "thumb_sha256": "4f0d2bc5ff8f61a47dbe9a7019655a7ae68b2417c7380c2141ff2d0f69e62c55",
+      "original_sha256": "5f44569580de1317798522895885f10ef6d69181386d7acf5c84e0e67c245530",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9212,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/鸫-讨厌 [cn21_bilistamp_68494].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68503.png",
+      "bytes": 40468,
+      "sha256": "d4035294b01ca687e5afc46b46918c9c18bd9c2150fa6d9e56c2be79007f4a40",
+      "preview_sha256": "f37bc55de5ee1adf907bd65a92da1a7d131f24b40a5081f8ace2c5a72053758b",
+      "thumb_sha256": "b69def9a01ae728993c50f5beef709e120c99f35125993c88993f20d367d2292",
+      "original_sha256": "d4035294b01ca687e5afc46b46918c9c18bd9c2150fa6d9e56c2be79007f4a40",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9440,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/麻弥-紧张 [cn21_bilistamp_68503].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68493.png",
+      "bytes": 28297,
+      "sha256": "6a1f30314c80a08dfb786ef06b5cfdccf060be04fa0a472cbf2e52d37c6c7bf8",
+      "preview_sha256": "8310713be8ff15e10790a884e1a6335a6503a2ea8c9f49b4d367dd1d6513da2f",
+      "thumb_sha256": "8dfb8589743c8c9f989d8f5ad07e4c41b69a7d0ae05efadc59b1b7cc0e85c567",
+      "original_sha256": "6a1f30314c80a08dfb786ef06b5cfdccf060be04fa0a472cbf2e52d37c6c7bf8",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 7562,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/巴-尴尬 [cn21_bilistamp_68493].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68491.png",
+      "bytes": 40061,
+      "sha256": "b5fc437ad4d3f9587e9e6e5251ff1c659a4bc24e4a7045be6e426905553e3931",
+      "preview_sha256": "8353ac842b97fdd0d8a290773a84ec897f328843ea177e143f9809df74616223",
+      "thumb_sha256": "cf0ee06d829be4e46d786fe9f3e900731943273faafb5b4739bf7586100c4d90",
+      "original_sha256": "b5fc437ad4d3f9587e9e6e5251ff1c659a4bc24e4a7045be6e426905553e3931",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8934,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/摩卡-满足 [cn21_bilistamp_68491].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68488.png",
+      "bytes": 44963,
+      "sha256": "58563458dce6b48e7771df17b28a0702fd2632bc0b25a0d54c47e41fe5971dd4",
+      "preview_sha256": "28c00e85ae1acd19a27dd384684e959c9fa68e0c3339a98e26d0fcbab391c492",
+      "thumb_sha256": "3e23a785e10e6eee2355f2d513131c774485029626a21bdacbf9ea2475fc1e4a",
+      "original_sha256": "58563458dce6b48e7771df17b28a0702fd2632bc0b25a0d54c47e41fe5971dd4",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10828,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/沙绫-没问题 [cn21_bilistamp_68488].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68499.png",
+      "bytes": 30514,
+      "sha256": "9e7d44c14c62a4cd64ff134931cae48bf4ac1040d12eb85ab2a94aea9e81288b",
+      "preview_sha256": "33830c8aff0538ed32b2ee49d15ce6b869763fd055425c562d2838b3b4b18eb0",
+      "thumb_sha256": "32c18be7296e3a8f97748ab1ae758deb33cfef6e63bebfea79c2d24b1b2e85af",
+      "original_sha256": "9e7d44c14c62a4cd64ff134931cae48bf4ac1040d12eb85ab2a94aea9e81288b",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8236,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/米歇尔-DJ [cn21_bilistamp_68499].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68497.png",
+      "bytes": 36438,
+      "sha256": "c510c31d90bc5ecde55756133c996619e44e836961dc0dc88083eb383c45a772",
+      "preview_sha256": "673b2ea3a0c8d5edba3d8446fa72c39fc185f771663a308aa7811c3548d51ff2",
+      "thumb_sha256": "b174a051bfe4e68469e73362bd04877cf7e85ea3871b987bd3135739651c607e",
+      "original_sha256": "c510c31d90bc5ecde55756133c996619e44e836961dc0dc88083eb383c45a772",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9640,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/育美-高兴 [cn21_bilistamp_68497].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_72804.png",
+      "bytes": 24067,
+      "sha256": "be237faa9d1df5476c573a2ffb4c0a16bc2fa242dcbd664eb7eeaac68c9d7448",
+      "preview_sha256": "d15507dcadb7ca990c98dbe04f89d1f6bd50f0de40bf136807c61b814d6693c6",
+      "thumb_sha256": "836743ea3a8c7b216e7a3d7d929f2331e35751b756bb0600d8823cee7ace3c63",
+      "original_sha256": "be237faa9d1df5476c573a2ffb4c0a16bc2fa242dcbd664eb7eeaac68c9d7448",
+      "width": 96,
+      "height": 96,
+      "preview_bytes": 6674,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/期待 [cn21_bilistamp_72804].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_72802.png",
+      "bytes": 22437,
+      "sha256": "1c0a199d4bbeb8cd962a236976d70fa01f419775c431011864bf1aa5db63b424",
+      "preview_sha256": "6ac38ae4a299a1fbd119a2e03385757d7dcf3838a24f9989b451eecd0a36d540",
+      "thumb_sha256": "87ca40af146d41d4398852618d8c81eec3f61a3b6882727dbb9219d5b39a1675",
+      "original_sha256": "1c0a199d4bbeb8cd962a236976d70fa01f419775c431011864bf1aa5db63b424",
+      "width": 96,
+      "height": 96,
+      "preview_bytes": 6092,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/派对 [cn21_bilistamp_72802].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110181.png",
+      "bytes": 46033,
+      "sha256": "8af960af55daf8149cf3a3e2eb37b8057a98e2374d2f852f986ab8f656735655",
+      "preview_sha256": "8b9d7611744372dc8e7bb36c67099354e49ac37dad7f906b9fce1b77c1b2bd1f",
+      "thumb_sha256": "8d5cc3de77d8c628537a4a3ae070025fc6963456f9cdb988da9b7c53f7fc4f29",
+      "original_sha256": "8af960af55daf8149cf3a3e2eb37b8057a98e2374d2f852f986ab8f656735655",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12208,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/星星眼 [cn21_bilistamp_110181].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79048.png",
+      "bytes": 42369,
+      "sha256": "6b26450d2052927f90d7a255da57bd2e6fce66927a119b5fc790cdabe9479269",
+      "preview_sha256": "fe24d5df8a235ca974d374e2b91451069bfb56d7e2c1a22f20a666470271f1d1",
+      "thumb_sha256": "a1c889f02a3ce63e6fff37950adb3cbe59774d55ea0a09bef1ee91b50ec74927",
+      "original_sha256": "6b26450d2052927f90d7a255da57bd2e6fce66927a119b5fc790cdabe9479269",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9850,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/创作中 [cn21_bilistamp_79048].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79050.png",
+      "bytes": 45194,
+      "sha256": "5b65a0b587c554bdbd69597459ff44cf5454a1c547ef041876873fc058463667",
+      "preview_sha256": "55ed1a350fba8121bfa65a7adb01a17c0e5958c83affaf503dd0fe95c0f93ce7",
+      "thumb_sha256": "6c25d97c8bdb9f146f02df2813d53cf2526ae49526d8787339cfc0a429b2abc3",
+      "original_sha256": "5b65a0b587c554bdbd69597459ff44cf5454a1c547ef041876873fc058463667",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11510,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/为什么！ [cn21_bilistamp_79050].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79056.png",
+      "bytes": 40764,
+      "sha256": "69bec53ef393897d230733d901d8ac641c7af873f70397dd8e1b0c5785c698ae",
+      "preview_sha256": "b30d92c4cc16d10a5e7132c05b0d71efa8cd04db4866d669ca5e75af3084c724",
+      "thumb_sha256": "3468886e4f53877be28c012f0ced710656a2ea143e1d5c44e9689a7be91deffd",
+      "original_sha256": "69bec53ef393897d230733d901d8ac641c7af873f70397dd8e1b0c5785c698ae",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9092,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/有趣的女人 [cn21_bilistamp_79056].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_120940.png",
+      "bytes": 35487,
+      "sha256": "54c6734e6d3259d079db96db67a71b2ce835899b122c5fc718e17448f33349fa",
+      "preview_sha256": "e6cd7cf761d4e8bc25725dcc8375dbbad0c90910e4e2ab8946ac78b9a1dedad5",
+      "thumb_sha256": "c3e5698a605d0bd7030222b060895582e490df873996bea214ca3b70232f16fe",
+      "original_sha256": "54c6734e6d3259d079db96db67a71b2ce835899b122c5fc718e17448f33349fa",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9432,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/哈？！ [cn21_bilistamp_120940].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_108784.png",
+      "bytes": 32758,
+      "sha256": "ae2567d1b694f182aef16937b93246f7f9c42758d6f79381a1f245143062c505",
+      "preview_sha256": "62a0b466199b817a45bef7712feef086142c5519ffd9a030f9e7082855b9eb9e",
+      "thumb_sha256": "682dfece6a617045c4a1b8d6cda51d7fa9f265ab20904af6bddac367f07d049d",
+      "original_sha256": "ae2567d1b694f182aef16937b93246f7f9c42758d6f79381a1f245143062c505",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9126,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/震惊 [cn21_bilistamp_108784].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_108782.png",
+      "bytes": 34918,
+      "sha256": "b47f6146591c096842c6a5d941dd6c14e6ef5be4412d7f996e10b820e0cf0ab7",
+      "preview_sha256": "61b4c47e92132b5fdc6d9cdc3977e303e5e0e3d744bb9720e39c26deb4f16164",
+      "thumb_sha256": "ce116fea410ad089b3956c620ab826dff7725f7f5eb223168fb701b9142bad78",
+      "original_sha256": "b47f6146591c096842c6a5d941dd6c14e6ef5be4412d7f996e10b820e0cf0ab7",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9746,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/挺好 [cn21_bilistamp_108782].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_108801.png",
+      "bytes": 46060,
+      "sha256": "51763744f06908381148eb4ebd6c57f46e65eaea97dde5e9944bf58d66d88bed",
+      "preview_sha256": "680b2e5312765dd57722a4115f4c0a0be1ac2c819a7e8d0e61922309c5b0cbe5",
+      "thumb_sha256": "30c7f2e8e01a38c22731b4614e7731bba89376959343fa33f9af6b7c98285cdc",
+      "original_sha256": "51763744f06908381148eb4ebd6c57f46e65eaea97dde5e9944bf58d66d88bed",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11682,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/愉快 [cn21_bilistamp_108801].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_144700.png",
+      "bytes": 32789,
+      "sha256": "24ab042ace601cbd83354bbb361abce3ac869ebb73c4888f4432138bd30e9f0b",
+      "preview_sha256": "ff6a89ccbfa31c6096b62fddfab0347f22ee358fc5c0bf3fee757b28988c9dea",
+      "thumb_sha256": "0dd8a1417d461907ffb5b89af3dc0a05b3e7113259f71ec23749c27338d1e39a",
+      "original_sha256": "24ab042ace601cbd83354bbb361abce3ac869ebb73c4888f4432138bd30e9f0b",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12206,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/吓 [cn21_bilistamp_144700].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105566.png",
+      "bytes": 40629,
+      "sha256": "2b079c1077ec88932ad566b56da50b92a0cd50e0bdf6362d929deea428966b7f",
+      "preview_sha256": "9746bdb9311f8df7bafefabfa6c920cfe9226059e013bdb3981e55ce160639fd",
+      "thumb_sha256": "3e852dd7c1a10a673f9902b7754349e6b0c5351b83d6c97ca3564d79f4c5be64",
+      "original_sha256": "2b079c1077ec88932ad566b56da50b92a0cd50e0bdf6362d929deea428966b7f",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11888,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/呵 [cn21_bilistamp_105566].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_115532.gif",
+      "bytes": 137696,
+      "sha256": "6c275239b3cbfc8222cb05e057024a681b65781b29bc05237e80f8e0a6c2ddb9",
+      "preview_sha256": "da2610f15c116c65787331d030d7b83e6f120f2a944341274b4d461dc774a45a",
+      "thumb_sha256": "a0f989a2431d991ad21612b68fc88287e47f37d1785a38b6f1f80982e018adb5",
+      "original_sha256": "6c275239b3cbfc8222cb05e057024a681b65781b29bc05237e80f8e0a6c2ddb9",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 48826,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_115532.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 137696
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105558.png",
+      "bytes": 46384,
+      "sha256": "6d1cd8721f2389056374893b52f53fe25bad456a4de2cb1c8cc34decf6633bc9",
+      "preview_sha256": "ade60d47743fd69582b0e476c137ddee87b5b209380d1832b0ba1ab267da56d0",
+      "thumb_sha256": "a69fcd6ad192ba23182c63442e78755a27632098394c6f9ba0dda01d2d05da1b",
+      "original_sha256": "6d1cd8721f2389056374893b52f53fe25bad456a4de2cb1c8cc34decf6633bc9",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12856,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/啊？ [cn21_bilistamp_105558].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68489.png",
+      "bytes": 40283,
+      "sha256": "18d2b8f2e718d9199136718008cc09761092a433422bd11956ec59ec12c31e4e",
+      "preview_sha256": "48e2ff48e3f442fe8f47e510c87667c48053baf82d41c68f8bf653730376e973",
+      "thumb_sha256": "416273dbcc0c448d7627388de6232d17c787bf15748dfe3d9f3647f8b936f4e0",
+      "original_sha256": "18d2b8f2e718d9199136718008cc09761092a433422bd11956ec59ec12c31e4e",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11382,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/有咲-汗 [cn21_bilistamp_68489].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_120952.png",
+      "bytes": 33309,
+      "sha256": "7f378a9b1bd7c4f6a522bdc9096396fbaa5e1b099ff88b364cfc3216515f8249",
+      "preview_sha256": "e714b42bb48520039a05f57c25fe9b4f67ca125d08dec69548544cb9e0b7a4a4",
+      "thumb_sha256": "3410482d1cd6ea0eb3999f9dbac486b769a630bfce05e9935f8c2c452611cbea",
+      "original_sha256": "7f378a9b1bd7c4f6a522bdc9096396fbaa5e1b099ff88b364cfc3216515f8249",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9584,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/Y [cn21_bilistamp_120952].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_120954.png",
+      "bytes": 35008,
+      "sha256": "f5ad7586224101efd6277be1c5bb0bbb22e84f7960960b07ec4794737f116883",
+      "preview_sha256": "964e05d3d048c857d841d550e289bf13fbeff27c817582a5992cb747ef7d6ec1",
+      "thumb_sha256": "309c375b59919815ab6216a583ca9956819655a7581258bcf20f17652bfdc776",
+      "original_sha256": "f5ad7586224101efd6277be1c5bb0bbb22e84f7960960b07ec4794737f116883",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10368,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/O [cn21_bilistamp_120954].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_128925.png",
+      "bytes": 42031,
+      "sha256": "6576d32c01b869eccb432f4b690438b83ac89a7afd9122375954aace3fed92ee",
+      "preview_sha256": "b28ee93c8beab674f25a882c2ef58d0eb362468dfa1ca320aad4359e5d4c1645",
+      "thumb_sha256": "643e814693fa50b2a7989ecf735168402732909e2398701e704b1a19899c4f38",
+      "original_sha256": "6576d32c01b869eccb432f4b690438b83ac89a7afd9122375954aace3fed92ee",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12064,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/害羞 [cn21_bilistamp_128925].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_128924.png",
+      "bytes": 41985,
+      "sha256": "709a56c1ada97eca0521ff0b765bb3863d43cbe9faa6d93d97827e4b22d96c38",
+      "preview_sha256": "8e0ebc35697be14c6dd05ec10ecb001c8b33d737ceb2a40d6645b9d2343d06c5",
+      "thumb_sha256": "42831ac5642098cf67ccfbeef4a2b06cf690ddb5fe328d7f62d9957d3d6cf2fe",
+      "original_sha256": "709a56c1ada97eca0521ff0b765bb3863d43cbe9faa6d93d97827e4b22d96c38",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12012,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/小祥 [cn21_bilistamp_128924].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_113301.png",
+      "bytes": 36236,
+      "sha256": "5f3fb8a6b3f79a52d44976f8bb7c08b1183e8eee3cf5d4f694c8bd3b8b8f7089",
+      "preview_sha256": "f5ae71b8c9fb5d1174d6d55c22cb8c24b97a25ed4a096e0f666de4623ddff862",
+      "thumb_sha256": "6a39263228f629a28d67290d42cbeda15be6c57801cd001e78e6b2e5d44160d2",
+      "original_sha256": "5f3fb8a6b3f79a52d44976f8bb7c08b1183e8eee3cf5d4f694c8bd3b8b8f7089",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8956,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/悄悄话 [cn21_bilistamp_113301].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_143285.png",
+      "bytes": 37982,
+      "sha256": "e081f093c80ae15e4fb656dcee111175cb7fdedb96585ee1d84f929b70e7468f",
+      "preview_sha256": "184ce7aa09ee28384f98a2c911342a4a05722b7d0ea2da1875c5932e9b57c39c",
+      "thumb_sha256": "b755e56cf9d1d199bd3c0d540e3f6f334418512903f6a2123623f6ce12dea5c7",
+      "original_sha256": "e081f093c80ae15e4fb656dcee111175cb7fdedb96585ee1d84f929b70e7468f",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8738,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/乖巧 [cn21_bilistamp_143285].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79038.png",
+      "bytes": 30198,
+      "sha256": "720b30126dccdf9311be841a42cfa1c99633538ec5ec37f42053e2db05dba7f3",
+      "preview_sha256": "0a8536018900f434d3625dba8b3b43038de5114042ad7c83f6b37c1ed54b56a8",
+      "thumb_sha256": "2cffef0f146cb4a9c37a6c0d8f1d6c39f40a98b148bd8554fbb3077e3c6794c4",
+      "original_sha256": "720b30126dccdf9311be841a42cfa1c99633538ec5ec37f42053e2db05dba7f3",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8136,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/害羞 [cn21_bilistamp_79038].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_115531.gif",
+      "bytes": 150427,
+      "sha256": "6e98a21b76b10938cfaa4a6c38a3aad984d8763e15b5c6bee8d08c54c732756f",
+      "preview_sha256": "0cebc9cd09e0a1ca831762467f807b60557d350bb772d18c509f77284f99982b",
+      "thumb_sha256": "d52eb3fe1fe70faa928b2ef8fa4a720bfc9b8419fe5d2d1f7f039596a350aacc",
+      "original_sha256": "6e98a21b76b10938cfaa4a6c38a3aad984d8763e15b5c6bee8d08c54c732756f",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 50254,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_115531.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 150427
+      }
+    },
+    {
+      "file": "cn21_bilistamp_82708.gif",
+      "bytes": 147663,
+      "sha256": "970d8cda0e59b704703b5842faede96ca2ea9957866c8698ac5907097d9b3593",
+      "preview_sha256": "e73933e55ed9a1631b126932dac9379989e50ce999c262bc4a61649eb9ae2118",
+      "thumb_sha256": "ea3b9ff962de96f2c53f5d44caf887e462c95cb1f762ffe3158ede3c12d66a80",
+      "original_sha256": "970d8cda0e59b704703b5842faede96ca2ea9957866c8698ac5907097d9b3593",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 47850,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_82708.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 147663
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110171.png",
+      "bytes": 45251,
+      "sha256": "75b6441318accfef5bc487db20933e47146c5c85f54bc2064000b036797cbbc0",
+      "preview_sha256": "e517878538395699f08720e743fafc3643d26f520efe9b4b6c3b784ce386fb56",
+      "thumb_sha256": "732df5e4db822e38c26bb2f0c566626f47147d6f8356c67846822119f41d65d4",
+      "original_sha256": "75b6441318accfef5bc487db20933e47146c5c85f54bc2064000b036797cbbc0",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11396,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/哭哭 [cn21_bilistamp_110171].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79054.png",
+      "bytes": 39321,
+      "sha256": "4ff5fe91e9120b3541b28415e7c811f9d00738b32f0a10e1576db7aebea05e01",
+      "preview_sha256": "b198ab5dae90d7d0c5d7a28d1f5f6bb28d7ed24d283b4c0dd8f8fb3b1cbd4b19",
+      "thumb_sha256": "5e58b587edbcf34d3ed136e445662576a9d439dc4b0a15dadebeb61708175c95",
+      "original_sha256": "4ff5fe91e9120b3541b28415e7c811f9d00738b32f0a10e1576db7aebea05e01",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10588,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/不会吧？ [cn21_bilistamp_79054].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_120949.png",
+      "bytes": 36108,
+      "sha256": "d6080fd1f617afbf56e48f0ec62e598c1ec4e216375aa37b0f63876d9a35ff42",
+      "preview_sha256": "07f024851f7c4d8ebdbfc70048362673cfafa71526a41f218e72de235702fde4",
+      "thumb_sha256": "b79d0637a54261be61a003c7bd06e89e993ec46a643e761c40ed32875e0d9b60",
+      "original_sha256": "d6080fd1f617afbf56e48f0ec62e598c1ec4e216375aa37b0f63876d9a35ff42",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9846,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/认真 [cn21_bilistamp_120949].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_120947.png",
+      "bytes": 23082,
+      "sha256": "13cc8967ebd150e412f6e6a311f8a86d79bf857b4a36c0fbca30871c6ce54c1c",
+      "preview_sha256": "6517a0de2e178a0e1a8213eed7b413ee62d38e043a64adaa314a7eba3f8970fb",
+      "thumb_sha256": "e27f798a230d9602480cd603e45a72acc3a0fd775f0a25bb9d28e4b1def30012",
+      "original_sha256": "13cc8967ebd150e412f6e6a311f8a86d79bf857b4a36c0fbca30871c6ce54c1c",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 6058,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/迷茫 [cn21_bilistamp_120947].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110371.gif",
+      "bytes": 139504,
+      "sha256": "a9e6ea8b92b7c499b33c6af5cffc1e76d50474184a971d7b9516895d592de12d",
+      "preview_sha256": "6d9e3ff16527ed66fa56856054c396f1698e895831d46d360057159a9a34c54e",
+      "thumb_sha256": "bde0285141f971f8242cd38c241b64f497b54a45d69dc4dc43b176042b173bb9",
+      "original_sha256": "a9e6ea8b92b7c499b33c6af5cffc1e76d50474184a971d7b9516895d592de12d",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 32872,
+      "frames": 8,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_110371.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 139504
+      }
+    },
+    {
+      "file": "cn21_bilistamp_82709.gif",
+      "bytes": 144067,
+      "sha256": "235c9f33a5669cf5a9a04595fa5b2bb11162bea902a2dc9a94754ede6976917a",
+      "preview_sha256": "1b759b3c04a7736a276b1fbe1fbf2d4bdd0bd8ef6bbe71a22625a778c15225ef",
+      "thumb_sha256": "2a4c66b9bc0d9f3aa5380bf96cf1932ece0e7f2c8efae008e20d002cb71f776e",
+      "original_sha256": "235c9f33a5669cf5a9a04595fa5b2bb11162bea902a2dc9a94754ede6976917a",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 35344,
+      "frames": 10,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_82709.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 144067
+      }
+    },
+    {
+      "file": "cn21_bilistamp_130842.png",
+      "bytes": 39710,
+      "sha256": "fa3d857aeab23051c019b4c3bae6cf4cacc153f7a0d62db2d3106f3733f52baa",
+      "preview_sha256": "c3972f83bf8b1def2eeb5c6a9ce31f41416b2cc146c9647213652f069cde639b",
+      "thumb_sha256": "41cc7ab2ecb61780daf1a94827128842e64891d0925f18649149125c810bdbd0",
+      "original_sha256": "fa3d857aeab23051c019b4c3bae6cf4cacc153f7a0d62db2d3106f3733f52baa",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11576,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/好耶 [cn21_bilistamp_130842].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68505.png",
+      "bytes": 38858,
+      "sha256": "22a7d70584b6dc10906aa61d113d16d2d2dad1547941f055795ca73ed67ca32b",
+      "preview_sha256": "695bd742aa6b187f951dcaaf2d9cb9b9548cc73fc02ba553c4b61b94dad1d872",
+      "thumb_sha256": "24dccb047d6569243ba54d93abb90da574af0b84ce0505c6b7f726b479bf33a2",
+      "original_sha256": "22a7d70584b6dc10906aa61d113d16d2d2dad1547941f055795ca73ed67ca32b",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9562,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/友希那-满足 [cn21_bilistamp_68505].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68506.png",
+      "bytes": 43694,
+      "sha256": "a46ccd1a5082e5d5973851db3ea8b2ed4cce52993a4a1e68b12d1fad263fdedb",
+      "preview_sha256": "e941d629fc2a7b05d29bd272e7dc4920806a8b0c06a75443ad51feabfa3475cf",
+      "thumb_sha256": "fc3f0ea5f37c4d3c81be4cabd24309813470791eec3dd9ec98962946f9945ae7",
+      "original_sha256": "a46ccd1a5082e5d5973851db3ea8b2ed4cce52993a4a1e68b12d1fad263fdedb",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 9352,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/纱夜-不高兴 [cn21_bilistamp_68506].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68508.png",
+      "bytes": 39630,
+      "sha256": "6e458a7d6c252a23fef1f7b7e3f7fdbf7c243dadb9b3452ff9b21a8da2e271a1",
+      "preview_sha256": "63dac17bb9dcf5be384f00993b365c072463a9a1336523b736294f046db2d586",
+      "thumb_sha256": "1e6e9147c6c4414906a3a6a33b58fe8e781844071cf0ef4049f18055559e145a",
+      "original_sha256": "6e458a7d6c252a23fef1f7b7e3f7fdbf7c243dadb9b3452ff9b21a8da2e271a1",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8922,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/亚子-打call [cn21_bilistamp_68508].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110186.png",
+      "bytes": 44001,
+      "sha256": "458f7879e913da964d3883a22f25b5bde383ad4a73944a6a4ff3e25087c06ea5",
+      "preview_sha256": "3871b43139b8a2669f31242ca57b13a923312ec7586199b121781c54e99fc14b",
+      "thumb_sha256": "0b3f2c5d1bf76abc115fe35f6e05013a53d0091392f919dc0ffff85e5ec037a5",
+      "original_sha256": "458f7879e913da964d3883a22f25b5bde383ad4a73944a6a4ff3e25087c06ea5",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 11184,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/可以！ [cn21_bilistamp_110186].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_110183.png",
+      "bytes": 32486,
+      "sha256": "2f7d437d172c05c90bd0aba3416633efdcfb9a92b5b482235ae6fe9da33c75a0",
+      "preview_sha256": "a7ca2d819f7893d87bfaad0e9bc2e78f4ccd04e4887c4c27a2d15f38953d8a5b",
+      "thumb_sha256": "958b30df4c3ff4566a6d0651351c4459c4bb6490565c87f89230f84f8f497b43",
+      "original_sha256": "2f7d437d172c05c90bd0aba3416633efdcfb9a92b5b482235ae6fe9da33c75a0",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8366,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/无语了 [cn21_bilistamp_110183].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_105581.png",
+      "bytes": 43530,
+      "sha256": "b477835040de15ae7198f676bc05dafa9bc37b82d606078f8d3813e1eaebb277",
+      "preview_sha256": "dd24913e0914eef7870f55db1aa0c168231775914fb007af774546c02982f57b",
+      "thumb_sha256": "04a4d461ae336c3e65a735f68f1a8141419d280109b1341600213165ee9724d1",
+      "original_sha256": "b477835040de15ae7198f676bc05dafa9bc37b82d606078f8d3813e1eaebb277",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 12128,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/干嘛 [cn21_bilistamp_105581].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_109739.gif",
+      "bytes": 151463,
+      "sha256": "ebb1ec9484a22ebe073072a53388e8a1004951e89071d8f38ed7806de20131a1",
+      "preview_sha256": "30073945c8eabe2a996a36399d6953f7694d3d1b244ec820762a69c8ba97fe43",
+      "thumb_sha256": "d3665b481e2293d77bbcdb5cac31c165074fffb605c57cf3e797aa6f4737b4c6",
+      "original_sha256": "ebb1ec9484a22ebe073072a53388e8a1004951e89071d8f38ed7806de20131a1",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 53680,
+      "frames": 9,
+      "gifInfo": {
+        "path": "gifs/cn21_bilistamp_109739.gif",
+        "width": 162,
+        "height": 162,
+        "bytes": 151463
+      }
+    },
+    {
+      "file": "cn21_bilistamp_68521.png",
+      "bytes": 43099,
+      "sha256": "e31cd0c27be3ad2ed31eda5fc44f8a0fee45495193f8d659276d4ef5b93a91ab",
+      "preview_sha256": "96957bdb76d081ec18ae8d76fa2d10a2946fa7c82fc28f1294f0064b9cd933e9",
+      "thumb_sha256": "6c890c4a079f42c33958ef53293b21a2bcf862e997226cb3e8e1744985d53c4a",
+      "original_sha256": "e31cd0c27be3ad2ed31eda5fc44f8a0fee45495193f8d659276d4ef5b93a91ab",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10160,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/爱音-不解 [cn21_bilistamp_68521].png"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_79052.png",
+      "bytes": 33683,
+      "sha256": "11ba8b925fbaba57082e0a6007f6a435d888129e42a41970931fc155a0d79d0b",
+      "preview_sha256": "add357bf993c13dba73433c03215bcd604cb85351e12ccb748c522edaf392dcd",
+      "thumb_sha256": "ad0d8d75f0fa4e0d36f7e7f2cfd43c00899cb4e96fd399ba73fa10b86473aea0",
+      "original_sha256": "11ba8b925fbaba57082e0a6007f6a435d888129e42a41970931fc155a0d79d0b",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 8642,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/哈？ [cn21_bilistamp_79052].png"
+      }
+    },
+    {
+      "file": "cn21_fansrc_e15312ed13b63511.jpg",
+      "bytes": 135157,
+      "sha256": "a89a2b5f49d37185be31e4714413f14d625d66c098aa7529a00e3f3d5c541a36",
+      "preview_sha256": "029c7aacc2e902debbc7ae48f38e1d0ab4f3b64a08c20cd35b65fe7e1fef8b5c",
+      "thumb_sha256": "e2cebf7b14de6f606c9f89388253be361f9cf3d923d5cfea4a39b37dee3a244a",
+      "original_sha256": "a89a2b5f49d37185be31e4714413f14d625d66c098aa7529a00e3f3d5c541a36",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 94472,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/一听到「168 亿」，大家都看向了爽世 [cn21_fansrc_e15312ed13b63511].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_e76cd11774147ba6.jpg",
+      "bytes": 111736,
+      "sha256": "750b7ffe43356d704d42090d4f32c56c8bd0e6b94cebeb3881687855cd1e6f91",
+      "preview_sha256": "19e5818890f2cd2eba38ee84f96320aef9f8d6ea943af0059111ef797b3b7655",
+      "thumb_sha256": "254c4e1fb9ae83bfb789254eaef5d3062d5c5f1b4f3459bb0ff5755340dc7a93",
+      "original_sha256": "750b7ffe43356d704d42090d4f32c56c8bd0e6b94cebeb3881687855cd1e6f91",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 74012,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/CRYCHIC 已经不存在了 [cn21_fansrc_e76cd11774147ba6].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_39eb39c75b6e159e.jpg",
+      "bytes": 97887,
+      "sha256": "3c444d607259ab49c27b1c7bf4ba72b30254f41c5539551d8338aba066a649d7",
+      "preview_sha256": "6fe0c1c25437440c82569aa4f590084d028d94b64d8ce5c15c2d623fe6834d5d",
+      "thumb_sha256": "3e91edeac2ce91d8a55f1d205cbbaa4ec204293d39d349d57b903ccd90186d3b",
+      "original_sha256": "3c444d607259ab49c27b1c7bf4ba72b30254f41c5539551d8338aba066a649d7",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 60758,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/GO，等一下！ [cn21_fansrc_39eb39c75b6e159e].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_ca9499df176f4f0b.jpg",
+      "bytes": 42038,
+      "sha256": "94143b01e5657e0179ada22fe4f1d719d97c280b6d63ecdc32a7f0fe614ee669",
+      "preview_sha256": "8cd6a3fca3db9bd0ea46e1f84460819171f1538f09cf38973f3f0dc2a63a8888",
+      "thumb_sha256": "f940a98d357332e3d70e351dc76df2f813aab1d83a9fe8626418f4ca370c73ff",
+      "original_sha256": "94143b01e5657e0179ada22fe4f1d719d97c280b6d63ecdc32a7f0fe614ee669",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 20196,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/Mortis 的眼神突然变了 [cn21_fansrc_ca9499df176f4f0b].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_30129c1307a6730d.jpg",
+      "bytes": 89927,
+      "sha256": "d8a2ee8b532fc972707958c4f2b3c35886ba5fc3c5056972c7792afb180ade3e",
+      "preview_sha256": "109a9ff6f5800de98ceb5cf38b1ea598a46b3d85666f2dfe03fb0df006f0c395",
+      "thumb_sha256": "f77699df691376fe3a139dcb50fa42d62ee23e4376d784d5175af0d19048534c",
+      "original_sha256": "d8a2ee8b532fc972707958c4f2b3c35886ba5fc3c5056972c7792afb180ade3e",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 53318,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/初华咬牙的表情 [cn21_fansrc_30129c1307a6730d].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_200fd5be972a1aed.jpg",
+      "bytes": 69245,
+      "sha256": "14e9952eb9f4a07e538bf890f3e5b4221831f2c6e5fd4a5e23929cc6e15658f2",
+      "preview_sha256": "e1234d6c0f76d2293f9ef25efbd15134bc52a74eb7bdd191eec9aa612d17479f",
+      "thumb_sha256": "43efa37b9f87ea6e6e27627d5a38f37eef64f36a6b75b0773f45f87b41381bff",
+      "original_sha256": "14e9952eb9f4a07e538bf890f3e5b4221831f2c6e5fd4a5e23929cc6e15658f2",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 39286,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/祥子在雨中摔了个跟头 [cn21_fansrc_200fd5be972a1aed].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_4281de998a6c3bb9.jpg",
+      "bytes": 112594,
+      "sha256": "6bd201364531e6911b8219b76ea384b41adfd25b7c5e3e61cd97f5b1363b7161",
+      "preview_sha256": "9706d64873411ef32f11d5d82ec4420710eb24db915e0a9f09c3a229bd526f07",
+      "thumb_sha256": "a60a27443e760f6ff6487dde865fbaf89c3507191dedeaa115569a02515c55f9",
+      "original_sha256": "6bd201364531e6911b8219b76ea384b41adfd25b7c5e3e61cd97f5b1363b7161",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 69768,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/够了，够了，够了 [cn21_fansrc_4281de998a6c3bb9].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_d338ff91ce03381d.jpg",
+      "bytes": 111473,
+      "sha256": "676175eaa8889ce5b3fde02efa000d8fe61dff2286553bd40d2993a6fd29c754",
+      "preview_sha256": "6ae5a78446fb993abf04afc7499a1f48d6e3afb34d3929bb5490ff1bb6d045a2",
+      "thumb_sha256": "3354836c3cd42f1045792f661f3bb5511c43815589da5abff782ceb9b8e7513b",
+      "original_sha256": "676175eaa8889ce5b3fde02efa000d8fe61dff2286553bd40d2993a6fd29c754",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 71112,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/你的愿望实现了，觉得幸福吗 [cn21_fansrc_d338ff91ce03381d].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_0dbe223d8e648493.jpg",
+      "bytes": 111336,
+      "sha256": "ec03f69ae08a2c196e7d1045a08e108397c3563e8eca01332c933770db2df6ba",
+      "preview_sha256": "3fbb7c223b692060cf93dbd37b33208a0f65939990d15233fac6c75de98a3964",
+      "thumb_sha256": "74858071c0a6284ed3ee43fd6d3fa15ee4bef2a5548fe5a3c0d9799b784154dc",
+      "original_sha256": "ec03f69ae08a2c196e7d1045a08e108397c3563e8eca01332c933770db2df6ba",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 72346,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/我完全没发现是她呢 [cn21_fansrc_0dbe223d8e648493].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_0b3384f754926346.jpg",
+      "bytes": 90155,
+      "sha256": "6c575a4c0bc23ab33c7cc0423859dae75f4be91d57f11877351e0bb5e7d8065e",
+      "preview_sha256": "6bcf07d7d9df97906c02287f2c884f4e44a754288dd965ce990e328c3f6e1025",
+      "thumb_sha256": "d97030c754e9f2a89921bc41bb03eea1bc9dac07c0011da219a5d7b1dc3c145f",
+      "original_sha256": "6c575a4c0bc23ab33c7cc0423859dae75f4be91d57f11877351e0bb5e7d8065e",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 51562,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/我都完全忘了 [cn21_fansrc_0b3384f754926346].jpg"
+      }
+    },
+    {
+      "file": "cn21_fansrc_4d840f2cdfce0a53.jpg",
+      "bytes": 90204,
+      "sha256": "b2b4ec08ae78d9c00bc80dd226f132570ad4ac0a667be78f3db4dabc13486a35",
+      "preview_sha256": "56e4e90dc1c6f753d9565b8ba2494c0a9a77c7ebbda7648bfa36ed8d1b64d463",
+      "thumb_sha256": "6bdecb56a06fcb66475e3903277c2603a6a310c0ec3d602d957a43fdef36248e",
+      "original_sha256": "b2b4ec08ae78d9c00bc80dd226f132570ad4ac0a667be78f3db4dabc13486a35",
+      "width": 1200,
+      "height": 675,
+      "preview_bytes": 55744,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/所以美奈美小姐教了我很多东西 [cn21_fansrc_4d840f2cdfce0a53].jpg"
+      }
+    },
+    {
+      "file": "cn21_postreply_319398289600_0.png",
+      "bytes": 1781563,
+      "sha256": "7dbfd01067995a4549c883232d2cddc9fef5c8cd0e04b5bdcc1be81e7508ede3",
+      "preview_sha256": "31a3c91f953a19a3093452a09d9614c6267869b306894ad55c9590e8c5506f87",
+      "thumb_sha256": "f552514fcbbff8c5940602e4cd8221f75d9eb76b818000da84e100cf388b74fb",
+      "original_sha256": "7dbfd01067995a4549c883232d2cddc9fef5c8cd0e04b5bdcc1be81e7508ede3",
+      "width": 1200,
+      "height": 800,
+      "preview_bytes": 96004,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/一家把名片挤满，蕾叶笑得最开心 [cn21_postreply_319398289600_0].png"
+      }
+    },
+    {
+      "file": "cn21_pub6f7572_1259037652475183105_0_0.jpg",
+      "bytes": 861109,
+      "sha256": "dcb1b62d6420f4f2418f638971beba32f115720011cc0515dfce6f0a4ceba257",
+      "preview_sha256": "8baeceb53620c82ffdb8a3c59a509ad74e89ae7f8d83fa7d0d7448dca3fdfe44",
+      "thumb_sha256": "aa45cc1307bc5febcf0ba01fca2437d98425039968bfd85ea5ea9b9ab86d9197",
+      "original_sha256": "dcb1b62d6420f4f2418f638971beba32f115720011cc0515dfce6f0a4ceba257",
+      "width": 1200,
+      "height": 750,
+      "preview_bytes": 55372,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/用 Our Notes 名片的线条画出茉幌 [cn21_pub6f7572_1259037652475183105_0_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_143277.png",
+      "bytes": 30254,
+      "sha256": "48c3360a2b408549879658319b18eaec8a2f5efabd19432d4d374bc165714a43",
+      "preview_sha256": "921b0ab0bbca9880e881850017cf7ada3f6cfd1a5c7077472393c2683678f077",
+      "thumb_sha256": "a7524349e9c7dde4590457cbaf10ca25bbf88e9991102df3676b5b5a8a5e957c",
+      "original_sha256": "48c3360a2b408549879658319b18eaec8a2f5efabd19432d4d374bc165714a43",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 7796,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/微笑 [cn21_bilistamp_143277].png"
+      }
+    },
+    {
+      "file": "cn21_bili_319918184560_0.png",
+      "bytes": 1169163,
+      "sha256": "28a7ae158091737a902f6edce6bd6d92c0af5877bb5eca575a2f533ca9adfd6b",
+      "preview_sha256": "1885200eb01907460327d4023f2c5eadb9c3f8db8413e84433c9d1f04e92e868",
+      "thumb_sha256": "936029e11aeba14c4318c31ad1654d95efd6a377acad1f23aadcca15e12406bd",
+      "original_sha256": "28a7ae158091737a902f6edce6bd6d92c0af5877bb5eca575a2f533ca9adfd6b",
+      "width": 799,
+      "height": 1000,
+      "preview_bytes": 91306,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/「观众朋友们，拜托给点反应好吗！」 [cn21_bili_319918184560_0].png"
+      }
+    },
+    {
+      "file": "cn21_bili_316322646929_0.jpg",
+      "bytes": 66722,
+      "sha256": "da1a2626ec8f1634a7f1ae9d309465bdf15dc070ac49d3fdb1a7dde54c9a64d1",
+      "preview_sha256": "73f88aa6d4b368c863775cc254fa514637a8a52eb248d98ba5c0b0adcdecb83a",
+      "thumb_sha256": "f8a915849bc57e3bd2e1a65b0576ba1945672237b80cf2514c81906c215ec1ba",
+      "original_sha256": "da1a2626ec8f1634a7f1ae9d309465bdf15dc070ac49d3fdb1a7dde54c9a64d1",
+      "width": 1200,
+      "height": 976,
+      "preview_bytes": 42796,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/萤：只是稍微看一眼的话，应该没关系吧 [cn21_bili_316322646929_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bili_317618710849_0.jpg",
+      "bytes": 350888,
+      "sha256": "6fb7974f6978ce1848b07d4743ce8c79b059ec14202fb2bf0470bb2793374f5a",
+      "preview_sha256": "8cf3f6f82de91cf498a21582ede24f34afd06331b7337fc56075a0416f17497f",
+      "thumb_sha256": "8a0b9020adbe3f1c930344661f6e7c63f1e57ec0908b5d37d63ee9048334b0ce",
+      "original_sha256": "6fb7974f6978ce1848b07d4743ce8c79b059ec14202fb2bf0470bb2793374f5a",
+      "width": 854,
+      "height": 1000,
+      "preview_bytes": 93140,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/刷了一屏推荐，怎么到处都是奏多 [cn21_bili_317618710849_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_ptt_9d5bd6c0ce414ad15bcae.gif",
+      "bytes": 355542,
+      "sha256": "b0b99d9d61861f6c3501add72cc9b4d96147dad353fcb5c135966e9cc0734930",
+      "preview_sha256": "5195631cdcd27032734cd7ec0c3e7bf99e1d09418f361753075e6aae18d39ceb",
+      "thumb_sha256": "0e2e697d89cc12d20acb6dacfe0126f2c4f0c1cb85b3c2f2f65f90aa65a67c9a",
+      "original_sha256": "b6b352a6f888c48a8f9e64a589265ff5ef4f6b2005ce86e93df7cdc86686d954",
+      "width": 480,
+      "height": 270,
+      "preview_bytes": 205200,
+      "frames": 48,
+      "gifInfo": {
+        "path": "gifs/cn21_ptt_9d5bd6c0ce414ad15bcae.gif",
+        "width": 384,
+        "height": 216,
+        "bytes": 355542
+      }
+    },
+    {
+      "file": "cn21_ptt_965ae5ca7006bb4bcd44d.jpg",
+      "bytes": 237292,
+      "sha256": "1c128ce95ea9cd35ffb77209201ec2c72c621dc53c1cecf6998363a97546379f",
+      "preview_sha256": "bd877d2f58d4c0a14025549eccdb8546f214ab4ff4f6759b45c44034288d33bc",
+      "thumb_sha256": "c0144b29dea5fe5af6395562d7c7d092aebf8d673264aa25fb98ee0337414f38",
+      "original_sha256": "1c128ce95ea9cd35ffb77209201ec2c72c621dc53c1cecf6998363a97546379f",
+      "width": 1200,
+      "height": 821,
+      "preview_bytes": 91988,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/狗狗初华对着小祥的照片一顿猛舔 [cn21_ptt_965ae5ca7006bb4bcd44d].jpg"
+      }
+    },
+    {
+      "file": "cn21_ptt_a92be1edbe97ae2640d23.jpg",
+      "bytes": 633001,
+      "sha256": "226d74fc7ab97be17cf7dc5a23b7c791b98a2d564063f53496d8493035a591e8",
+      "preview_sha256": "61d8c07783865b7f008d4ecf65679493416c9be7dea7405565e6cdc08c74fa93",
+      "thumb_sha256": "6b39bdf6b4f4eb7160e33a4f03f12e9365f2021f0b80037383d77f46537434cd",
+      "original_sha256": "226d74fc7ab97be17cf7dc5a23b7c791b98a2d564063f53496d8493035a591e8",
+      "width": 589,
+      "height": 1000,
+      "preview_bytes": 86160,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/初华刷手机，竟然在新闻里看到了自己的玩偶 [cn21_ptt_a92be1edbe97ae2640d23].jpg"
+      }
+    },
+    {
+      "file": "cn21_ptt_bf9bf6c9e2eb51a3abc0a.jpg",
+      "bytes": 122598,
+      "sha256": "fd625f96bbd0e9243eb6438d7723ffed0576b97881cd6a69c48a8419aeffa15e",
+      "preview_sha256": "1721e447faa8a0f2c5cc1f6aa4a09745529127ad8be69232a01ebde00c32d28f",
+      "thumb_sha256": "1808e4023ad860e5bee7868d8a15f546130f94941c19a1f8a047307e949036ae",
+      "original_sha256": "fd625f96bbd0e9243eb6438d7723ffed0576b97881cd6a69c48a8419aeffa15e",
+      "width": 796,
+      "height": 809,
+      "preview_bytes": 39290,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/初华戴着棒球帽，突然绷不住了 [cn21_ptt_bf9bf6c9e2eb51a3abc0a].jpg"
+      }
+    },
+    {
+      "file": "cn21_ptt_5cbd8d2e41a9ad94d98cc.jpg",
+      "bytes": 109471,
+      "sha256": "fb86b0da1f0e182935dbc13bea1061c52a3bcdf4caf39791b9fd3e83647e1113",
+      "preview_sha256": "d2fdde32df0888b23242294eb867cf90205ba31477db521c0b3b70a763b7af13",
+      "thumb_sha256": "3f7ea22740ebbfb3dbbcda30d210c05f0641ddd069bc37dd6a0ce63d9c63711e",
+      "original_sha256": "fb86b0da1f0e182935dbc13bea1061c52a3bcdf4caf39791b9fd3e83647e1113",
+      "width": 698,
+      "height": 719,
+      "preview_bytes": 39228,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/初华歪着头，脸色逐渐变暗 [cn21_ptt_5cbd8d2e41a9ad94d98cc].jpg"
+      }
+    },
+    {
+      "file": "cn21_ptt_f1cc0f33e0e7c65b14cb7.jpg",
+      "bytes": 32053,
+      "sha256": "f7dfab476b913a87961d702dd0d2152c6ac7b42fca11090e6469c7f98948d4fb",
+      "preview_sha256": "52de6d5351f6ad6530f1d0eb30af645eb86a9d7cc1e378e52157c530ff6c7b02",
+      "thumb_sha256": "c93cf7e66f7e21e0be33ed5587a3cb00a094998bc00c9320b85a008985357205",
+      "original_sha256": "f7dfab476b913a87961d702dd0d2152c6ac7b42fca11090e6469c7f98948d4fb",
+      "width": 1024,
+      "height": 460,
+      "preview_bytes": 30004,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/立希一回头：太大了 [cn21_ptt_f1cc0f33e0e7c65b14cb7].jpg"
+      }
+    },
+    {
+      "file": "cn21_ptt_65949c20e24305e009797.jpg",
+      "bytes": 90066,
+      "sha256": "efc1a36294806b7ec7c6a99a1983e01d8222ac31831fe8a61c91ad16cf914812",
+      "preview_sha256": "2ab1dd417fe581fb2f90a21b1f57f5582a1b441fc24bb83ef86873781b706bf6",
+      "thumb_sha256": "99102cea81c95bf57d1cb6cd68178faf19033a03a89429afbd1afeba05396022",
+      "original_sha256": "efc1a36294806b7ec7c6a99a1983e01d8222ac31831fe8a61c91ad16cf914812",
+      "width": 1200,
+      "height": 833,
+      "preview_bytes": 61856,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/我真的不配当人 [cn21_ptt_65949c20e24305e009797].jpg"
+      }
+    },
+    {
+      "file": "cn21_bili_319225773440_0.jpg",
+      "bytes": 690749,
+      "sha256": "4617835cf1c9bc0eba37289895730dc8c5ccf6c4d0683272126fd79a83506931",
+      "preview_sha256": "452adb56b7bca7289d64dea91c485625d388b9f827f71c966b415e9dda5a95c7",
+      "thumb_sha256": "6f1a9901dd9016691bf5cb07dcbef0aad299a4c74b6f10ed39affe301f50f07b",
+      "original_sha256": "4617835cf1c9bc0eba37289895730dc8c5ccf6c4d0683272126fd79a83506931",
+      "width": 1080,
+      "height": 2340,
+      "preview_bytes": 130870,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/茉幌一下子愣住，脸都红透了 [cn21_bili_319225773440_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bili_312621580257_0.jpg",
+      "bytes": 175981,
+      "sha256": "a5cc310698a5565e1940b0f2bf282150524016cb1cd26f50b8d9312e9fb7d260",
+      "preview_sha256": "c209cba3d1b27916f9d5e4955da2fbaa0724889895783e86b0e2cf71747074b5",
+      "thumb_sha256": "124e835b68276d7c19b9071e2865dea5c64a50a6e8d87053bb11142ba2bd7116",
+      "original_sha256": "a5cc310698a5565e1940b0f2bf282150524016cb1cd26f50b8d9312e9fb7d260",
+      "width": 1200,
+      "height": 886,
+      "preview_bytes": 70174,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/为什么要演奏苍蓝所悟！ [cn21_bili_312621580257_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilistamp_144707.png",
+      "bytes": 45609,
+      "sha256": "8e970e779aa895ecb8f00be86aae247ff2e950fee1c06b755bc647e1c7970239",
+      "preview_sha256": "ff73d532e9857bd1505393135067ef929cf49741303ce6ced8d02f0ce2102bca",
+      "thumb_sha256": "cd319d941c189fdbd410b358a6f2ddcb188184e7eec7b021d6c4fede037c5ebf",
+      "original_sha256": "8e970e779aa895ecb8f00be86aae247ff2e950fee1c06b755bc647e1c7970239",
+      "width": 162,
+      "height": 162,
+      "preview_bytes": 10614,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-024.zip",
+        "member": "原图/心的力量 [cn21_bilistamp_144707].png"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_26353066_0.jpg",
+      "bytes": 4248139,
+      "sha256": "29b7f0cab60b8d8a82e4c3f5b854c5367ca79d98454ee357c1e2e578d03aab8e",
+      "preview_sha256": "cb90b1cd2c582b4acabe10a957934535d627bcc54832d6319e23f8ca4cd0532b",
+      "thumb_sha256": "8e984a426342c6e325f8e734033fef71ca1c168899b5726fd7f41ddaa5872495",
+      "original_sha256": "29b7f0cab60b8d8a82e4c3f5b854c5367ca79d98454ee357c1e2e578d03aab8e",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 173740,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-025.zip",
+        "member": "原图/亚子坐上纱夜的车，开始担心半路会冒出什么 [cn21_bilicolumn_26353066_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_26353066_1.jpg",
+      "bytes": 5514032,
+      "sha256": "b04aecdae2c7d473fb28f404124002d9534a08a5ef3ce7389a5243ad5c859d2c",
+      "preview_sha256": "2a157895bc90fd45dbc5c976f35c2e758539080f3fd5781bf9b5883168d7907c",
+      "thumb_sha256": "b8657606f82828bc041b138625481e486dc9d08f6d1c2648dd537c03c30e7628",
+      "original_sha256": "b04aecdae2c7d473fb28f404124002d9534a08a5ef3ce7389a5243ad5c859d2c",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 222666,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-025.zip",
+        "member": "原图/开车时最该提防的，是突然窜出来的肚子咕咕叫 [cn21_bilicolumn_26353066_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_26331989_0.jpg",
+      "bytes": 5176005,
+      "sha256": "1df10b0fb8e1dddf70023816516f46d761bcff7ad0d837c267a8ec21f6947c96",
+      "preview_sha256": "23724f538b4f3874e5497fe7af9df8913c11d58ce3dbf4aad22bb96d8f613fca",
+      "thumb_sha256": "53971cfd91c75ef4724f5a69f19807911df131b68ebb7ba973e6f05e978927d6",
+      "original_sha256": "1df10b0fb8e1dddf70023816516f46d761bcff7ad0d837c267a8ec21f6947c96",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 184682,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-025.zip",
+        "member": "原图/路过刨冰店，沙绫决定给面包也加点夏天的味道 [cn21_bilicolumn_26331989_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_26331989_2.jpg",
+      "bytes": 6541146,
+      "sha256": "6f5a61e19429e10c211ff61276d33bc9824dde4729d98e5105f0af18610329bc",
+      "preview_sha256": "9d250cce6dfd48341ab3186a38df2122ed766d0755d7656776de303dc286a784",
+      "thumb_sha256": "8ac8c3d60203655e3066d5bbeb6348765b8940f9f8f150746bea8b680018bf45",
+      "original_sha256": "6f5a61e19429e10c211ff61276d33bc9824dde4729d98e5105f0af18610329bc",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 239246,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-026.zip",
+        "member": "原图/里美对着竹筒接水，被水流一口气冲走了 [cn21_bilicolumn_26331989_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_26331720_0.jpg",
+      "bytes": 5125128,
+      "sha256": "0e5c95b362f01c00538520c2181cc1b18564f513a5f54ac4ece3c954d0e7fb10",
+      "preview_sha256": "cec66e652f54ea13b80d3b190de4c6f0a6d52f2db492d7da57e0ab4ae0ec4678",
+      "thumb_sha256": "9d5939219edd5d4f9ece606d8dab8f45269888962f93915bc0213ad728c1d70f",
+      "original_sha256": "0e5c95b362f01c00538520c2181cc1b18564f513a5f54ac4ece3c954d0e7fb10",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 196284,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-026.zip",
+        "member": "原图/只想捡几块石头，真白的课桌转眼堆成了山 [cn21_bilicolumn_26331720_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_26331720_1.jpg",
+      "bytes": 664889,
+      "sha256": "49cd4f065f16f9032ae76d0ce95523908d792d3b07d34734f7fe1662312280d3",
+      "preview_sha256": "5a9e7acb81d132d80f860a130809e38cf8e0cffb772c4a1c3038d6fffd23e743",
+      "thumb_sha256": "f758332fdbba4b56d7fe3bcea613aa96e3bddee48e1fa0028ffb992131e6ea3e",
+      "original_sha256": "49cd4f065f16f9032ae76d0ce95523908d792d3b07d34734f7fe1662312280d3",
+      "width": 713,
+      "height": 960,
+      "preview_bytes": 164970,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-026.zip",
+        "member": "原图/真白捡石头，竟然捡出一座金字塔 [cn21_bilicolumn_26331720_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_24810999_0.jpg",
+      "bytes": 5998162,
+      "sha256": "90f75cedd164532773ffc791914968d973bfe06989f1b111b10bec004e611ecf",
+      "preview_sha256": "4e137a228dde11ed82c7c8db8c39ecc1ddf7c947817c6d6114086c3d4f1e7494",
+      "thumb_sha256": "387124a249571874134c3652491a6b37e689a3db3fe02c4ee1f26dc5de04cfc3",
+      "original_sha256": "90f75cedd164532773ffc791914968d973bfe06989f1b111b10bec004e611ecf",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 233362,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-026.zip",
+        "member": "原图/学生会的工作有多累？美咲的体力已经归零 [cn21_bilicolumn_24810999_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_24810999_2.jpg",
+      "bytes": 8050740,
+      "sha256": "851dab4c17fde91a12f32b29d027509fe1528bd241fb2e904c8357dc1639313e",
+      "preview_sha256": "0da328628cdbaf1d5e0b8b4289fb29965228ca10d1739abe3115cef3f222e8e2",
+      "thumb_sha256": "902b7fd3d2bc94b61051be3d3eec3af6de0f747ba03bc6ee12650a298092ba63",
+      "original_sha256": "851dab4c17fde91a12f32b29d027509fe1528bd241fb2e904c8357dc1639313e",
+      "width": 705,
+      "height": 1000,
+      "preview_bytes": 198342,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-027.zip",
+        "member": "原图/美咲一把吃下星星，体力飙到 99／10 [cn21_bilicolumn_24810999_2].jpg"
+      }
+    }
+  ]
+}
