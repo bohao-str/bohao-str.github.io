@@ -3698,5 +3698,370 @@
       "cn21_pttbday_2",
       "cn21_pttbday_6"
     ]
+  },
+  {
+    "file": "bandori-cn-20261121-106.zip",
+    "count": 8,
+    "bytes": 17832862,
+    "sha256": "e126a2144df115e9fd16d28be651a1c267c6198214e72f69a1eeae75c83dbfdf",
+    "ids": [
+      "cn21_baha_47099_11919_1",
+      "cn21_baha_47099_11919_15",
+      "cn21_bilicolumn_26353066_2",
+      "cn21_bilicolumn_26331989_1",
+      "cn21_bilicolumn_24810948_0",
+      "cn21_bilicolumn_14298365_0",
+      "cn21_bilicolumn_14298365_1",
+      "cn21_bilicolumn_14298365_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-107.zip",
+    "count": 4,
+    "bytes": 17325699,
+    "sha256": "fb39bbf64140d7086354e3dfd0620a2e47e47dee890d5fb75b1a9bd0b217044c",
+    "ids": [
+      "cn21_bilicolumn_9388042_1",
+      "cn21_bilicolumn_8744938_0",
+      "cn21_bilicolumn_8744938_2",
+      "cn21_bilicolumn_8650859_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-108.zip",
+    "count": 4,
+    "bytes": 18373710,
+    "sha256": "a8b78d698d81a9d130a9934f574840bec868b54a735d13628ef801853802c2e7",
+    "ids": [
+      "cn21_bilicolumn_8650859_2",
+      "cn21_bilicolumn_8650817_1",
+      "cn21_bilicolumn_8650817_2",
+      "cn21_bilicolumn_8650769_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-109.zip",
+    "count": 5,
+    "bytes": 20253459,
+    "sha256": "3bfc881770963d386cf6352c092dbbbeeeb1f8ebeb000e7a5f4c499dc492c7fc",
+    "ids": [
+      "cn21_bilicolumn_8634005_1",
+      "cn21_bilicolumn_8634005_2",
+      "cn21_bilicolumn_8633964_1",
+      "cn21_bilicolumn_8633964_2",
+      "cn21_bilicolumn_8633903_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-110.zip",
+    "count": 4,
+    "bytes": 16006276,
+    "sha256": "0cae9270f340ea4b80444fd85902c65982d7df0526cb06764165aeb01800705b",
+    "ids": [
+      "cn21_bilicolumn_8633903_2",
+      "cn21_bilicolumn_8633831_1",
+      "cn21_bilicolumn_8633831_2",
+      "cn21_bilicolumn_8633678_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-111.zip",
+    "count": 3,
+    "bytes": 15734292,
+    "sha256": "8d6a7f80bd3fb69a8efc1cf0b7f5fd7d849e6f48e0426f824b8e454c767cdab8",
+    "ids": [
+      "cn21_bilicolumn_8620475_0",
+      "cn21_bilicolumn_8620475_2",
+      "cn21_bilicolumn_8620435_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-112.zip",
+    "count": 4,
+    "bytes": 18809282,
+    "sha256": "98f26ca1c136b86e7395ec7c6606a60f8e3374d80d331fb914f4ddc6bf42981b",
+    "ids": [
+      "cn21_bilicolumn_8620435_2",
+      "cn21_bilicolumn_8620398_1",
+      "cn21_bilicolumn_8620398_2",
+      "cn21_bilicolumn_8620347_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-113.zip",
+    "count": 4,
+    "bytes": 17544557,
+    "sha256": "c7420a6d8adf7dbc618146db1c71ec630dee8a6924e233dd8e0954b689aeffd7",
+    "ids": [
+      "cn21_bilicolumn_8620347_2",
+      "cn21_bilicolumn_8620304_1",
+      "cn21_bilicolumn_8620304_2",
+      "cn21_bilicolumn_8603595_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-114.zip",
+    "count": 5,
+    "bytes": 19048803,
+    "sha256": "7fc9ef410246442e57ec0c9bbbb16168969c0a0534237b4e37a8b31c5401cdb6",
+    "ids": [
+      "cn21_bilicolumn_8603595_1",
+      "cn21_bilicolumn_8603595_2",
+      "cn21_bilicolumn_8602994_0",
+      "cn21_bilicolumn_8602994_1",
+      "cn21_bilicolumn_8602936_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-115.zip",
+    "count": 5,
+    "bytes": 19183147,
+    "sha256": "9ab5a175c52068a4362580ef4a78048388fcf4c28920b9817031502ff17c57e3",
+    "ids": [
+      "cn21_bilicolumn_8602936_1",
+      "cn21_bilicolumn_8602936_2",
+      "cn21_bilicolumn_8602847_1",
+      "cn21_bilicolumn_8602847_2",
+      "cn21_bilicolumn_8544156_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-116.zip",
+    "count": 4,
+    "bytes": 17181779,
+    "sha256": "b69a31bb480c0dc8713923617b67d328b0d614bc1db1565fb3e43d3f5802d3b0",
+    "ids": [
+      "cn21_bilicolumn_8544156_2",
+      "cn21_bilicolumn_8543994_1",
+      "cn21_bilicolumn_8543994_2",
+      "cn21_bilicolumn_8543937_0"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-117.zip",
+    "count": 4,
+    "bytes": 17596754,
+    "sha256": "5559a7d0e58a199857d755321098f338328ecc02f901222802d53431fc63c45a",
+    "ids": [
+      "cn21_bilicolumn_8543937_1",
+      "cn21_bilicolumn_8543890_1",
+      "cn21_bilicolumn_8543890_2",
+      "cn21_bilicolumn_8530696_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-118.zip",
+    "count": 4,
+    "bytes": 18518786,
+    "sha256": "ed123fc7e1c3f81f440a00a001823d4da4ba2161ec6451b500cf18cf673953a0",
+    "ids": [
+      "cn21_bilicolumn_8530696_2",
+      "cn21_bilicolumn_8514244_0",
+      "cn21_bilicolumn_8514244_1",
+      "cn21_bilicolumn_8514244_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-119.zip",
+    "count": 5,
+    "bytes": 19133203,
+    "sha256": "24926711971327707ba06fd479d30c692dc375266b1860e27bebf905502264f0",
+    "ids": [
+      "cn21_bilicolumn_8514195_0",
+      "cn21_bilicolumn_8514195_1",
+      "cn21_bilicolumn_8514141_0",
+      "cn21_bilicolumn_8514141_2",
+      "cn21_bilicolumn_8514097_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-120.zip",
+    "count": 4,
+    "bytes": 18165260,
+    "sha256": "c8000d648462e7b5fc06250b962be7f3be20178a3156279b8891be6e4d074c2b",
+    "ids": [
+      "cn21_bilicolumn_8514097_2",
+      "cn21_bilicolumn_8514009_0",
+      "cn21_bilicolumn_8514009_1",
+      "cn21_bilicolumn_8514009_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-121.zip",
+    "count": 5,
+    "bytes": 20211193,
+    "sha256": "7c10d883f5cf0b7f23b2e2c4a34819bfd32c5989fa3ebd9cbe5b398a2f2b883f",
+    "ids": [
+      "cn21_bilicolumn_8499203_0",
+      "cn21_bilicolumn_8499203_1",
+      "cn21_bilicolumn_8499203_2",
+      "cn21_bilicolumn_8499173_1",
+      "cn21_bilicolumn_8499173_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-122.zip",
+    "count": 4,
+    "bytes": 17250651,
+    "sha256": "38acb8b90a7dbfff68c4e9fc3f72c8e2c8238cf64af6aa5ef70b8dd99d635fed",
+    "ids": [
+      "cn21_bilicolumn_8499136_1",
+      "cn21_bilicolumn_8499136_2",
+      "cn21_bilicolumn_8499103_0",
+      "cn21_bilicolumn_8499103_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-123.zip",
+    "count": 5,
+    "bytes": 19040302,
+    "sha256": "d42bc8724ae3663baa05e9dfde5b1686409cdc6f6ece25379da42740e89ab6ae",
+    "ids": [
+      "cn21_bilicolumn_8499103_2",
+      "cn21_bilicolumn_8499017_0",
+      "cn21_bilicolumn_8499017_2",
+      "cn21_bilicolumn_8478004_0",
+      "cn21_bilicolumn_8478004_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-124.zip",
+    "count": 5,
+    "bytes": 18869197,
+    "sha256": "bcde4de9f4943fccf20579da4624e8a20d2a4d06c8535751be0310bb350baa7a",
+    "ids": [
+      "cn21_bilicolumn_8478004_2",
+      "cn21_bilicolumn_8470736_0",
+      "cn21_bilicolumn_8470736_2",
+      "cn21_bilicolumn_8470643_1",
+      "cn21_bilicolumn_8470643_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-125.zip",
+    "count": 4,
+    "bytes": 17515784,
+    "sha256": "f9f4c5eb8269c5a215617b7e4379557879696a8fd618520973c613f6fc1de5d2",
+    "ids": [
+      "cn21_bilicolumn_8470459_1",
+      "cn21_bilicolumn_8470459_2",
+      "cn21_bilicolumn_8470363_0",
+      "cn21_bilicolumn_8470363_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-126.zip",
+    "count": 4,
+    "bytes": 18240943,
+    "sha256": "77d716d9fb188c90b1383d2bcca59dab451d00631a519102b8b47b78e3da9820",
+    "ids": [
+      "cn21_bilicolumn_8455408_0",
+      "cn21_bilicolumn_8455408_2",
+      "cn21_bilicolumn_8455302_0",
+      "cn21_bilicolumn_8455302_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-127.zip",
+    "count": 4,
+    "bytes": 19721018,
+    "sha256": "475bd1c43b5fceac5689ef8f33b11a664d757951c34d4710017ad9b678b5bee0",
+    "ids": [
+      "cn21_bilicolumn_8455235_1",
+      "cn21_bilicolumn_8455235_2",
+      "cn21_bilicolumn_8455121_0",
+      "cn21_bilicolumn_8455121_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-128.zip",
+    "count": 4,
+    "bytes": 17354112,
+    "sha256": "b8b051f3fc0b008debf38f00d0166adb38925382d7299576db6ff082da090e09",
+    "ids": [
+      "cn21_bilicolumn_8455041_1",
+      "cn21_bilicolumn_8455041_2",
+      "cn21_bilicolumn_8436368_0",
+      "cn21_bilicolumn_8436368_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-129.zip",
+    "count": 4,
+    "bytes": 17724406,
+    "sha256": "bcc9e5e92131f222740da6d9e33f0acccab28303b9ace6a4b6a90cd08c89b0f3",
+    "ids": [
+      "cn21_bilicolumn_8436086_0",
+      "cn21_bilicolumn_8436086_2",
+      "cn21_bilicolumn_8436027_0",
+      "cn21_bilicolumn_8436027_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-130.zip",
+    "count": 4,
+    "bytes": 20204474,
+    "sha256": "ec936d89976d2f685cb72aa81f331a2dbf68952fff3181b505e581c0000ac4bf",
+    "ids": [
+      "cn21_bilicolumn_8435951_0",
+      "cn21_bilicolumn_8435951_2",
+      "cn21_bilicolumn_8435891_1",
+      "cn21_bilicolumn_8435891_2"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-131.zip",
+    "count": 5,
+    "bytes": 20602669,
+    "sha256": "43e08ba4a17ff24f2336ba5b8d2f0e4ed870866712ff4eac0297eedf8050fe63",
+    "ids": [
+      "cn21_bilicolumn_8422065_0",
+      "cn21_bilicolumn_8422065_2",
+      "cn21_bilicolumn_8422030_1",
+      "cn21_bilicolumn_8422030_2",
+      "cn21_bilicolumn_8421983_1"
+    ]
+  },
+  {
+    "file": "bandori-cn-20261121-132.zip",
+    "count": 34,
+    "bytes": 20895496,
+    "sha256": "4ee778b0edbc64af9c0f7c20b9e461992bd79eb68b02f7d78c8bed58fd713720",
+    "ids": [
+      "cn21_bilicolumn_8421983_2",
+      "cn21_bestdori_11",
+      "cn21_bestdori_37",
+      "cn21_bestdori_39",
+      "cn21_bestdori_70",
+      "cn21_bestdori_78",
+      "cn21_bestdori_81",
+      "cn21_bestdori_83",
+      "cn21_bestdori_86",
+      "cn21_bestdori_91",
+      "cn21_bestdori_93",
+      "cn21_bestdori_94",
+      "cn21_bestdori_109",
+      "cn21_bestdori_112",
+      "cn21_bestdori_114",
+      "cn21_bestdori_117",
+      "cn21_bestdori_121",
+      "cn21_bestdori_124",
+      "cn21_bestdori_125",
+      "cn21_bestdori_128",
+      "cn21_bestdori_133",
+      "cn21_bestdori_135",
+      "cn21_bestdori_136",
+      "cn21_bestdori_137",
+      "cn21_bestdori_138",
+      "cn21_pub6f7572_1273321266298748934_2_0",
+      "cn21_bili_321162584448_0",
+      "cn21_bili_319952997824_2",
+      "cn21_bili_316405176257_0",
+      "cn21_bili_316422230353_0",
+      "cn21_bili_320103647872_0",
+      "cn21_bili_317551779488_0",
+      "cn21_bili_318081803184_0",
+      "cn21_bili_319831716192_0"
+    ]
   }
 ]
