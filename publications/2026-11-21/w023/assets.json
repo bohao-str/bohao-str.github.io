@@ -1,0 +1,2663 @@
+{
+  "tag": "bandori-cn-20261121-w023",
+  "files": [
+    {
+      "file": "cn21_bilicolumn_8421952_0.jpg",
+      "bytes": 6870750,
+      "sha256": "3312a424aad0089b3de624c7aa42c489955685747caf80c54d03ecf945999669",
+      "preview_sha256": "28fc9a1f9ae6d665b9f2ead94531774e86babb82b6b3f6228ef085844a38598c",
+      "thumb_sha256": "fd451f921dfc06cef09b439c00b11026ec5ac53795131fe29b7a76133f174c47",
+      "original_sha256": "3312a424aad0089b3de624c7aa42c489955685747caf80c54d03ecf945999669",
+      "width": 707,
+      "height": 1000,
+      "preview_bytes": 231890,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-133.zip",
+        "member": "原图/花咲川恶势力（第1页） [cn21_bilicolumn_8421952_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8421952_1.jpg",
+      "bytes": 5906290,
+      "sha256": "dcdcc49abfec00191f9df300e04206caf0661204e1cac256ebb85f507571f786",
+      "preview_sha256": "dbd0e0095784ef25a9480f681c278de92402214e887eb8aafe60ddcd9e59803d",
+      "thumb_sha256": "300cb810899dee7b7500048361621369cce654fa7cab3a11825f2c5f5cbd176e",
+      "original_sha256": "dcdcc49abfec00191f9df300e04206caf0661204e1cac256ebb85f507571f786",
+      "width": 707,
+      "height": 1000,
+      "preview_bytes": 220390,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-133.zip",
+        "member": "原图/花咲川恶势力（第2页） [cn21_bilicolumn_8421952_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8421952_2.jpg",
+      "bytes": 6805109,
+      "sha256": "d72cd1bba4a1bb382a397946479c3ec2df597f31ebfa57d205d3e3164f0ce858",
+      "preview_sha256": "d6e53c3bbc729da66333b749474fcff6d5ab8db12f7a6defc5723b1efd91b246",
+      "thumb_sha256": "40a825bd87d8853ad9afd825f199c932a22af5b6a8539e2c7d3ca94e029aa3e5",
+      "original_sha256": "d72cd1bba4a1bb382a397946479c3ec2df597f31ebfa57d205d3e3164f0ce858",
+      "width": 707,
+      "height": 1000,
+      "preview_bytes": 193516,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-133.zip",
+        "member": "原图/花咲川恶势力（第3页） [cn21_bilicolumn_8421952_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8406183_1.jpg",
+      "bytes": 4240695,
+      "sha256": "eeff22811ea9fa2b860bc9795ac7877784df6946382676d57afef8137284076b",
+      "preview_sha256": "2acfb8d3cbdacdde1e65e17f4369cb61a93bda8edc98ccf0e7ef009d00445b2f",
+      "thumb_sha256": "b4c48f0ec3fa04fdc0b3a576a99d1a8571b1395bec2a41ef1d63b999a7c4c832",
+      "original_sha256": "eeff22811ea9fa2b860bc9795ac7877784df6946382676d57afef8137284076b",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 208216,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-134.zip",
+        "member": "原图/纱夜与兰的争吵（第2页） [cn21_bilicolumn_8406183_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8406183_2.jpg",
+      "bytes": 3219351,
+      "sha256": "6de75cd52cb782d94dedf3dffb1b7309d4ea51c264bc42fef813e091930a6c9e",
+      "preview_sha256": "b527fc87b0fad18708a83d6ac3860ca5f4018c26eea5c79898a09f7183d52af3",
+      "thumb_sha256": "a1ae2ab226dd06cdb2945f873277ba3ad7d6788839c97ec415a1654e24dceebe",
+      "original_sha256": "6de75cd52cb782d94dedf3dffb1b7309d4ea51c264bc42fef813e091930a6c9e",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 142844,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-134.zip",
+        "member": "原图/纱夜与兰的争吵（第3页） [cn21_bilicolumn_8406183_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8406105_0.jpg",
+      "bytes": 4646333,
+      "sha256": "affe7fbc477c3a9a532889be141bd0ebe19ddb95ef33c449e8aec2ff5fd7c1e9",
+      "preview_sha256": "b8cb84a37e36027601cf693e7ba4a8fc0ad6744804414af61b0c09146cb9e8e5",
+      "thumb_sha256": "1c5a1b688f0b72b90694182cf13c57e117f86eff7d1dacb3f96816ce1b634a80",
+      "original_sha256": "affe7fbc477c3a9a532889be141bd0ebe19ddb95ef33c449e8aec2ff5fd7c1e9",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 199222,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-134.zip",
+        "member": "原图/有咲香澄利根川三角关系（第1页） [cn21_bilicolumn_8406105_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8406105_1.jpg",
+      "bytes": 3345466,
+      "sha256": "d980927adff0fb09806f8c1a863902518a6bcdf7558884c504a2a577eb04fa1d",
+      "preview_sha256": "970cb1244f42d07f2b180af5dbc41b30258039d0ec06c2c6f2f55739180cf948",
+      "thumb_sha256": "2038fdb5209669671e546c406063bcbb2b142e76b284e8ef9173c05cc180e06b",
+      "original_sha256": "d980927adff0fb09806f8c1a863902518a6bcdf7558884c504a2a577eb04fa1d",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 130908,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-134.zip",
+        "member": "原图/有咲香澄利根川三角关系（第2页） [cn21_bilicolumn_8406105_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8406049_0.jpg",
+      "bytes": 3010696,
+      "sha256": "c161bf54801dfa861e69f790a725ea2c12225e246857664e5db1906f64abf146",
+      "preview_sha256": "2226750bf4227633ffb787e0441cbb633c0849040e3369ea8652dc10a2e59580",
+      "thumb_sha256": "aafb4a73291e4fa1418826c8cb7f30287f4b9265d2b39cc0835162bba80498b1",
+      "original_sha256": "c161bf54801dfa861e69f790a725ea2c12225e246857664e5db1906f64abf146",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 135014,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-134.zip",
+        "member": "原图/伊芙和麻弥的单页＋短篇（第1页） [cn21_bilicolumn_8406049_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8406049_1.jpg",
+      "bytes": 3744391,
+      "sha256": "af81cc9d214bda8c6fcdd08f6d298cd6ed43a6b712867fb70f8d23cf584da941",
+      "preview_sha256": "080267c275333642b26bf2e51c1de4f65d8821b38f783d43600e7c0bdcb17fbc",
+      "thumb_sha256": "138bbc1cd9191409ca3da919096635352c7e13b8509879976fadaef464c515bc",
+      "original_sha256": "af81cc9d214bda8c6fcdd08f6d298cd6ed43a6b712867fb70f8d23cf584da941",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 180350,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-135.zip",
+        "member": "原图/伊芙和麻弥的单页＋短篇（第2页） [cn21_bilicolumn_8406049_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8405976_0.jpg",
+      "bytes": 3586389,
+      "sha256": "96d4509a79e4d0ccb72326fa25c3fd687397b10077ea035c3833878d998cbd0c",
+      "preview_sha256": "4242da4536d37dac0da58ab06ae54a8c9b1a3ae421605a321aea6a9f142351d4",
+      "thumb_sha256": "38c0f4898a985c451e38502f05ec0c96de243c92f736479916d819be0dc872ef",
+      "original_sha256": "96d4509a79e4d0ccb72326fa25c3fd687397b10077ea035c3833878d998cbd0c",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 166816,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-135.zip",
+        "member": "原图/被丢弃的兰爸爸（第1页） [cn21_bilicolumn_8405976_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8405976_1.jpg",
+      "bytes": 3455724,
+      "sha256": "330836d607e4845d8a9aac9a4c58842c9673108d8deec42fa9e17a12dfbe53a1",
+      "preview_sha256": "beb1f693775cde49cea7906d98f8ea280a44f0b39a3d7bc7500b0f764f30226d",
+      "thumb_sha256": "3dffaf07f597922e7a2faf2915afd612bb78410b71fcc8007d79614614874e3f",
+      "original_sha256": "330836d607e4845d8a9aac9a4c58842c9673108d8deec42fa9e17a12dfbe53a1",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 141580,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-135.zip",
+        "member": "原图/被丢弃的兰爸爸（第2页） [cn21_bilicolumn_8405976_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8405976_2.jpg",
+      "bytes": 3407354,
+      "sha256": "ba0ced754ee653a5b63cf22ad8ac3fd696b1651c5bd1ef37b264bf9c96aefa95",
+      "preview_sha256": "687533a5cbf341422427534963923d38b3735a14aceb5e8b408ca48c5f5087c5",
+      "thumb_sha256": "b792e214afff172306d51aeb9633a3745519fc52764ea438ae1cefa353d8254a",
+      "original_sha256": "ba0ced754ee653a5b63cf22ad8ac3fd696b1651c5bd1ef37b264bf9c96aefa95",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 156428,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-135.zip",
+        "member": "原图/被丢弃的兰爸爸（第3页） [cn21_bilicolumn_8405976_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8399028_1.jpg",
+      "bytes": 4665415,
+      "sha256": "27a72b15f843f1428e2f70dfaadf2f60dfb5d2a7e3422d64de87cdbddcc8b46e",
+      "preview_sha256": "e5f7fb3725c7371d46a5e8e6d66ab71554342843357df57265656b9ea71d6cec",
+      "thumb_sha256": "af7a51f1f1ee37f45c3e9227964675fa3c640c4da9f158bfd9aa88a807d2c8bb",
+      "original_sha256": "27a72b15f843f1428e2f70dfaadf2f60dfb5d2a7e3422d64de87cdbddcc8b46e",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 231818,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-135.zip",
+        "member": "原图/帕斯帕蕾生放送（第2页） [cn21_bilicolumn_8399028_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8399028_2.jpg",
+      "bytes": 3754173,
+      "sha256": "69b6b3979efe0e747e0ca4fc8ca843f3d99f534c0dec28244720ce1a4c510ef7",
+      "preview_sha256": "91434abb9a9a17d866d2fb32af743558d4ffb466c5e208a4bb1fefc4dc5b3ce4",
+      "thumb_sha256": "8780cda2f969ea7a20fdb054424697d2dbaf8a2e1bd3e8b10c9ce72f1b205f56",
+      "original_sha256": "69b6b3979efe0e747e0ca4fc8ca843f3d99f534c0dec28244720ce1a4c510ef7",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 187276,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-136.zip",
+        "member": "原图/帕斯帕蕾生放送（第3页） [cn21_bilicolumn_8399028_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8392174_0.jpg",
+      "bytes": 3621120,
+      "sha256": "875969cbb7bd29ac3e0a992f64db6dfdc5a82c502eb2ce912287f0c6de9d7ac0",
+      "preview_sha256": "521679a9072ab07ef96116c68844f846e6290350894f95eec148791c20fab328",
+      "thumb_sha256": "f453836a4b41d501e9d755b8dbdb853dc96443d3f0b36a07567334214044bb2a",
+      "original_sha256": "875969cbb7bd29ac3e0a992f64db6dfdc5a82c502eb2ce912287f0c6de9d7ac0",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 167456,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-136.zip",
+        "member": "原图/愚人节装扮的漫画附带双子单页（第1页） [cn21_bilicolumn_8392174_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8392174_1.jpg",
+      "bytes": 4365054,
+      "sha256": "607d585e644859e55e1c5c0c7c7f56377c1a5f3ec42411c9a1b29f8bb45f4c8e",
+      "preview_sha256": "45341596e68ca0041f53bdb5aaf7cf6cb905a0e265d5a4a85c847c2d51ee4e45",
+      "thumb_sha256": "17ad1bed18cb4c224a3b9abc7c23feccf1355ae66a36a86f754b13bff12b999d",
+      "original_sha256": "607d585e644859e55e1c5c0c7c7f56377c1a5f3ec42411c9a1b29f8bb45f4c8e",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 205638,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-136.zip",
+        "member": "原图/愚人节装扮的漫画附带双子单页（第2页） [cn21_bilicolumn_8392174_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8392174_2.jpg",
+      "bytes": 4674794,
+      "sha256": "5a12c485e03238933163a799fca389000e7ae14c719183536ef794f07d480bcd",
+      "preview_sha256": "ed275720c00b96639950de8b8c2ec1bc84cd8309f6e363ec0279995acf34d177",
+      "thumb_sha256": "a2331a1ec07e4218c4ad7038d982b6a56cf6b89b256f89d9173f8c5937129630",
+      "original_sha256": "5a12c485e03238933163a799fca389000e7ae14c719183536ef794f07d480bcd",
+      "width": 1200,
+      "height": 2169,
+      "preview_bytes": 402550,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-136.zip",
+        "member": "原图/日菜教大家做一套舞步，纱夜从头看到最后没动一下（愚人节番外） [cn21_bilicolumn_8392174_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8392096_1.jpg",
+      "bytes": 3882033,
+      "sha256": "f35ef4737371d2230cdba4cfa3207148934bbb166182448ec6a6033a313d11b9",
+      "preview_sha256": "d332227ed82a299eb635feb52186342c2c1ec6de5b8f5b3c5ab30148925d69a3",
+      "thumb_sha256": "c1952a2a5914733dce26367564d467de763619ac06136902e82e46665858846a",
+      "original_sha256": "f35ef4737371d2230cdba4cfa3207148934bbb166182448ec6a6033a313d11b9",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 179460,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-136.zip",
+        "member": "原图/R组去动物园（第2页） [cn21_bilicolumn_8392096_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8392096_2.jpg",
+      "bytes": 3694362,
+      "sha256": "06a60cdc851f2b2d0dd646a7f08512975643c25a7177f865cebadcac56f5a7e6",
+      "preview_sha256": "5e2144251952b8cc27f127c9278ccaca5356834be3e25f26a8df22cf1829e96d",
+      "thumb_sha256": "281c243410601c81bfeb442f3285323de66741e3d1706870d5e5e6aa63fa9d17",
+      "original_sha256": "06a60cdc851f2b2d0dd646a7f08512975643c25a7177f865cebadcac56f5a7e6",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 166822,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-137.zip",
+        "member": "原图/R组去动物园（第3页） [cn21_bilicolumn_8392096_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8392013_0.jpg",
+      "bytes": 4237839,
+      "sha256": "a6f43bb05d6c682f53505f9502bbb126368bc79afc903b67f70931e41bb2ca28",
+      "preview_sha256": "799db5effa3fb7d29f7725b30f5c886f28945385ac21b4cb61118cfc36d91b22",
+      "thumb_sha256": "8221ec558c8e7a3f6b2a8d1ef4edaff6f78a963302b7754caeb337241af477f1",
+      "original_sha256": "a6f43bb05d6c682f53505f9502bbb126368bc79afc903b67f70931e41bb2ca28",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 202510,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-137.zip",
+        "member": "原图/有咲和美咲争斗（第1页） [cn21_bilicolumn_8392013_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8392013_2.jpg",
+      "bytes": 3562410,
+      "sha256": "0c8fc20e1c00beeae85287e58a4b94b83bf69de93baa908d14d3297c8442d9ed",
+      "preview_sha256": "5d9059dcd75e7d3baa037d055eb6740dde0040f49589842704be396e7f07abf8",
+      "thumb_sha256": "f7f4226610184121e72406a02fc4dcd936d40183822ed6ed01090f684523f577",
+      "original_sha256": "0c8fc20e1c00beeae85287e58a4b94b83bf69de93baa908d14d3297c8442d9ed",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 174238,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-137.zip",
+        "member": "原图/有咲和美咲争斗（第3页） [cn21_bilicolumn_8392013_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8391974_1.jpg",
+      "bytes": 3880263,
+      "sha256": "8e79595db61a9ca334345575b83426cc97109925349d23c32a34139754eb05ec",
+      "preview_sha256": "3fc6fa0d32bdafbc5173d6431a5dc185bad7dbd9343b7b85a4d853d78acc94f8",
+      "thumb_sha256": "0eb861eaf986f9d6c8b360b6eb6cb04f1d7cd7c6e108b1cbde5c04defa41624c",
+      "original_sha256": "8e79595db61a9ca334345575b83426cc97109925349d23c32a34139754eb05ec",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 176798,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-137.zip",
+        "member": "原图/巴姐的骗氪（第2页） [cn21_bilicolumn_8391974_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8391974_2.jpg",
+      "bytes": 2638551,
+      "sha256": "d7b1e25ee7a908d09a0c0e1007e300971c1f7ae0b0d8dda60e91cc7e4b33d6a3",
+      "preview_sha256": "4be51e52a049940e0fbcf57ca1d04dceed72d39cfdd53f0db6f0401abbca78aa",
+      "thumb_sha256": "51f7ecba5de0622c47a8a300536d8c17255f7e548c3bb51adf45788ed8b41e07",
+      "original_sha256": "d7b1e25ee7a908d09a0c0e1007e300971c1f7ae0b0d8dda60e91cc7e4b33d6a3",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 115046,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-137.zip",
+        "member": "原图/巴姐的骗氪（第3页） [cn21_bilicolumn_8391974_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8391953_1.jpg",
+      "bytes": 3462753,
+      "sha256": "9c8ef0f0f7e97a53685747e45d6789d8d3f279922a172a932566b3a949761745",
+      "preview_sha256": "161d0c88c746fde94a11d6d8554383d271887e28e4b5203367c2f78666aea479",
+      "thumb_sha256": "c5f027835a6aab684eba8bfa46064783f68e697519ac73cd0c8a4c97d31f99ab",
+      "original_sha256": "9c8ef0f0f7e97a53685747e45d6789d8d3f279922a172a932566b3a949761745",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 149234,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-138.zip",
+        "member": "原图/千圣与小企鹅（第2页） [cn21_bilicolumn_8391953_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8391953_2.jpg",
+      "bytes": 3015587,
+      "sha256": "13f7458c49dbad392a642cc7fdc6bfd368983709b69366295cf6fc20c4f310c6",
+      "preview_sha256": "61a4b074eda8733759a00191422c482b8f73874363e10f42f71f9626b657d466",
+      "thumb_sha256": "adad459064e60d13f68e75a9248069fd237011a576974f5377a0f2c9ef248cb8",
+      "original_sha256": "13f7458c49dbad392a642cc7fdc6bfd368983709b69366295cf6fc20c4f310c6",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 124112,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-138.zip",
+        "member": "原图/千圣与小企鹅（第3页） [cn21_bilicolumn_8391953_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379145_1.jpg",
+      "bytes": 2946178,
+      "sha256": "3e8a019e3723e097420b70d42c665bde94fc44e4ea50b5a58deeaec4cf441411",
+      "preview_sha256": "6cb496ffbe2a2e9282d4342d5292fd480857bd77ae83e67d6c2df469671605ec",
+      "thumb_sha256": "fd757420720c0088df943daef7362beb906012fb7f9909b977b6451473b95eb2",
+      "original_sha256": "3e8a019e3723e097420b70d42c665bde94fc44e4ea50b5a58deeaec4cf441411",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 135214,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-138.zip",
+        "member": "原图/米歇尔服装事故（第2页） [cn21_bilicolumn_8379145_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379145_2.jpg",
+      "bytes": 4493122,
+      "sha256": "a28eb43fef8875cc8e0e1722d5280fbb1ce5c7adfad25cf2a72bf0619ff31482",
+      "preview_sha256": "a9caef0c8be48a3917da614d245edff1c1781aeef54a5291b9bc18b4968c1788",
+      "thumb_sha256": "a46b3293fd916e4d06113d72a9f237a6cde63a1f4dca3355fdb4bdfc7adb65b1",
+      "original_sha256": "a28eb43fef8875cc8e0e1722d5280fbb1ce5c7adfad25cf2a72bf0619ff31482",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 200110,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-138.zip",
+        "member": "原图/米歇尔服装事故（第3页） [cn21_bilicolumn_8379145_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379114_1.jpg",
+      "bytes": 3539473,
+      "sha256": "5ca62b0b3d4590fa27d75fe8c5e7448036aff08907a2c18bc427c51f140f02a9",
+      "preview_sha256": "863fdcf682d6effb6b8165247141a1bfe963ca9a3db70d13566d1ae13e93041b",
+      "thumb_sha256": "39fcfe9c9dff2e96bb4278d055a2f8fa7d258bb40553cf3fb2aad89e6b282c5b",
+      "original_sha256": "5ca62b0b3d4590fa27d75fe8c5e7448036aff08907a2c18bc427c51f140f02a9",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 151150,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-138.zip",
+        "member": "原图/小里美被谋杀（第2页） [cn21_bilicolumn_8379114_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379114_2.jpg",
+      "bytes": 3479678,
+      "sha256": "6a59f1dce6b9c27599cefe5cde46eccaf7685dd2e0dab9b0125e7993e4fb3e58",
+      "preview_sha256": "30b459c929a0d93d313b78733cecafee5417fe3d9bb4aa7f42be5bf12d893ba5",
+      "thumb_sha256": "a81ee13eba301e898f7eca8d2232b53b3a879c0b659e4ba60b4fe12a3571a72e",
+      "original_sha256": "6a59f1dce6b9c27599cefe5cde46eccaf7685dd2e0dab9b0125e7993e4fb3e58",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 158174,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-138.zip",
+        "member": "原图/小里美被谋杀（第3页） [cn21_bilicolumn_8379114_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379083_1.jpg",
+      "bytes": 3938744,
+      "sha256": "bf55608cbd43cfd7c4ed1b34cf358d3e80cb55655186a4ad5176975b8b3e9156",
+      "preview_sha256": "fc35404e09b7d6fd4226f64d54f3afc7eb5d310c68eef95a446e0946b4fdbc4b",
+      "thumb_sha256": "1fe1878570105153e24fb79a3d953bef118d0cd6e0ab95ed21fdeb27b48a3e4c",
+      "original_sha256": "bf55608cbd43cfd7c4ed1b34cf358d3e80cb55655186a4ad5176975b8b3e9156",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 169384,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-139.zip",
+        "member": "原图/有咲与奶奶（第2页） [cn21_bilicolumn_8379083_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379083_2.jpg",
+      "bytes": 4162410,
+      "sha256": "e60346b08e72547f80f126e5a355811524a7ac5d235d8977f450f2d9bebaffc8",
+      "preview_sha256": "cbca705fa940475409067a8a39ca3144234564b6ef4ad32036c53596186d8ceb",
+      "thumb_sha256": "4bdfd7bf0b1ad1c934752274a4ca85f51cd5cc4804f0af57b50bba603330762b",
+      "original_sha256": "e60346b08e72547f80f126e5a355811524a7ac5d235d8977f450f2d9bebaffc8",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 186394,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-139.zip",
+        "member": "原图/有咲与奶奶（第3页） [cn21_bilicolumn_8379083_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379024_1.jpg",
+      "bytes": 1402064,
+      "sha256": "3d3af340ac92d0f9455b5dbd36e7f3a840740374a28e8effe84561ad6bcc15f9",
+      "preview_sha256": "f56e78b37361d48f8ecefec9a890efd29febbdb32ce44a4bcc4f6c15b81db403",
+      "thumb_sha256": "9651bb29a6d4a45e16744d8738b87600749b02105440784b4da21f0f920cdd46",
+      "original_sha256": "3d3af340ac92d0f9455b5dbd36e7f3a840740374a28e8effe84561ad6bcc15f9",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 173874,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-139.zip",
+        "member": "原图/香澄在有咲家留宿（第2页） [cn21_bilicolumn_8379024_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8379024_2.jpg",
+      "bytes": 1755186,
+      "sha256": "f8e8b5ec3fdc93ff7926966446ea4b455653937e8eef67ef967b2ff7486c3731",
+      "preview_sha256": "b04ae3c8b6760c390ae020a80a00efcf6142b82d972b80f6c5351305e39aab16",
+      "thumb_sha256": "9c09cfe8b5b26e13f345ec9de4a0600d16c5832978680a4fc1278eee5d979356",
+      "original_sha256": "f8e8b5ec3fdc93ff7926966446ea4b455653937e8eef67ef967b2ff7486c3731",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 220268,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-139.zip",
+        "member": "原图/香澄在有咲家留宿（第3页） [cn21_bilicolumn_8379024_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8378978_1.jpg",
+      "bytes": 3420085,
+      "sha256": "b91c6489612cc908a343d88fe8872b5aac50fdcaaea66b84820e43dd0ba009ce",
+      "preview_sha256": "3f4b55ba637c0daa5ddee29cb874df47885dd3c94ffea2064435620ee14dd211",
+      "thumb_sha256": "505fc35deea2acba08014ce8876fef047c93c9ed74f6cdfd73bea1c1576b7bba",
+      "original_sha256": "b91c6489612cc908a343d88fe8872b5aac50fdcaaea66b84820e43dd0ba009ce",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 159030,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-139.zip",
+        "member": "原图/千圣的握手会（第2页） [cn21_bilicolumn_8378978_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8378978_2.jpg",
+      "bytes": 2948980,
+      "sha256": "280df5bc78119ff97d8902554c1cfa7504c2744b63b97ffc8fc88f31a426dc61",
+      "preview_sha256": "3028915a7b916eba30e2d8ca7a65a3237f4eba469020e01acc558c97c4a3fd6a",
+      "thumb_sha256": "1a8ea7bf5ad7399bc84e36c6e6323eebc2885d503a4572aec2f54daf3584a5d9",
+      "original_sha256": "280df5bc78119ff97d8902554c1cfa7504c2744b63b97ffc8fc88f31a426dc61",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 129916,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-139.zip",
+        "member": "原图/千圣的握手会（第3页） [cn21_bilicolumn_8378978_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363933_1.jpg",
+      "bytes": 3994610,
+      "sha256": "2a9454a0382e5defce82c08c345205c365ed827d5d88dd22343190ee2e76e6b2",
+      "preview_sha256": "a6fc93999ddea613a450b73b9926e4318b4943bf9bf7e10e3a6528cdaa3e9e29",
+      "thumb_sha256": "4e116be087de6500c608c2806a420d4c8e3ca2a12aac359d5526690c938e6aef",
+      "original_sha256": "2a9454a0382e5defce82c08c345205c365ed827d5d88dd22343190ee2e76e6b2",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 180348,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-140.zip",
+        "member": "原图/米歇尔差点暴露正体（第2页） [cn21_bilicolumn_8363933_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363933_2.jpg",
+      "bytes": 4311818,
+      "sha256": "e5f58ff8ba8b1f58bf3dce69960c7cd9ad4060e862570e4d78eb6a61ebca4a61",
+      "preview_sha256": "46588341ae5a5b1cd4857cc5e302a2d918bcd1c92277ac7dcb4672fce502bcda",
+      "thumb_sha256": "71d92580121211cecb2c10f16a67ee47ebe2f60af272e78524b369a585179efc",
+      "original_sha256": "e5f58ff8ba8b1f58bf3dce69960c7cd9ad4060e862570e4d78eb6a61ebca4a61",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 197646,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-140.zip",
+        "member": "原图/米歇尔差点暴露正体（第3页） [cn21_bilicolumn_8363933_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363907_1.jpg",
+      "bytes": 2727220,
+      "sha256": "580a7b568622cbdecefa9022e0d93d6b295e3761237095a67cc45cfba1bfa609",
+      "preview_sha256": "ec00e2dd89bca4137e8066c0c0593633f904ac5fcaeada7841df3c2efe6e5a93",
+      "thumb_sha256": "8b633a56fd0315dbf609308496ba99a5e17927c7d85eb6cb75e5d2db47c6cc70",
+      "original_sha256": "580a7b568622cbdecefa9022e0d93d6b295e3761237095a67cc45cfba1bfa609",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 109526,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-140.zip",
+        "member": "原图/巴绯的情人节（第2页） [cn21_bilicolumn_8363907_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363907_2.jpg",
+      "bytes": 3752429,
+      "sha256": "f0fbb7b052bede837f60e54afc88e7be12b69d96161a2bb6cdcb518a26ebe4f5",
+      "preview_sha256": "565f07d0b2ce48dc89a3274385ac590d09d54cc92cefcfb3c452eb2b73b9c69e",
+      "thumb_sha256": "9670529e0133d3ddf756e9518a5ae2c5fa3fa0815ccea25a148eb9949a46b281",
+      "original_sha256": "f0fbb7b052bede837f60e54afc88e7be12b69d96161a2bb6cdcb518a26ebe4f5",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 178738,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-140.zip",
+        "member": "原图/巴绯的情人节（第3页） [cn21_bilicolumn_8363907_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363863_1.jpg",
+      "bytes": 3519225,
+      "sha256": "f66f82cc15b5a37359e9596a7716d2e520f4229a7b0ecc822e2321087923ffa5",
+      "preview_sha256": "1328884819960d2d0e55992beaa9d8b06ecfc73febdf89f3c162463682fca9c4",
+      "thumb_sha256": "718feceeeeeb1cd2eedf067748977302fa9f280b034f4de4bbdd5f2a96395bcb",
+      "original_sha256": "f66f82cc15b5a37359e9596a7716d2e520f4229a7b0ecc822e2321087923ffa5",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 151908,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-140.zip",
+        "member": "原图/亚子看护姐姐（第2页） [cn21_bilicolumn_8363863_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363863_2.jpg",
+      "bytes": 4020249,
+      "sha256": "ee3854433afaabb17f0b737b9c56a4ac4389043074875a8fa56ddd5347a2f7b8",
+      "preview_sha256": "e83e8534ddbaecbaa3733a1d4a97ef9c2edbae7e139627e7295608a9993daf00",
+      "thumb_sha256": "78c72b172b169745b2f84cb7c189ea28a2e239f2ce642f7adcfb63a9067ba0d9",
+      "original_sha256": "ee3854433afaabb17f0b737b9c56a4ac4389043074875a8fa56ddd5347a2f7b8",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 177438,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-141.zip",
+        "member": "原图/亚子看护姐姐（第3页） [cn21_bilicolumn_8363863_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363837_0.jpg",
+      "bytes": 919656,
+      "sha256": "c8d0ecfb1c4c9d4c7594bd24d9d1023aaadcbc4a48f0064bf2aaba135db007ad",
+      "preview_sha256": "861bd8119c231f9c72006eda8640f846f2da726756cb80ba6f91c70827310e45",
+      "thumb_sha256": "4f53d290e4a78bb8719022be0ab098fa9f2056c7614fffdeb227faaa8c4f7de9",
+      "original_sha256": "c8d0ecfb1c4c9d4c7594bd24d9d1023aaadcbc4a48f0064bf2aaba135db007ad",
+      "width": 695,
+      "height": 1000,
+      "preview_bytes": 124174,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-141.zip",
+        "member": "原图/美竹流花道（第1页） [cn21_bilicolumn_8363837_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363837_1.jpg",
+      "bytes": 558456,
+      "sha256": "9a46439cfd6db05fb68eab1a057e80fc331db4403d1ef61ca206a7afc50911f2",
+      "preview_sha256": "cea2d85f69c624d9f2cdd9412a4900782230752c9b4db685e1451fb2de2e35b4",
+      "thumb_sha256": "327a1f845b177a5064ab6c468326bb16610980f8487c86ccbf74803f91e4c50e",
+      "original_sha256": "9a46439cfd6db05fb68eab1a057e80fc331db4403d1ef61ca206a7afc50911f2",
+      "width": 701,
+      "height": 1000,
+      "preview_bytes": 108684,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-141.zip",
+        "member": "原图/美竹流花道（第2页） [cn21_bilicolumn_8363837_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363837_2.jpg",
+      "bytes": 843263,
+      "sha256": "00d5c0891200b0654dcd6f4cb89aca51861c82abbb30e0842f0b16b31c88c8e5",
+      "preview_sha256": "93226264d068bc6f094990fc8fcd14d503d59bfb022cd639cdad65f64998d6d6",
+      "thumb_sha256": "c0c5896c1cdf3242ac6cf19ce342495fb0ede444328f8002e3b21dce6e5781cc",
+      "original_sha256": "00d5c0891200b0654dcd6f4cb89aca51861c82abbb30e0842f0b16b31c88c8e5",
+      "width": 694,
+      "height": 1000,
+      "preview_bytes": 147034,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-141.zip",
+        "member": "原图/美竹流花道（第3页） [cn21_bilicolumn_8363837_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363819_0.jpg",
+      "bytes": 4168154,
+      "sha256": "2b9e7eaf068ad1a2af4aa02a525f68197b9c197895ee7dcb9e2957be958f401d",
+      "preview_sha256": "57741ec599f7775cd142c59937f6a57cda58150959e2931f8bd3f27aedbf3a45",
+      "thumb_sha256": "47fcb7f2339dd69849e71ba1bd407c7269a3069cadc43127daaa5736f0fe781a",
+      "original_sha256": "2b9e7eaf068ad1a2af4aa02a525f68197b9c197895ee7dcb9e2957be958f401d",
+      "width": 707,
+      "height": 1000,
+      "preview_bytes": 157102,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-141.zip",
+        "member": "原图/纱夜沙绫做面包（第1页） [cn21_bilicolumn_8363819_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8363819_1.jpg",
+      "bytes": 3369965,
+      "sha256": "670eeaeeef04a20c52c794a4a199d84518a5bd567e72ebdb5264e0dba5f99460",
+      "preview_sha256": "b47ab837629f54111344c61dbdfa946781fe609b4b9e50f8dad3f3686ed5a5a9",
+      "thumb_sha256": "c9ffae94e54ad132f2f3649de3bad5a54ebb0a05aa1064e205c406719aee8dac",
+      "original_sha256": "670eeaeeef04a20c52c794a4a199d84518a5bd567e72ebdb5264e0dba5f99460",
+      "width": 707,
+      "height": 1000,
+      "preview_bytes": 168580,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-141.zip",
+        "member": "原图/纱夜沙绫做面包（第2页） [cn21_bilicolumn_8363819_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350437_1.jpg",
+      "bytes": 4660665,
+      "sha256": "ac4c285dd43177332e2f95a3b4cb572c57553929ce38181a7d824049b84baee1",
+      "preview_sha256": "b43c819cffe68bd22815df66d18cf4727607616c444ce783a4c74e85f89b5680",
+      "thumb_sha256": "1f9847718ef1c0fe118e418d657c8a2ad53a7bb9760d0f9361ad27a541d5d873",
+      "original_sha256": "ac4c285dd43177332e2f95a3b4cb572c57553929ce38181a7d824049b84baee1",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 195042,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-141.zip",
+        "member": "原图/日菜兰心心天文观测（第2页） [cn21_bilicolumn_8350437_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350437_2.jpg",
+      "bytes": 4434078,
+      "sha256": "30bb07074bd459968340422285c5acc8ddbfaf8183d3a4340a9ac878111d94a2",
+      "preview_sha256": "8579b71e27eb5b31f4d24b171b0c68802c8bd349ae06536070244b6fdeed0605",
+      "thumb_sha256": "8178164084735d1f308ef4ec0eba8833964a7bddb1ca2ffe6f96458e70a32d48",
+      "original_sha256": "30bb07074bd459968340422285c5acc8ddbfaf8183d3a4340a9ac878111d94a2",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 164062,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-142.zip",
+        "member": "原图/日菜兰心心天文观测（第3页） [cn21_bilicolumn_8350437_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350392_1.jpg",
+      "bytes": 3219620,
+      "sha256": "0f63f3358acd9c833d492e8fae3660e4be0b4116a7d5813c4530fd9d9d0bf845",
+      "preview_sha256": "4e815a4a0ab17dfa64a089698ca46304d3e3836f571aa27251a19a5c1fe7466f",
+      "thumb_sha256": "5aa70fae6218aa30678e1c3b7970b74337d4696cb3bb91696b2233802b1e8bd7",
+      "original_sha256": "0f63f3358acd9c833d492e8fae3660e4be0b4116a7d5813c4530fd9d9d0bf845",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 150012,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-142.zip",
+        "member": "原图/SPACE关门危机（第2页） [cn21_bilicolumn_8350392_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350392_2.jpg",
+      "bytes": 3212567,
+      "sha256": "797c2b278b6500c1fb25b1bb18569eeb2dd64befe32c34a9e9ca99aebb026141",
+      "preview_sha256": "741eec99f9919d7d31eae4554af1719b4467b4d3f800a7aeee26e44fff72c4cf",
+      "thumb_sha256": "48df9c319dbac3791be80b44aedd7aa5617f905acd92f3c8b08d77fc28c194d7",
+      "original_sha256": "797c2b278b6500c1fb25b1bb18569eeb2dd64befe32c34a9e9ca99aebb026141",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 148806,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-142.zip",
+        "member": "原图/SPACE关门危机（第3页） [cn21_bilicolumn_8350392_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350359_1.jpg",
+      "bytes": 2987815,
+      "sha256": "8c10075aae093c3292f347f6f41e9d49037773c0fd6d400966763f4cec0d5102",
+      "preview_sha256": "060ce83499174907321ed6469707e577d0b58ac58d5e9a7d9d7c85de64019f4f",
+      "thumb_sha256": "e286621bfc6b62aa91837fe3f6945e80b001f2d1e3cb593d4bc1264a55d01162",
+      "original_sha256": "8c10075aae093c3292f347f6f41e9d49037773c0fd6d400966763f4cec0d5102",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 125456,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-142.zip",
+        "member": "原图/冰川姐妹玩雪with优衣库（第2页） [cn21_bilicolumn_8350359_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350359_2.jpg",
+      "bytes": 3517584,
+      "sha256": "e3961f3fc9b96cb812650efc57aed03342e4e5d29fac668465c02d2c10a77745",
+      "preview_sha256": "f743841ba5f8b59767c12a5f7bf6dc0537709cd71b0ee8f8fb3227d5e589e875",
+      "thumb_sha256": "e705d843a2d51fcbfe0b02443e58acbb7a43da038319a27666f8b4753d4678e0",
+      "original_sha256": "e3961f3fc9b96cb812650efc57aed03342e4e5d29fac668465c02d2c10a77745",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 149914,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-142.zip",
+        "member": "原图/冰川姐妹玩雪with优衣库（第3页） [cn21_bilicolumn_8350359_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350273_1.jpg",
+      "bytes": 3335629,
+      "sha256": "108a660664e5f3f37c8b5ffd31f83f0479a6fc441068eab3916152a1be48f5d7",
+      "preview_sha256": "75f02afc31f1c5a4d14d500ad7fae0b8b977141d37e7ec800d03e8fdf5e859f6",
+      "thumb_sha256": "567ca15f5ebfdad4930dfcff968b5e4e43268d9871ef37785315553e7ee6c8d0",
+      "original_sha256": "108a660664e5f3f37c8b5ffd31f83f0479a6fc441068eab3916152a1be48f5d7",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 147808,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-142.zip",
+        "member": "原图/呼诶诶漫画…呼诶诶…（第2页） [cn21_bilicolumn_8350273_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8350273_2.jpg",
+      "bytes": 3435609,
+      "sha256": "6cbb803ed223471bfd688d5a361df239c05e6c933fe15042dc982e0f58911983",
+      "preview_sha256": "f97a6915ad28cabc909d037b9c4dfbb504cf0ca5ab18401e3b952a87c94354b6",
+      "thumb_sha256": "826c8821ea0196fb10f10e11286bf09c0155c41f5f39548f46143bc8dfe76df2",
+      "original_sha256": "6cbb803ed223471bfd688d5a361df239c05e6c933fe15042dc982e0f58911983",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 151220,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-143.zip",
+        "member": "原图/呼诶诶漫画…呼诶诶…（第3页） [cn21_bilicolumn_8350273_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335267_1.jpg",
+      "bytes": 3897509,
+      "sha256": "c596da78ab4a288c98b74ebc6e502e23a02f44908bca437e64afe5507e337e5c",
+      "preview_sha256": "fac25530f422065ede0f06e370cfd3e5af03cc332bd391e437e89ec99ecaa6bc",
+      "thumb_sha256": "f6185045ba9f3de62bc4ff667412393bb5c059fb52f5fd9c86b9092cf176b2c3",
+      "original_sha256": "c596da78ab4a288c98b74ebc6e502e23a02f44908bca437e64afe5507e337e5c",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 180704,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-143.zip",
+        "member": "原图/香澄有咲去海边（第2页） [cn21_bilicolumn_8335267_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335267_2.jpg",
+      "bytes": 4267795,
+      "sha256": "c7031cb34520506105bee53216319cdd2202f9e78aac7e06188e583d1a882284",
+      "preview_sha256": "3f703c155d27af1ef6dc53b555d4b714d79bebafe972308fe495e78d30615df9",
+      "thumb_sha256": "1820cdb5731893ac1024ead7156a1de97274b229eafcae25e78577c4a951d373",
+      "original_sha256": "c7031cb34520506105bee53216319cdd2202f9e78aac7e06188e583d1a882284",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 184258,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-143.zip",
+        "member": "原图/香澄有咲去海边（第3页） [cn21_bilicolumn_8335267_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335205_1.jpg",
+      "bytes": 4354490,
+      "sha256": "14bb200d6320bcd52970f11cc91e8b9f4a978c286a8a9b14df912b06c375096d",
+      "preview_sha256": "8886018a6d758b29639b20b50c19512f652dd00bfd109628164a0a7995da67d0",
+      "thumb_sha256": "0e1d0e453f9a0022621dc1a84c0d1974190df1de79ef5d7f5a0cd21c2d0df509",
+      "original_sha256": "14bb200d6320bcd52970f11cc91e8b9f4a978c286a8a9b14df912b06c375096d",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 179798,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-143.zip",
+        "member": "原图/千圣花音去咖啡厅（第2页） [cn21_bilicolumn_8335205_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335205_2.jpg",
+      "bytes": 4605960,
+      "sha256": "ac84ea313bfa385e27a17dbb02690fd1b76df4f8b1ff042e4878aa294676c4e9",
+      "preview_sha256": "3c7a929a72fb23490e263f42ca5133055c083df83233f54bb28f4e8d06ab4995",
+      "thumb_sha256": "4eb00428f3004e51f4a539705a3ce281c7b15666822de30403b9d3567d43a724",
+      "original_sha256": "ac84ea313bfa385e27a17dbb02690fd1b76df4f8b1ff042e4878aa294676c4e9",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 193888,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-143.zip",
+        "member": "原图/千圣花音去咖啡厅（第3页） [cn21_bilicolumn_8335205_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335156_1.jpg",
+      "bytes": 2886548,
+      "sha256": "b213756369b9c758091af1581ac125656535f9464a9d9ce4f4142a6ff9ab364f",
+      "preview_sha256": "58c18279ec3d62aec1465300326572cacffc8b82e24c8ce45098f5c0f702a79b",
+      "thumb_sha256": "969d403db9e5baefdea81f52b90b7ee670f14f1b6dde6499061f0882fd279168",
+      "original_sha256": "b213756369b9c758091af1581ac125656535f9464a9d9ce4f4142a6ff9ab364f",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 124686,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-144.zip",
+        "member": "原图/鸫的生日（第2页） [cn21_bilicolumn_8335156_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335156_2.jpg",
+      "bytes": 4189573,
+      "sha256": "7f9050145339b71a053fe86a80d612b2f3e6942f2f412e72533cd127fd4be885",
+      "preview_sha256": "b7b211dc1389381a25e91446335844e26706f30ef14295e5bc6e055b244316a0",
+      "thumb_sha256": "74fc9527b84c47a0259daa5b4641d033d63b8854f661114f582f0613aba05203",
+      "original_sha256": "7f9050145339b71a053fe86a80d612b2f3e6942f2f412e72533cd127fd4be885",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 190430,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-144.zip",
+        "member": "原图/鸫的生日（第3页） [cn21_bilicolumn_8335156_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335066_0.jpg",
+      "bytes": 3248804,
+      "sha256": "585616a2b4d8ecd09681f2f77a7bd99325ddc7f5adf848f6741e52b8fc0f9a0a",
+      "preview_sha256": "3c03e4dc5524d243a4f295712bd1e7ab3b9bca5921fbf46f6a69ef6d78004e00",
+      "thumb_sha256": "5a1c8797289871c3839d3b65e7f9f5139b879be9241ad2027f2155c6e51c1c5c",
+      "original_sha256": "585616a2b4d8ecd09681f2f77a7bd99325ddc7f5adf848f6741e52b8fc0f9a0a",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 139606,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-144.zip",
+        "member": "原图/友希那丽莎喵喵（第1页） [cn21_bilicolumn_8335066_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8335066_2.jpg",
+      "bytes": 3727828,
+      "sha256": "9a1ef6a11e3478c4def891993ca33973d5417f0f46ba93b36a0f5f878b6354ad",
+      "preview_sha256": "f9e8a646b17089fa2c0516f7cec4ef88fc4d3f46f1908893c083b152279ffa1d",
+      "thumb_sha256": "4951a68a067250a315a773e90f524610398de53fc71b4b9bfc69af68c02785f0",
+      "original_sha256": "9a1ef6a11e3478c4def891993ca33973d5417f0f46ba93b36a0f5f878b6354ad",
+      "width": 743,
+      "height": 1000,
+      "preview_bytes": 165936,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-144.zip",
+        "member": "原图/友希那丽莎喵喵（第3页） [cn21_bilicolumn_8335066_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8334988_0.jpg",
+      "bytes": 2764170,
+      "sha256": "1a6022a7f2813f5b074808a0f759736891d99fdc28c8643f278eb5a43f371104",
+      "preview_sha256": "e6a1487ece87faf26cc99802496a0317dae887cc6719efed70959a0a6bd6521a",
+      "thumb_sha256": "d304123d0b1e16a83e02ae6c0c9d811fa34b33fdd463f82bdd92db33cae5870a",
+      "original_sha256": "1a6022a7f2813f5b074808a0f759736891d99fdc28c8643f278eb5a43f371104",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 112240,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-144.zip",
+        "member": "原图/帕丝帕蕾in被炉（第1页） [cn21_bilicolumn_8334988_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8334988_1.jpg",
+      "bytes": 3312812,
+      "sha256": "b47b0c2def2f5669f9e60f37fa987ed53e156784bf48789356a35ffcaf84ea26",
+      "preview_sha256": "f48dadb7c86cfec08163fcfcb68ee5131dbe043827f5dfb7620a11b6c1b7055d",
+      "thumb_sha256": "733a3d662a4c4782795ff7f851113fd12f0aea49bccd4f102f83f45ef3cd4647",
+      "original_sha256": "b47b0c2def2f5669f9e60f37fa987ed53e156784bf48789356a35ffcaf84ea26",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 145394,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-144.zip",
+        "member": "原图/帕丝帕蕾in被炉（第2页） [cn21_bilicolumn_8334988_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306605_0.jpg",
+      "bytes": 4018545,
+      "sha256": "0c77294ea926ac5ec31f3087038d3ee0932ba35931744409cf61d4bed2d325a0",
+      "preview_sha256": "e92478fe830c3b86d8b675feb29f5814466382722137c86aa42f911d41bb007f",
+      "thumb_sha256": "a95de8a20c8b11ca2094cb4c1c7451af74b5d0a90dbd074ea07b4228f65dee01",
+      "original_sha256": "0c77294ea926ac5ec31f3087038d3ee0932ba35931744409cf61d4bed2d325a0",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 173302,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-145.zip",
+        "member": "原图/有咲的初诣（第1页） [cn21_bilicolumn_8306605_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306605_1.jpg",
+      "bytes": 3675151,
+      "sha256": "1e8c7cfa9541f21f299cbb0acc1ebdaeba7bb5ec623de5b3ff419a1f16b1dc0d",
+      "preview_sha256": "c4265b9570e924013b39594daa5394bc6784ec677f86cdebfdb97d4e0849b8d9",
+      "thumb_sha256": "feb23c115836823c4a269175849d9157e529fed0e97d05b1ff4a27841063f9bd",
+      "original_sha256": "1e8c7cfa9541f21f299cbb0acc1ebdaeba7bb5ec623de5b3ff419a1f16b1dc0d",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 154410,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-145.zip",
+        "member": "原图/有咲的初诣（第2页） [cn21_bilicolumn_8306605_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306605_2.jpg",
+      "bytes": 3189914,
+      "sha256": "10fbf48f9c21788ae84471e4188e6956a572921355ba6fb83363c6883b44db06",
+      "preview_sha256": "ebba20278bb64566c87d260f567d9ef3a6ddad34d455aa11820dd50b54b356a5",
+      "thumb_sha256": "ba40478d206add9bdbe39e9266209213704c2c6ff5b75e2f6ff44ecabd543d7c",
+      "original_sha256": "10fbf48f9c21788ae84471e4188e6956a572921355ba6fb83363c6883b44db06",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 136732,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-145.zip",
+        "member": "原图/有咲的初诣（第3页） [cn21_bilicolumn_8306605_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306541_0.jpg",
+      "bytes": 3633596,
+      "sha256": "f132f585fd807b655040b7893e810dce8712df4d827ca5529c0fdbf277cce969",
+      "preview_sha256": "62c55ab412fe9eea3cd7c94ad1b42b4e5478696cecf610e0c655f8e7737916bc",
+      "thumb_sha256": "0694100d92d42c345f2b64e57d11a327498abd12cc4e2543c4f5f150330e1082",
+      "original_sha256": "f132f585fd807b655040b7893e810dce8712df4d827ca5529c0fdbf277cce969",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 166360,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-145.zip",
+        "member": "原图/各团的圣诞节（第1页） [cn21_bilicolumn_8306541_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306541_1.jpg",
+      "bytes": 3436207,
+      "sha256": "815c7886a6c63ad6307a4000ec7fe7a78cbd67f9df07327046dd78a55f320abb",
+      "preview_sha256": "1c4e3f8a6690273dabbb2d733eb89020ac6e5ffae65a8100b857cb41b472c704",
+      "thumb_sha256": "abc989a0d0686a188c1f69872f5b76f5e2498ee8c5bbb0310bc7d46361cbb9fb",
+      "original_sha256": "815c7886a6c63ad6307a4000ec7fe7a78cbd67f9df07327046dd78a55f320abb",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 127316,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-145.zip",
+        "member": "原图/各团的圣诞节（第2页） [cn21_bilicolumn_8306541_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306541_2.jpg",
+      "bytes": 3780875,
+      "sha256": "fc32efc27534d0694b36b4b8c53440ed646745f3a3c05368f3aed899b75ac212",
+      "preview_sha256": "73db852004667ff8e6b2135f0b54ccec91755b459c13459a2d90aae5e91af34f",
+      "thumb_sha256": "dc8aa5774f891cecc8286866761433f7a182774c7eed9e870a2a7a38f79e7398",
+      "original_sha256": "fc32efc27534d0694b36b4b8c53440ed646745f3a3c05368f3aed899b75ac212",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 185908,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-146.zip",
+        "member": "原图/各团的圣诞节（第3页） [cn21_bilicolumn_8306541_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306462_1.jpg",
+      "bytes": 3508993,
+      "sha256": "278e6ddbfa487312ea87ad64fedfcc8dfc3c951cd1cf8ccfdfa09de81f3476b1",
+      "preview_sha256": "6f8c345568a807845f0f2a01d8d94f181cd06ee8531c40f289465536c98341d5",
+      "thumb_sha256": "1857326e3f093537b498547201e67fcbc93d7db920caca75c37af784077d8f2a",
+      "original_sha256": "278e6ddbfa487312ea87ad64fedfcc8dfc3c951cd1cf8ccfdfa09de81f3476b1",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 166234,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-146.zip",
+        "member": "原图/3429的薯条（第2页） [cn21_bilicolumn_8306462_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306462_2.jpg",
+      "bytes": 3578575,
+      "sha256": "1a66dc5cae1d93a509ab9d966e78a20ed7b8b732a7ade7e4fcf3e2ede5fd2f63",
+      "preview_sha256": "d95f420d69b69914be4583bef6283ea64dd579a15822ae1eaa81e610bb0d083d",
+      "thumb_sha256": "99ebb162e10c71f397d92b268e223e342e9980053f8811dcaa1a537120ee2f0c",
+      "original_sha256": "1a66dc5cae1d93a509ab9d966e78a20ed7b8b732a7ade7e4fcf3e2ede5fd2f63",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 166368,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-146.zip",
+        "member": "原图/3429的薯条（第3页） [cn21_bilicolumn_8306462_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306347_1.jpg",
+      "bytes": 3915643,
+      "sha256": "59cd28282c3b8e0f31dc3bc4b59cef9ca8fdf1ec65492bb479f5b618eb5a1040",
+      "preview_sha256": "a3220e34d20088dc1c71bd6b6c6771c67500a9acb7b6e52bfc971fd12ba2ccb9",
+      "thumb_sha256": "10bff999e1153f5369b7b13a7dfbb1ee43cf55b379965e3af94f8b7218b3a7ea",
+      "original_sha256": "59cd28282c3b8e0f31dc3bc4b59cef9ca8fdf1ec65492bb479f5b618eb5a1040",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 179728,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-146.zip",
+        "member": "原图/摩卡与穗乃果与面包（第2页） [cn21_bilicolumn_8306347_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306347_2.jpg",
+      "bytes": 3733849,
+      "sha256": "99d7e150a3317707af01f168e01f575c202c8486d72f0a23c79b6badaac1fbec",
+      "preview_sha256": "8546d74ae9aa53eff3d5edcc0f9b70381dba747ca09f8f0445f8a0cc96d0bdbb",
+      "thumb_sha256": "c9048eb072d698faaeeb1adc2410af963e1a3ee9eef6e2d91f25a18d31a839fe",
+      "original_sha256": "99d7e150a3317707af01f168e01f575c202c8486d72f0a23c79b6badaac1fbec",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 159928,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-146.zip",
+        "member": "原图/摩卡与穗乃果与面包（第3页） [cn21_bilicolumn_8306347_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306237_1.jpg",
+      "bytes": 3805954,
+      "sha256": "8b704a7f5b33e702fb3995034ea137bf3780c0ded51b951518265d8bb9eb5ba7",
+      "preview_sha256": "ad73ee4e5768eb0a37eb27332ce8cb37b649502430e600e96caf65ce6ef2443d",
+      "thumb_sha256": "8339311bebc9109548b73586d6652ebf8bcbb8d6419e37d297fd0f136ee5ba3a",
+      "original_sha256": "8b704a7f5b33e702fb3995034ea137bf3780c0ded51b951518265d8bb9eb5ba7",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 152142,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/有咲香澄动物塔对战（第2页） [cn21_bilicolumn_8306237_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8306237_2.jpg",
+      "bytes": 4240326,
+      "sha256": "f33e9c3008a5d277706a7079363e6a5d8bad1a6267f639dfdfa7bdf1e68b5806",
+      "preview_sha256": "a47b08a1413834577f741425f3b325fd110b7f69d959a37919d14a79504066b8",
+      "thumb_sha256": "389b015eb2946c14a4a577e987ee8d633848d3cf5b9d808dd3176d540cfd08d5",
+      "original_sha256": "f33e9c3008a5d277706a7079363e6a5d8bad1a6267f639dfdfa7bdf1e68b5806",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 162392,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/有咲香澄动物塔对战（第3页） [cn21_bilicolumn_8306237_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8291033_1.jpg",
+      "bytes": 1750438,
+      "sha256": "e09c4db9d3d2abe296515752effed5dcf35d3d7941528541ace26de4f982ecc0",
+      "preview_sha256": "743013f60bf4d3003c6978e203151261e2445c4be9bd10d37ca8a75eaba3c9be",
+      "thumb_sha256": "23c78d2e12bca3c2556193f2a21f89b7c28a865971e75731ba458f3de9109815",
+      "original_sha256": "e09c4db9d3d2abe296515752effed5dcf35d3d7941528541ace26de4f982ecc0",
+      "width": 744,
+      "height": 1000,
+      "preview_bytes": 67068,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/里美和希的关西腔（第2页） [cn21_bilicolumn_8291033_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8291033_2.jpg",
+      "bytes": 904883,
+      "sha256": "be1750e88eb235d6dfe9074bfc0da0b12b577c9833747318182372e0dba37595",
+      "preview_sha256": "a9f22d6237e7a630751a4dbbfdbb7e069fdcafd7c8a3642874039900dac12e6b",
+      "thumb_sha256": "0c87d69ac1be071f8cb58d66f143e95cf30afe5bf48a6e690390c94a06ad671e",
+      "original_sha256": "be1750e88eb235d6dfe9074bfc0da0b12b577c9833747318182372e0dba37595",
+      "width": 867,
+      "height": 1000,
+      "preview_bytes": 137588,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/里美和希的关西腔（第3页） [cn21_bilicolumn_8291033_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8290971_1.jpg",
+      "bytes": 2167110,
+      "sha256": "06b349db5ca6073bd9b3ad20456e35e990071ea01fea36ae74e4de743c025f54",
+      "preview_sha256": "120c032e9b7a773397dd590713f3b3e4fe37ea3e46b0852cb35214681ab47d2b",
+      "thumb_sha256": "6fe1b56e6d7d1abe281479e57fbbaf45791b5859f432d1b5eefa0c78a8f0c7fb",
+      "original_sha256": "06b349db5ca6073bd9b3ad20456e35e990071ea01fea36ae74e4de743c025f54",
+      "width": 708,
+      "height": 1000,
+      "preview_bytes": 124064,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/友希那兰兰喝咖啡（第2页） [cn21_bilicolumn_8290971_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8290971_2.jpg",
+      "bytes": 1068927,
+      "sha256": "a014a1f2896d9c9c6211612c0bd64acfe0a8e5caf61681efed789ba1d58038f4",
+      "preview_sha256": "517ba5c1579f8f76f735f41970d78c66d51fde645e5101db49a59a65fa2037af",
+      "thumb_sha256": "9948279ec996fceaa96f89ce91ff6600de352218a9fa38c0477fa35ba499730b",
+      "original_sha256": "a014a1f2896d9c9c6211612c0bd64acfe0a8e5caf61681efed789ba1d58038f4",
+      "width": 791,
+      "height": 1000,
+      "preview_bytes": 149892,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/友希那兰兰喝咖啡（第3页） [cn21_bilicolumn_8290971_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8290843_1.jpg",
+      "bytes": 3334440,
+      "sha256": "fb870ec5bf7b8324f4c7383215d14e4f2c979f3c5f6327d95c6c9152de0fdce4",
+      "preview_sha256": "51e801111f08886cfdee2c936ad0f7dde277d320de728fedfd360b594164eaa5",
+      "thumb_sha256": "4b40cb99ab6eaf10494fb382ba6ca9da4f615028438865901f325f3fa8fe02b4",
+      "original_sha256": "fb870ec5bf7b8324f4c7383215d14e4f2c979f3c5f6327d95c6c9152de0fdce4",
+      "width": 707,
+      "height": 1000,
+      "preview_bytes": 139332,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/丽莎彩彩作词（第2页） [cn21_bilicolumn_8290843_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8290843_2.jpg",
+      "bytes": 3345729,
+      "sha256": "19c4fa904baddb49938a5b6ec7cdcd05b3d99890b4d5e14753e7a07b566c2099",
+      "preview_sha256": "a1f2a5c7a804ddd40d49a43a479b9a40d98f18fcff633b2654e19e11a0262c17",
+      "thumb_sha256": "b95d408a35e34e32a2c22b105cd3a2bc8dfa9195c8277526f30a50e3d88e6db7",
+      "original_sha256": "19c4fa904baddb49938a5b6ec7cdcd05b3d99890b4d5e14753e7a07b566c2099",
+      "width": 707,
+      "height": 1000,
+      "preview_bytes": 126458,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-147.zip",
+        "member": "原图/丽莎彩彩作词（第3页） [cn21_bilicolumn_8290843_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8290485_1.jpg",
+      "bytes": 2509644,
+      "sha256": "fa34efde254526b04c9bdc474b114a9c565524456b5ca8d07b87626700d346d9",
+      "preview_sha256": "b1e913072167e3cddd69f2d3e9f5d3b86ae9977514daf1248915821135be762a",
+      "thumb_sha256": "cf4511a9251c012d20c06592c22bf6d658e3c208064488e0ebd62b4e8a4d4a4d",
+      "original_sha256": "fa34efde254526b04c9bdc474b114a9c565524456b5ca8d07b87626700d346d9",
+      "width": 667,
+      "height": 1000,
+      "preview_bytes": 144612,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/当凛遇见育美（第2页） [cn21_bilicolumn_8290485_1].jpg"
+      }
+    },
+    {
+      "file": "cn21_bilicolumn_8290485_2.jpg",
+      "bytes": 2042481,
+      "sha256": "988304e62f6db4f938b1592f4e5fab22a717c4175fcf3fb0b3e01f7a9e1a6892",
+      "preview_sha256": "81f372697f91fd610536eda2fa54d2af5b83a83c26597b95b14737518d7744e6",
+      "thumb_sha256": "ae5eef2da39c6df2a77b3f727ac277792e89757c19155eaf3340195118c5d6b8",
+      "original_sha256": "988304e62f6db4f938b1592f4e5fab22a717c4175fcf3fb0b3e01f7a9e1a6892",
+      "width": 667,
+      "height": 1000,
+      "preview_bytes": 106046,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/当凛遇见育美（第3页） [cn21_bilicolumn_8290485_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_a23a73a1106359fd6deafe011ebab968.jpg",
+      "bytes": 256808,
+      "sha256": "450049c7fa2f5f9cbe9b3cbbdaeefc4fbf72abd0ac10669a0200612a0d22b4b6",
+      "preview_sha256": "df2975ec460ccc56c5840adc834ffa2c376a621478f6978d2bdc0c4f8b9b61f5",
+      "thumb_sha256": "d31c4a402741738a17adb695e4362d2060574216a29666527829e2b9001b0932",
+      "original_sha256": "450049c7fa2f5f9cbe9b3cbbdaeefc4fbf72abd0ac10669a0200612a0d22b4b6",
+      "width": 632,
+      "height": 1000,
+      "preview_bytes": 101816,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/把颂乐人偶做成 1.1 版本角色排行，还画出了角色之间的克制箭头 [cn21_gengtu_a23a73a1106359fd6deafe011ebab968].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_db6a41a564c9121c66ee53593845f788.jpg",
+      "bytes": 145843,
+      "sha256": "6ad3dc827dc73f2c0be4a12a90fc6e19d1276db60923ef7adc19abfbdac4154f",
+      "preview_sha256": "1c53ab3d29878c17f5c13676461cb59535fcc719ef8763367824d29cee9024cc",
+      "thumb_sha256": "b380d772bbcfa7dc8c585862197e63bd6ae3f5aae77da4ca171a2ac4fff8ae9f",
+      "original_sha256": "6ad3dc827dc73f2c0be4a12a90fc6e19d1276db60923ef7adc19abfbdac4154f",
+      "width": 785,
+      "height": 1000,
+      "preview_bytes": 129802,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/「会赢的。」一格黑白漫画里，祥子直视镜头先把话说满 [cn21_gengtu_db6a41a564c9121c66ee53593845f788].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_e922b8712978b4933ec3305ba6a34650.jpg",
+      "bytes": 65971,
+      "sha256": "38648538069b1373ff403b316e812328c1b561414d8e2aed80e5fff2a69d3e95",
+      "preview_sha256": "3d1baa919f1c1b79774b01e9ed638573bca0cf22013179f9244601c3d77fd80e",
+      "thumb_sha256": "b1e6c6eb58f37a24c054f4dddf4887db919df05317435d515bb3b39e1afda314",
+      "original_sha256": "38648538069b1373ff403b316e812328c1b561414d8e2aed80e5fff2a69d3e95",
+      "width": 628,
+      "height": 1000,
+      "preview_bytes": 80710,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/把立希遇见不同人的九种反应排进一张九宫格 [cn21_gengtu_e922b8712978b4933ec3305ba6a34650].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_9740831525_152149166541_b6a43d87ffa3.jpg",
+      "bytes": 67006,
+      "sha256": "ec2bb666d29763983c7195ddde793d0e196637fe3a802fe3bf3223c1f85b3f3a",
+      "preview_sha256": "e2d92863db63407346f370972c04b7e83b6056f5fa0770f7d126dc5d128e02e9",
+      "thumb_sha256": "64f09d001a9c15491a105f660817051759ca7fd62df80079c350202165d6b964",
+      "original_sha256": "ec2bb666d29763983c7195ddde793d0e196637fe3a802fe3bf3223c1f85b3f3a",
+      "width": 260,
+      "height": 334,
+      "preview_bytes": 21188,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/真白穿着深蓝色演出服，眼睛睁圆，嘴巴只剩一个小圈 [cn21_tbfloor_9740831525_152149166541_b6a43d87ffa3].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_9740831525_152222482883_9edd9148cae5.jpg",
+      "bytes": 52226,
+      "sha256": "6bc78dce74c0249eb4c0e22af5d1ea3284b40559e3ca37c1a223226ad52e4b31",
+      "preview_sha256": "4678478c07b04978ef87ae07a4c09d20ddf9371ad6c6cb305e64c9d1459193fc",
+      "thumb_sha256": "2d4c1351d4661f1396e6838ebab14f1fa46a7fabe9e9f267cc08625877485052",
+      "original_sha256": "6bc78dce74c0249eb4c0e22af5d1ea3284b40559e3ca37c1a223226ad52e4b31",
+      "width": 580,
+      "height": 513,
+      "preview_bytes": 54346,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/真白把眼睛闭成两个大于号，攥紧小拳头张嘴喊 [cn21_tbfloor_9740831525_152222482883_9edd9148cae5].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_11049777209_153965366156_196db10a9e87.jpg",
+      "bytes": 259754,
+      "sha256": "e7cd005c1379ab18ec2579cec73c7d0a6c6db06b28eb299adbc6629f2223381e",
+      "preview_sha256": "7e7359f8dd8ab028740fe6a4af89f4881dfe6baf646216bdb2810130751087a9",
+      "thumb_sha256": "0b1d1f4ce03993e6664df4fe6bfea4045f872df198995a055abc3152f75d60e5",
+      "original_sha256": "e7cd005c1379ab18ec2579cec73c7d0a6c6db06b28eb299adbc6629f2223381e",
+      "width": 720,
+      "height": 532,
+      "preview_bytes": 60576,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/立希布偶的早安问候：「我现在很幸福。你呢？」 [cn21_tbfloor_11049777209_153965366156_196db10a9e87].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_8393277f6780f5d933fad2d3dc4cd070.jpg",
+      "bytes": 279145,
+      "sha256": "ad28ac132032b6f2cce064a32f3c3e01b2bf106ec10d3f7c5d099e2bbdcb30d6",
+      "preview_sha256": "4be04f48d33fc983daeaa5e77eb6605e6375b16b3dd0264342600061e8e06848",
+      "thumb_sha256": "9ac06ab2c3c666382eac40ce46df1405eae633ae412bc38ec0187b66c545488c",
+      "original_sha256": "ad28ac132032b6f2cce064a32f3c3e01b2bf106ec10d3f7c5d099e2bbdcb30d6",
+      "width": 1200,
+      "height": 826,
+      "preview_bytes": 156726,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/灯和祥子变成 Pop 子和 Pipi 美，戳完脸还要问「要不要组乐队？」 [cn21_gengtu_8393277f6780f5d933fad2d3dc4cd070].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_9048939085_151002543745_05c2334e40e5.jpg",
+      "bytes": 66262,
+      "sha256": "a48c4e96bd1a9c1229a434678b3fec33c5c4edd1993800f4e66ca14765cdef71",
+      "preview_sha256": "49799118f9d7758303801818b17e00c06fd89eadd439caeac830e13d83bae5a2",
+      "thumb_sha256": "91ae928b5b4777cad391a0d76f412d3231be6befd79b7cbe0f495e67347955fa",
+      "original_sha256": "a48c4e96bd1a9c1229a434678b3fec33c5c4edd1993800f4e66ca14765cdef71",
+      "width": 508,
+      "height": 508,
+      "preview_bytes": 41792,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/真白睁着水绿色的大眼睛，握起拳头等一句答复 [cn21_tbfloor_9048939085_151002543745_05c2334e40e5].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_c88823090ddf93ab96d0903f4df6ecad.jpg",
+      "bytes": 92036,
+      "sha256": "00cfe4e2d8772ad01281654e0495751af8838e3b0b41cc51d49d44b7321940f1",
+      "preview_sha256": "401d0557cd50f09b53cb81a0dfc2ebc2a51804ea4f787f19ca4b68e824a40e4e",
+      "thumb_sha256": "5002015fac8c92a890b0b166b25071193a6e7406de40931523df998477c9d4f9",
+      "original_sha256": "00cfe4e2d8772ad01281654e0495751af8838e3b0b41cc51d49d44b7321940f1",
+      "width": 1026,
+      "height": 1000,
+      "preview_bytes": 99774,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/「选择你的项目组成员」：乐奈做产品，立希做运维，爽世管测试，爱音负责后端 [cn21_gengtu_c88823090ddf93ab96d0903f4df6ecad].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbalbum_9741944719_152150740367_19.png",
+      "bytes": 95402,
+      "sha256": "9e780bccfb65b3ebaa47d0d244902b333a80e5740d8e7986abe1ae529681cdc3",
+      "preview_sha256": "074350960b9b2bb778d2f512e259264e14beae6498e157caee8308d8fc7b0e61",
+      "thumb_sha256": "ccd849e51bc2980c8f573166a40a7009d0ca17fb2f1704b5068c440e20e27435",
+      "original_sha256": "9e780bccfb65b3ebaa47d0d244902b333a80e5740d8e7986abe1ae529681cdc3",
+      "width": 620,
+      "height": 620,
+      "preview_bytes": 36774,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/粉毛爱音闭着眼睛偷笑，脸两边浮起两圈红晕 [cn21_tbalbum_9741944719_152150740367_19].png"
+      }
+    },
+    {
+      "file": "cn21_gengtu_15685790a3af2b7cf4369227e4277b51.jpg",
+      "bytes": 164765,
+      "sha256": "117336d79e254f5f2b14822622b97f805a988e26972755a404781a4db0a51869",
+      "preview_sha256": "9ca8a9d116ff57cda0fd2c05fa482d8587a1d3289f7ea6d880f5f202f4f3d140",
+      "thumb_sha256": "bb326aa0675130d2bd356b976c1d36ccce9a0d1bcf4a907c8871e1a66f138b41",
+      "original_sha256": "117336d79e254f5f2b14822622b97f805a988e26972755a404781a4db0a51869",
+      "width": 750,
+      "height": 1000,
+      "preview_bytes": 89110,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/黑色背心、红色格纹衬衫和同一个表情：海铃撞衫对照图 [cn21_gengtu_15685790a3af2b7cf4369227e4277b51].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_9183085552_150961244873_d0ad074ffcac.jpg",
+      "bytes": 376806,
+      "sha256": "529e36f51fbcd5169e264c5d750c4ae59684ed1f2eeacf6503d4238c38705e5a",
+      "preview_sha256": "f7e5ee56cd1e2ae53283ec0c99a56fd0ed6d13a630cbb1de6191d5bdd0da845a",
+      "thumb_sha256": "ec668151aeacf6c73324d6944db9c61fb9986a87c269285d7cce31a234a014fa",
+      "original_sha256": "529e36f51fbcd5169e264c5d750c4ae59684ed1f2eeacf6503d4238c38705e5a",
+      "width": 700,
+      "height": 1000,
+      "preview_bytes": 111970,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/给友希那一株猫尾草，小猫和围观的人都来了 [cn21_tbfloor_9183085552_150961244873_d0ad074ffcac].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_145a04c35edc225a9a800f31acc5f32a.jpg",
+      "bytes": 187967,
+      "sha256": "9ee57e6082aecabab356f9b503fd286fce337acccc61359648afb07f1bb44650",
+      "preview_sha256": "f28b67356a5bbdc298ecf851314eadb37ebf073475e13cc50e5d4530e10e6e82",
+      "thumb_sha256": "e5050bb2f8da1a2c4369b5287a6cf972018e1acb4ec09cf7ce5cc992d6da1a56",
+      "original_sha256": "9ee57e6082aecabab356f9b503fd286fce337acccc61359648afb07f1bb44650",
+      "width": 686,
+      "height": 1000,
+      "preview_bytes": 67768,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/Q 版急救现场，队友还躺在地上，旁边的人已经各自拿出了办法 [cn21_gengtu_145a04c35edc225a9a800f31acc5f32a].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbmobile_9428405464_0.jpg",
+      "bytes": 119212,
+      "sha256": "9bb7e1d4da03ce9b83f515b6c3ceeb20d8f4b75783352a5a97332b3ce2c65111",
+      "preview_sha256": "3c49c31a7c23d3ed652ab6f8e8374fa3e511bf7238bfd5e45ae8973aa3bd65f6",
+      "thumb_sha256": "b02e779347d620eb9db4f9fe1857ee3255351e6e079c7c31dccf80f63c8ff517",
+      "original_sha256": "9bb7e1d4da03ce9b83f515b6c3ceeb20d8f4b75783352a5a97332b3ce2c65111",
+      "width": 1000,
+      "height": 1000,
+      "preview_bytes": 97282,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/阿拉蕾的新年头像，围巾和灯笼同样红，猫耳发箍还从双马尾中间探出来 [cn21_tbmobile_9428405464_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_6821024931_133475823228_c94ff72dbe00.jpg",
+      "bytes": 299303,
+      "sha256": "64f925d6a8ff793db749212ee73843000533b62a1c83892b529f814ddd4237b2",
+      "preview_sha256": "61fc748760b69fa4616ba326956d1511055ee11bfcbf65a1f0cb01543962e7e9",
+      "thumb_sha256": "cca9e59b11e14ee24f052324391a134c18d9410231f5dfdd5dbcc3b87a654bd6",
+      "original_sha256": "64f925d6a8ff793db749212ee73843000533b62a1c83892b529f814ddd4237b2",
+      "width": 1080,
+      "height": 951,
+      "preview_bytes": 145446,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/双子生日合照，日菜把脸凑过去，纱夜侧过脸笑了 [cn21_tbfloor_6821024931_133475823228_c94ff72dbe00].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_6821024931_133475873797_1a17bb08c832.jpg",
+      "bytes": 2593802,
+      "sha256": "eedd16cb6b35817e3a1177c8f1d440dbd5745505f21e346a7db3f87fe147109d",
+      "preview_sha256": "25b017d1d9d5886d8a467674b464c6d04657cd51e69ff3d0086921cc9f1b36b9",
+      "thumb_sha256": "f11e1b3cbf8b58df7f7237997083443d79bd82a388492d0c789dcab47b7ba56b",
+      "original_sha256": "eedd16cb6b35817e3a1177c8f1d440dbd5745505f21e346a7db3f87fe147109d",
+      "width": 718,
+      "height": 1000,
+      "preview_bytes": 111484,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/PICO 的多惠在舞台上一本正经发言，台下的队友排成一排听 [cn21_tbfloor_6821024931_133475873797_1a17bb08c832].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_8740584522_149110978395_563071578ad7.jpg",
+      "bytes": 592525,
+      "sha256": "f52ed0f3f5dd9923ee24cfa6ee976c09f54ccc2dacf8494c681e28c5b50b39cd",
+      "preview_sha256": "cc05d6e94ac35426d4707b0965160b1e8a8bf6ee4448c7f7beae24b7af3113a1",
+      "thumb_sha256": "6ee9e85e9fb24a7b9e5cc7dfb8f9cf454dc87f1eb273d64b99aaf1738fd30465",
+      "original_sha256": "f52ed0f3f5dd9923ee24cfa6ee976c09f54ccc2dacf8494c681e28c5b50b39cd",
+      "width": 960,
+      "height": 870,
+      "preview_bytes": 107228,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/乐奈举起三根手指，头顶飘出一个「＋3」，黑白猫就趴在她怀里 [cn21_tbfloor_8740584522_149110978395_563071578ad7].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_1c78fba66f0326bb0c4a5f5f7f73cdaf.jpg",
+      "bytes": 114381,
+      "sha256": "c08cdeb57c3717a1978243577ba1982d7f87590234ab01a640d9d2e96d2b822f",
+      "preview_sha256": "275566e82c044358ffef256dd6c6e1c38f3e0e8a4391245939002019585df1b9",
+      "thumb_sha256": "efe3527380f07d7a6833162e4c9c63bfdcc3731f55191f269aade93ad65c3f2a",
+      "original_sha256": "c08cdeb57c3717a1978243577ba1982d7f87590234ab01a640d9d2e96d2b822f",
+      "width": 841,
+      "height": 1000,
+      "preview_bytes": 98102,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/睦和 Mortis 的身份交给四格对照解释，真人和动画越排越像 [cn21_gengtu_1c78fba66f0326bb0c4a5f5f7f73cdaf].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_ba43dd07b862f035192de73dcf4054f1.jpg",
+      "bytes": 120453,
+      "sha256": "1aa820831131644b82e27fcab52698129aa9fc940397c05816dd98f95330ef7d",
+      "preview_sha256": "2936aaa1a327227945ce6f9faa6995230df24a97414584942d2072eac650b0ca",
+      "thumb_sha256": "9307c167e723be0a0fe14a64af464fb586d41af52cc98d783ebf8c52dc879ef8",
+      "original_sha256": "1aa820831131644b82e27fcab52698129aa9fc940397c05816dd98f95330ef7d",
+      "width": 1003,
+      "height": 1000,
+      "preview_bytes": 101364,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音举起手机拍红茶时间的合照，爽世还靠在她身边睡着 [cn21_gengtu_ba43dd07b862f035192de73dcf4054f1].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbalbum_9784423426_152228506287_2.jpg",
+      "bytes": 59679,
+      "sha256": "e91fd6e51f8e9579d2b1c5f17f44a030f2af5e0849b4f1cf12eea6d36007d287",
+      "preview_sha256": "f75098f7c8e617957878eacb61add3cfd9e76f57c44b15c62f2666601a5788ae",
+      "thumb_sha256": "c55e8baaead4a4d64dbb3664e99bc02e5b67f9f6b8e06814cd94b0d6f022d348",
+      "original_sha256": "e91fd6e51f8e9579d2b1c5f17f44a030f2af5e0849b4f1cf12eea6d36007d287",
+      "width": 957,
+      "height": 1000,
+      "preview_bytes": 38534,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/把乐奈的双色眼和刘海贴到猫脸上，猫咪身份一眼就能认出来 [cn21_tbalbum_9784423426_152228506287_2].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_42ca3872f183d6d0321c9a41f476b346.jpg",
+      "bytes": 24145,
+      "sha256": "262a916cdfe4cf3c196b0e6acc5eb57b725fed58a89845e34c563a2bb42f4f07",
+      "preview_sha256": "500ebc47695a5571249b60e3b01056f593abfec98c88cae905d3e174c12e1b16",
+      "thumb_sha256": "a77d647c0fc8a4347b6f8c4339878f9474c72ccbceb7f4e6e477dde9159d8ffb",
+      "original_sha256": "262a916cdfe4cf3c196b0e6acc5eb57b725fed58a89845e34c563a2bb42f4f07",
+      "width": 840,
+      "height": 652,
+      "preview_bytes": 30292,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/「长期素食」和「长期爽食」只差一个字，爽世的立绘已经变了 [cn21_gengtu_42ca3872f183d6d0321c9a41f476b346].jpg"
+      }
+    },
+    {
+      "file": "cn21_gengtu_09f66e6711471a6fe330afe8a7221ff6.gif",
+      "bytes": 539807,
+      "sha256": "b246e48e1ac9041ce42032f9fa7731ed211811d1fbb2643e04d28c7cbe6a1972",
+      "preview_sha256": "060506ef284019769b170ef9848b0861641314b7515387e7b579f3d054f2c384",
+      "thumb_sha256": "da3f4903718c75d1618d1f26aa3735b9eaaf0d2d58f80b89f34def69f9915ae7",
+      "original_sha256": "e64f6d0baf89f2ce6d5e9ba30a8fd64c2eb8be703e8c7eaeb24faa484ad8469f",
+      "width": 480,
+      "height": 270,
+      "preview_bytes": 341630,
+      "frames": 32,
+      "gifInfo": {
+        "path": "gifs/cn21_gengtu_09f66e6711471a6fe330afe8a7221ff6.gif",
+        "width": 384,
+        "height": 216,
+        "bytes": 539807
+      }
+    },
+    {
+      "file": "cn21_tbfloor_9784423426_152511086457_8f3b9225f3e1.jpg",
+      "bytes": 114871,
+      "sha256": "591704e4fa371888b2c57a0d828a81d25beb60afed8769243c4a58221210ab69",
+      "preview_sha256": "4174cde29a3a1b673fa5fb57b1ba01475426a39dfc526d2e7f3d33c6b9331895",
+      "thumb_sha256": "4ab725a7158093113fa5b83e751aaafbdb9dd9f6242d18bce017b5ec9643b456",
+      "original_sha256": "591704e4fa371888b2c57a0d828a81d25beb60afed8769243c4a58221210ab69",
+      "width": 720,
+      "height": 720,
+      "preview_bytes": 21314,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/乐奈比起大拇指，用三个字评价眼前的事：「觉得有趣」 [cn21_tbfloor_9784423426_152511086457_8f3b9225f3e1].jpg"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40771771_1148254.png",
+      "bytes": 250234,
+      "sha256": "6840ee44c1feb1193d99e1895b59daf8eb14e866edf9fed904b7f98a7cbf253a",
+      "preview_sha256": "ba89e829a1313bb0847153700e62776e41d2b0330a352dbf9afde7ea38a10899",
+      "thumb_sha256": "5157b51db5749f5077c407f9c843cc32e85a8510efd405bbc50ad567b7e17eb3",
+      "original_sha256": "6840ee44c1feb1193d99e1895b59daf8eb14e866edf9fed904b7f98a7cbf253a",
+      "width": 421,
+      "height": 408,
+      "preview_bytes": 22602,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音耷拉着眼皮看过来，字幕替她说了「一点也不想逃」 [cn21_yamforum_40771771_1148254].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40773334_1149232.webp",
+      "bytes": 37596,
+      "sha256": "01252728f33d6705aed02ef70ac7816f30d37b6591c0c6896f49f5d96a4c9e15",
+      "preview_sha256": "1b64d92ff67c5db6ef92df289ad159f21b32a8edcfe309c716ed568928f11cf7",
+      "thumb_sha256": "2f261d1ef026ad54815b2588f9c237b95444dc171109cb171c7850878c9c582e",
+      "original_sha256": "01252728f33d6705aed02ef70ac7816f30d37b6591c0c6896f49f5d96a4c9e15",
+      "width": 936,
+      "height": 754,
+      "preview_bytes": 47902,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/「为什么总是由你来主导啊」：立希坐在桌边，朝爱音抬起了手 [cn21_yamforum_40773334_1149232].webp"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40773334_1149238.webp",
+      "bytes": 40444,
+      "sha256": "b8aaa957bcd0024ea89327e0312f5db18b6ad5b86208d547c5f1af2c48ffe46e",
+      "preview_sha256": "66840f02d27c56dfdedf0bd03ac61c81fdfc2aaeda0583142635405c738cf3d9",
+      "thumb_sha256": "9e9c6ed3040aa85eea8c51a1166f7b1a37cde4164878798fac59dc2fa96c5bda",
+      "original_sha256": "b8aaa957bcd0024ea89327e0312f5db18b6ad5b86208d547c5f1af2c48ffe46e",
+      "width": 1091,
+      "height": 1000,
+      "preview_bytes": 61080,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音戴着黑框眼镜低头看手机，眉头越皱越紧 [cn21_yamforum_40773334_1149238].webp"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40777981_1151843.png",
+      "bytes": 277379,
+      "sha256": "abff0cb2b990e3e024487a42c266faeef407b493b3f3072bb86f6db45f44dc50",
+      "preview_sha256": "dfe0b69705bb467377142c0d43688aa666fe121f2ce016017a9d69c8666745a6",
+      "thumb_sha256": "a3454ef2d004e4ce1436b93340f9000131ba8759770a7288559639f5368d20af",
+      "original_sha256": "abff0cb2b990e3e024487a42c266faeef407b493b3f3072bb86f6db45f44dc50",
+      "width": 454,
+      "height": 381,
+      "preview_bytes": 29172,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音抱着写满字的册子，侧过脸招呼同伴也一起去玩 [cn21_yamforum_40777981_1151843].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152781.png",
+      "bytes": 197919,
+      "sha256": "5c47455d366f86bdd5f6a5c5c31d62fc21c78fbef79ccac2075751f7faebdf2c",
+      "preview_sha256": "29b5bd35790f2994bc6eb9dc3b884f32b4642c00fd3a5d3ec1eeccd5a96bbd9d",
+      "thumb_sha256": "6a6943f283fb5b1859dc4e0d13667a85bcf3ebe1e5b2600ee2edab22a597455c",
+      "original_sha256": "5c47455d366f86bdd5f6a5c5c31d62fc21c78fbef79ccac2075751f7faebdf2c",
+      "width": 541,
+      "height": 304,
+      "preview_bytes": 18998,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音背着琴盒来找立希，两人隔着台阶讨论什么时候去学校 [cn21_yamforum_40779607_1152781].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152786.png",
+      "bytes": 268996,
+      "sha256": "7ce7c002d161f2515c699120237fead62145f7544a514983549912b1dd8f7b37",
+      "preview_sha256": "c22aee7e617d730f5c6c9631ebcb0c6214b103ceccc020d8352e1450775485ce",
+      "thumb_sha256": "213bc6854c56f8146ca273c847d66217bc1509ed8b1c0d1c3e4079e1dcbc2c29",
+      "original_sha256": "7ce7c002d161f2515c699120237fead62145f7544a514983549912b1dd8f7b37",
+      "width": 400,
+      "height": 449,
+      "preview_bytes": 27310,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/立希一手捂住手机听筒，让大家小声一点，她正在接电话 [cn21_yamforum_40779607_1152786].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152796.png",
+      "bytes": 329797,
+      "sha256": "d23909ba20964b719bd8259f5544fdb44f408cde4ea955b6c94220a56e6112ac",
+      "preview_sha256": "82650e8441c4ceecb7246aa8928052ed1072e8507920f49735b7fecc1f0914cc",
+      "thumb_sha256": "28781c4029227c2fe84f6d3e22317579065e3fe2a6d2f8ade5a73dcb42bcbaed",
+      "original_sha256": "d23909ba20964b719bd8259f5544fdb44f408cde4ea955b6c94220a56e6112ac",
+      "width": 549,
+      "height": 464,
+      "preview_bytes": 30826,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音还在握着吉他，只来得及反问一句「为什么？」 [cn21_yamforum_40779607_1152796].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152799.png",
+      "bytes": 203135,
+      "sha256": "15f4d680ae183f76cef4d26ddff618d98b05d42925661ad1632ac7b147493d28",
+      "preview_sha256": "9b6bf0916cb9ef3b917acaa5205dcb7f8df6ac6fe478783232c88e9f1e446b6c",
+      "thumb_sha256": "1448d12f5e2712ada121652b07b5b521bec905a9e27544f9aa4bde74edf22551",
+      "original_sha256": "15f4d680ae183f76cef4d26ddff618d98b05d42925661ad1632ac7b147493d28",
+      "width": 260,
+      "height": 454,
+      "preview_bytes": 22970,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/「你怎么不找我商量」：爱音把手一叉腰，等立希开口 [cn21_yamforum_40779607_1152799].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152803.png",
+      "bytes": 363248,
+      "sha256": "3406b501c0d8a7c382b2eb0606dea0de69a58505328ec3ca1e9d6edd71034eae",
+      "preview_sha256": "c67320a4281cf884f1069715fe1dd83df746ad8ff29ec69044f336bc6094010c",
+      "thumb_sha256": "391cbae41de533de0c196c524fde558cdc841233977fdbcf04c67e690108cd0d",
+      "original_sha256": "3406b501c0d8a7c382b2eb0606dea0de69a58505328ec3ca1e9d6edd71034eae",
+      "width": 514,
+      "height": 461,
+      "preview_bytes": 35110,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音站在练团室，皱着眉替 Rikki 解释刚才的话 [cn21_yamforum_40779607_1152803].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152804.png",
+      "bytes": 372884,
+      "sha256": "7dc27d6fe4ba4f7524d49d7d38394409cf8ba86bbe546be9e318334f2d49e50b",
+      "preview_sha256": "e4c9a8482c11e8ac85a695aa6acce4750734e2192f6ce1c4efb6e7b22f0328af",
+      "thumb_sha256": "658347c6b3297bf542d16e88eb5b097d878915ebbbf6246c44cd1e649685919e",
+      "original_sha256": "7dc27d6fe4ba4f7524d49d7d38394409cf8ba86bbe546be9e318334f2d49e50b",
+      "width": 537,
+      "height": 462,
+      "preview_bytes": 35046,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/立希隔着架子鼓告诉爱音：「那家伙说不需要你和乐奈」 [cn21_yamforum_40779607_1152804].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152806.png",
+      "bytes": 138532,
+      "sha256": "65567c37a0676a7c959c40c626ba86a8b105faf26aa7b9b988eecbad78003bd5",
+      "preview_sha256": "c865c8975b5a141fe482040241e46be24657a2ce39b680b6d8d5e12629ab5547",
+      "thumb_sha256": "82ab9f8534a1a61ffc0f20d13bf25fbf57c55aac9bd9c015bdd8ee39992c2440",
+      "original_sha256": "65567c37a0676a7c959c40c626ba86a8b105faf26aa7b9b988eecbad78003bd5",
+      "width": 324,
+      "height": 258,
+      "preview_bytes": 14208,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音听到一半抬起头，眼睛睁圆，刚要说的话又停住了 [cn21_yamforum_40779607_1152806].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40779607_1152808.png",
+      "bytes": 275278,
+      "sha256": "a7a9ccfb8ce79a25afa0c154fde17ec9d8f15b3e5cb70a8509f242980b7a7aea",
+      "preview_sha256": "486dd06fef86be9aff34f06a8c0379c5dd08cc5d2cd7ebeee0e0dad3108af6d4",
+      "thumb_sha256": "e5fedfb53e5c473a1d4d07f91a08ea78ce70f48f5056de5dcc554b9c5130da76",
+      "original_sha256": "a7a9ccfb8ce79a25afa0c154fde17ec9d8f15b3e5cb70a8509f242980b7a7aea",
+      "width": 380,
+      "height": 450,
+      "preview_bytes": 27050,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音推着琴盒站在门口，话已经说完了，人还舍不得走 [cn21_yamforum_40779607_1152808].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40780125_1153033.png",
+      "bytes": 531862,
+      "sha256": "899071d66c43f2fa7d441620f83d7fb2b01c144ddb3856c504cbbddc1c802d2d",
+      "preview_sha256": "c370e63d384d92b5325db3d448a2978a439edcf4fe781e6cf21c4d9003ab900a",
+      "thumb_sha256": "6ba961023868b312266bfd0a9cb8eaba2904885230a40e27263d6f1a24770084",
+      "original_sha256": "899071d66c43f2fa7d441620f83d7fb2b01c144ddb3856c504cbbddc1c802d2d",
+      "width": 1141,
+      "height": 627,
+      "preview_bytes": 44326,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/立希把眼睛一眯，给镜头留下一个不用开口的反问 [cn21_yamforum_40780125_1153033].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40780125_1153069.png",
+      "bytes": 552586,
+      "sha256": "a8f679a09e8e90e804643916fd9bcb6379f9783f831a9f27112cf514d582f325",
+      "preview_sha256": "f597bbc7335b8f25078e971cdb3b2c076f806e86906b0ccc6c009c863e008c5a",
+      "thumb_sha256": "d1cb2b53c624dbbe2363bdbb8705f37843552ed42e66a9ac54589500da1f0e06",
+      "original_sha256": "a8f679a09e8e90e804643916fd9bcb6379f9783f831a9f27112cf514d582f325",
+      "width": 827,
+      "height": 640,
+      "preview_bytes": 60488,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/点开和立希的聊天记录，粉色界面里还有两人传过的图 [cn21_yamforum_40780125_1153069].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40780125_1153087.png",
+      "bytes": 130574,
+      "sha256": "6a6d7f14d8b84241b7dfd62634ea2e7afa5475c84855889c1d1525b993fc149b",
+      "preview_sha256": "d4868edca34d9024c346e9edf8219e5a7e33404ed650c81a0c6797abf45a1b47",
+      "thumb_sha256": "1337cb88ba2796f8183cc186981f3f6e5155b5bc9b4ad83597d9bdf61638e940",
+      "original_sha256": "6a6d7f14d8b84241b7dfd62634ea2e7afa5475c84855889c1d1525b993fc149b",
+      "width": 287,
+      "height": 342,
+      "preview_bytes": 12016,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音拉开储物柜，刚转过身就张着嘴摊开了双手 [cn21_yamforum_40780125_1153087].png"
+      }
+    },
+    {
+      "file": "cn21_yamforum_40783441_1155162.webp",
+      "bytes": 41272,
+      "sha256": "b93b13badf9e4134ddb423438f4d111761376093a3c2da2ab4f2d2461e0ed691",
+      "preview_sha256": "787f423535d8c4e790cab2c1d5f1e3fb8f821e72b65e4af4da572101fa0bf60a",
+      "thumb_sha256": "d7c5ac045c3793f2e206b0eb235b301a36593adf38da876e045b0e03e9633766",
+      "original_sha256": "b93b13badf9e4134ddb423438f4d111761376093a3c2da2ab4f2d2461e0ed691",
+      "width": 1076,
+      "height": 754,
+      "preview_bytes": 55270,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/爱音闭着眼睛扶着背带，才说完话便又叹了口气 [cn21_yamforum_40783441_1155162].webp"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_9817918004_154061440100_67754238f0dc.jpg",
+      "bytes": 11405,
+      "sha256": "52d8d68b103f33b3c42ea7988bded4aa946bf0c1dff67c89b4e87d5d1f1bc847",
+      "preview_sha256": "9eb6fa6fcc9baf8884a47aac2a2ca25e557e4c588bfe703a17131ec507c11365",
+      "thumb_sha256": "dca2d55aefd1a947fbde4e3bffcfbd271d5288e6cd2349bf68a70174d0813f41",
+      "original_sha256": "52d8d68b103f33b3c42ea7988bded4aa946bf0c1dff67c89b4e87d5d1f1bc847",
+      "width": 315,
+      "height": 316,
+      "preview_bytes": 9568,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/把猫脸拖进有咲的双马尾中间，图片上的四个变形角标都还留着 [cn21_tbfloor_9817918004_154061440100_67754238f0dc].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_11085047825_154008656171_e043a7885358.jpg",
+      "bytes": 441794,
+      "sha256": "c9d9a97ab6e21591b65d5ef629ab3fc0ce74f9881b3288d598f6c03c9240f130",
+      "preview_sha256": "9a7d99d94d3965e7b687f177b37665a07f79d748de644520edb08da592aaab81",
+      "thumb_sha256": "ebead6e39d48ac37bd19e18696593fb5fae675c71c49d6b67297138aa697324c",
+      "original_sha256": "c9d9a97ab6e21591b65d5ef629ab3fc0ce74f9881b3288d598f6c03c9240f130",
+      "width": 795,
+      "height": 1000,
+      "preview_bytes": 81064,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/通勤电车上，朋花把小萤抱在怀里，额边还冒出了一串小爱心 [cn21_tbfloor_11085047825_154008656171_e043a7885358].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_10256357755_152918292237_cfa7390d0173.jpg",
+      "bytes": 84751,
+      "sha256": "842e199b5490ab3352aefabea9be6df919df0575247ab7aeda5ad62cad29f803",
+      "preview_sha256": "b38db2d1762ce5261b9a9b5cbc7e67df25ff1718c8b156cfa46b188fb0134b47",
+      "thumb_sha256": "75f877dacdee41d71d0cfe85eb0a8598b5b2807857df6f5b48c8f079bb931016",
+      "original_sha256": "842e199b5490ab3352aefabea9be6df919df0575247ab7aeda5ad62cad29f803",
+      "width": 468,
+      "height": 540,
+      "preview_bytes": 44738,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/筑紫盯着自己的名字愣住了：「我……我是筑？」 [cn21_tbfloor_10256357755_152918292237_cfa7390d0173].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbalbum_11082730193_154005685884_3.jpg",
+      "bytes": 732806,
+      "sha256": "4b11aca48d4bc4d039b033625da1062f519b47902722e18b8b7add82c32a1e34",
+      "preview_sha256": "f47a4ba9c2313106bb42f58d00c9bbaa745cfa3208448d3f3173db06ef8e99f0",
+      "thumb_sha256": "8c897b6853c9597ee297277e8f9ad241dc52dcc368735742bc3b7194a91a5c1f",
+      "original_sha256": "4b11aca48d4bc4d039b033625da1062f519b47902722e18b8b7add82c32a1e34",
+      "width": 1000,
+      "height": 1000,
+      "preview_bytes": 70828,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/「真是的」：爽世把两只小手凑到脸前，蓝眼睛直直望着你 [cn21_tbalbum_11082730193_154005685884_3].jpg"
+      }
+    },
+    {
+      "file": "cn21_bestdori_139.png",
+      "bytes": 92491,
+      "sha256": "921b7e46e28e5d681c21cb82a66dbaf856a29d5cee6a1c745ef01b65eab0cb16",
+      "preview_sha256": "9c6fea861e794d97b4752140be3c20a5557cadc0d1f078b233e552b82629ce53",
+      "thumb_sha256": "58f5e8a9d6970691ef1118d44783bdd545425569cbbce991a2a79f6ea2f1dc6e",
+      "original_sha256": "921b7e46e28e5d681c21cb82a66dbaf856a29d5cee6a1c745ef01b65eab0cb16",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 57174,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/花音＆千圣的一格漫画《合租》 [cn21_bestdori_139].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_140.png",
+      "bytes": 110077,
+      "sha256": "902f346eb28129c1eaf2c8f33eff6b8409ee80fb4855cb5d07d8614f6356b7a1",
+      "preview_sha256": "21be3aa597974fc387b2ed260072e7a452e0141925e14ebbef06b2463746d840",
+      "thumb_sha256": "8c97825a72094692cd7b10137d811bbd1c61f3253fd70d4f7acf32938f5a65f2",
+      "original_sha256": "902f346eb28129c1eaf2c8f33eff6b8409ee80fb4855cb5d07d8614f6356b7a1",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 72086,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/日菜＆彩的一格漫画《心动不已出没》 [cn21_bestdori_140].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_141.png",
+      "bytes": 123139,
+      "sha256": "90479396a012170cd251c9f0dbd2b54c929cd329d1307af8ebf842c02ef9d5fa",
+      "preview_sha256": "9dbee746bc3ba53372c87cac83db3184926885ad66bda68a30f63856c28a4a52",
+      "thumb_sha256": "7f49f2e37437c36106548e94e7e25d7934f637fdd916631898114e4c89f49f05",
+      "original_sha256": "90479396a012170cd251c9f0dbd2b54c929cd329d1307af8ebf842c02ef9d5fa",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 88826,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/美咲＆鸫的一格漫画《学生会的思想准备？》 [cn21_bestdori_141].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_142.png",
+      "bytes": 113467,
+      "sha256": "b074ce7428ca93f96bfd1790dff13b6af696230d8ebb7b1762786f9a3cfd2188",
+      "preview_sha256": "ed65ade9454a5da594f075bd5d23b0e7eaa39857a8284deeea62c0703c0153d4",
+      "thumb_sha256": "bc9145c652551d9489b85a1e72082b22b730f29f29c9df2bc46c2c4b2675cd76",
+      "original_sha256": "b074ce7428ca93f96bfd1790dff13b6af696230d8ebb7b1762786f9a3cfd2188",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 76622,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-148.zip",
+        "member": "原图/燐子＆莉莎的一格漫画《包在莉莎同学身上！》 [cn21_bestdori_142].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_143.png",
+      "bytes": 97821,
+      "sha256": "7143151a5a9c3953832801b10c12ece50306996a0a454d8a9f124994b785ca5e",
+      "preview_sha256": "5b789814bab3425f0d2cbb0650166c00c1f7027f18e4c5f0af990f6ef08adddc",
+      "thumb_sha256": "dd5bf38f2728f25594b4440f767c21cacca78e826bad5b97af04034c78a0b4f5",
+      "original_sha256": "7143151a5a9c3953832801b10c12ece50306996a0a454d8a9f124994b785ca5e",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 63364,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/薰＆花音的一格漫画《走散时的集合地点》 [cn21_bestdori_143].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_144.png",
+      "bytes": 112329,
+      "sha256": "99c02d994c78b02c7ff924b1e637ebe8e5eb910466197487f2fe76c8b77cccd1",
+      "preview_sha256": "9eabbf83a56cdf6b68a30c12c93b764283596bf48da13270b8f0a0b13efd587b",
+      "thumb_sha256": "aebf0e2ad88b65a9e3adbb480f333acb7ba3ca3f699438e66939bfa1e157e217",
+      "original_sha256": "99c02d994c78b02c7ff924b1e637ebe8e5eb910466197487f2fe76c8b77cccd1",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 71972,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/麻弥＆纱夜的一格漫画《对车有什么讲究吗？》 [cn21_bestdori_144].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_145.png",
+      "bytes": 103175,
+      "sha256": "f68d0080d339a3a520a48c7c6c5ce94519f4a3912987d4533fc497cd77cc5c19",
+      "preview_sha256": "044be66c21d963cf29b3caded95595a47d534f990bde2f3808c7e445300fe60f",
+      "thumb_sha256": "7596d2fc39808b7091fbf9f351596c1a32f41dcd3a00dceb6fa3c09623abcbe3",
+      "original_sha256": "f68d0080d339a3a520a48c7c6c5ce94519f4a3912987d4533fc497cd77cc5c19",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 70396,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/友希那＆兰的一格漫画《要珍惜粉丝？》 [cn21_bestdori_145].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_146.png",
+      "bytes": 92110,
+      "sha256": "73db2b411b4aac3e2549b5ee8ea740d998996b11a09127711c8663297cd3fb46",
+      "preview_sha256": "dd9012871cc175ea10f6701d3d6b8caf19c80883c113255ab02ffa6550c49abb",
+      "thumb_sha256": "586a5ee153ed8a80a70c5e740b30c56536610f4dc3f7f2a1b86bd9243e5d579c",
+      "original_sha256": "73db2b411b4aac3e2549b5ee8ea740d998996b11a09127711c8663297cd3fb46",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 56916,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/里美＆绯玛丽的一格漫画《吃零食惯犯》 [cn21_bestdori_146].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_147.png",
+      "bytes": 113781,
+      "sha256": "25d100072e9d2e4b23eb211d3d3fcb3397577885dcc1008b5d3ae7b0a1a93d5e",
+      "preview_sha256": "a7782faa59c8d7df2037fd8e59ef4e6b5f0e411b948f92102b5ff5747c26be38",
+      "thumb_sha256": "6dac7de362cea0df07830ac2a24044e0beee57a516db8caa52912a0d2a4ed369",
+      "original_sha256": "25d100072e9d2e4b23eb211d3d3fcb3397577885dcc1008b5d3ae7b0a1a93d5e",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 75704,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/香澄＆沙绫的一格漫画《新录音棚打工人》 [cn21_bestdori_147].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_148.png",
+      "bytes": 104988,
+      "sha256": "43785741c728ac98465295e04a94df7787836a8de8a40dbe005f5f2abab1b595",
+      "preview_sha256": "716cf0d30fdf6b0a68925ff820c155aaf1a7c0c8e98fdf746c8b5be7926ad4b2",
+      "thumb_sha256": "6318084e1ab78bfd3a7e6a8f46611435254012fb5e8f900ac28d9c4c60377832",
+      "original_sha256": "43785741c728ac98465295e04a94df7787836a8de8a40dbe005f5f2abab1b595",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 75164,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/透子＆纱夜的一格漫画《要超越的“长”》 [cn21_bestdori_148].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_149.png",
+      "bytes": 115045,
+      "sha256": "f83e759a2bbe218025c38ba6b71e8bc5bcfb2308363a56bbed60eeddb6e1bb21",
+      "preview_sha256": "f6135b266b161233ac9023ff662a5a66a4662071f91f039135eee598add9d2c2",
+      "thumb_sha256": "d26777376d01b9c22802892308ff8d08d43fa4f5530540214de0b26b79bb1c5e",
+      "original_sha256": "f83e759a2bbe218025c38ba6b71e8bc5bcfb2308363a56bbed60eeddb6e1bb21",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 76070,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/七深＆日菜的一格漫画《打工领班的职责！》 [cn21_bestdori_149].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_150.png",
+      "bytes": 115006,
+      "sha256": "b97b30f40d50c490baf76c97dfaa50dd2723665ce86ca02c50f31a328f9fb899",
+      "preview_sha256": "85b78133b3cffd2cdc99b099ef1e961b6e4374016f8f308875c36c792a1e023b",
+      "thumb_sha256": "b701d9f0f4374820a6892d3eb0c0912290df5374eb8dc6a35b1d89ff8b6e2536",
+      "original_sha256": "b97b30f40d50c490baf76c97dfaa50dd2723665ce86ca02c50f31a328f9fb899",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 86274,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/巴＆MASKING的一格漫画《每日必杀技》 [cn21_bestdori_150].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_151.png",
+      "bytes": 106088,
+      "sha256": "b0eba05a8d9aaa34f0d014e39d23fad15a94ef6afabf6cca5b076219434bc24b",
+      "preview_sha256": "a96b2039a0ca1580651aad4d5645bf58909392fc6de5056a031f7f2bbd22839e",
+      "thumb_sha256": "be62793028a911c696f1b85fcc93ec8d413306060eccb6b3a81283f313aeb2e7",
+      "original_sha256": "b0eba05a8d9aaa34f0d014e39d23fad15a94ef6afabf6cca5b076219434bc24b",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 73146,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/多惠＆千圣的一格漫画《能干的打工领班？》 [cn21_bestdori_151].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_152.png",
+      "bytes": 107738,
+      "sha256": "3bef7554e4a0dd1d8503d47fb2922a2f5f59238e7074d36ed78d9e7a9bc4cb2a",
+      "preview_sha256": "eb6a637d31bec8ed5b9e29556099175a717272e71a595f00aad898b0944ed978",
+      "thumb_sha256": "d69479c41b8f25cc08a980a84708671a7b0c3606b3e8d6a29dab5e7d7a265db1",
+      "original_sha256": "3bef7554e4a0dd1d8503d47fb2922a2f5f59238e7074d36ed78d9e7a9bc4cb2a",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 65668,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/彩＆麻弥的一格漫画《随时放松》 [cn21_bestdori_152].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_153.png",
+      "bytes": 117398,
+      "sha256": "0192b726282d8ce17bdeb3b6fbe09757f5803c875ad383c467c3a36a568709f6",
+      "preview_sha256": "1003b9918a38fe9c645c10a7980c066c9d6168806a59b044b3cff04f0e911a30",
+      "thumb_sha256": "80c96d52e2d5c7fee97da7c2e17ab7e0b8ba8d463feb1b2dcf23aa772e7d015d",
+      "original_sha256": "0192b726282d8ce17bdeb3b6fbe09757f5803c875ad383c467c3a36a568709f6",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 80790,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/伊芙＆花音的一格漫画《隐秘店铺发掘机》 [cn21_bestdori_153].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_154.png",
+      "bytes": 128098,
+      "sha256": "2a1e381fa16c486e590adb6efd1adddf03a94546ffa5c4cfcb4ce38f1da3284c",
+      "preview_sha256": "c44100c0cf5bebc91e11a481eb459ed8a7b75eda490178fa2b41726b77df94ed",
+      "thumb_sha256": "b804ce1cd2f183d1df53230e3c68a356d5441e82387da55e2b9a112674d9645e",
+      "original_sha256": "2a1e381fa16c486e590adb6efd1adddf03a94546ffa5c4cfcb4ce38f1da3284c",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 93492,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/薰＆美咲的一格漫画《主干道的大台阶》 [cn21_bestdori_154].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_155.png",
+      "bytes": 112428,
+      "sha256": "76df4157242388e3f9b19c40025791b86715c1aaba6791315b35edff79331544",
+      "preview_sha256": "c0d471bf236d6c13f28418e2af944faf8672980ad140f4caaffc548335ec2e97",
+      "thumb_sha256": "e161812731e9ae81b4075db46d6fb4b184601c1732d2c473ce6034ef38a39be8",
+      "original_sha256": "76df4157242388e3f9b19c40025791b86715c1aaba6791315b35edff79331544",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 75180,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/莉莎＆亚子的一格漫画《Let's international！》 [cn21_bestdori_155].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_156.png",
+      "bytes": 111854,
+      "sha256": "abd938742b9197bd77b0e357e3f2dcda2afc70f3e28eca5541ad490fea61ede5",
+      "preview_sha256": "efbd7afdf926b779597adb315646f918ec818d43e2492031fe4f431b503be929",
+      "thumb_sha256": "b3dce956ce9030d06873a032798e828c3b0a55720db93db681f9768a9ab97ea8",
+      "original_sha256": "abd938742b9197bd77b0e357e3f2dcda2afc70f3e28eca5541ad490fea61ede5",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 77994,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/鸫＆兰的一格漫画《作为语源？》 [cn21_bestdori_156].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_157.png",
+      "bytes": 117783,
+      "sha256": "58cec0cf6a9e062c9afa9bb6cff4852c1ba9e72b1f553dce1936a99292f60190",
+      "preview_sha256": "0aec6f18464090dffca27ac409294cc8c7a984b03031c7cad4d1f6524b7fcc9d",
+      "thumb_sha256": "d7a844b867f045bb52bba1da92236746caf309c12b1db60fd4cfe7228735c0d1",
+      "original_sha256": "58cec0cf6a9e062c9afa9bb6cff4852c1ba9e72b1f553dce1936a99292f60190",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 79580,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/香澄＆真白的一格漫画《插班生的新学期》 [cn21_bestdori_157].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_158.png",
+      "bytes": 110130,
+      "sha256": "44417af56229cb7b5b753bbab9eff6ce1b7f8e7b7644a7803b068feced7ebbbf",
+      "preview_sha256": "11cf448ecfeb7df89319d1b8a5dd8286588a8debcf30398c71ff43d9357a6b23",
+      "thumb_sha256": "e6426b7a04b61378152445b680b9b0e9512483e471f0398ca2936b8f5cf5b936",
+      "original_sha256": "44417af56229cb7b5b753bbab9eff6ce1b7f8e7b7644a7803b068feced7ebbbf",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 66768,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/灯＆乐奈的一格漫画《收藏品》 [cn21_bestdori_158].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_159.png",
+      "bytes": 90899,
+      "sha256": "73dc9ce51c78e5ecd3a1f24ec842b724618a2cfffe87d43816ba284e586d449c",
+      "preview_sha256": "89b8adf7862d7d487f4499f8f464761492996a86bba65a4ea32056d5ae2c4179",
+      "thumb_sha256": "029e30abb0a3d4add2a23421b8240e4bf5c26ebe044bdb5f509d17b75736a230",
+      "original_sha256": "73dc9ce51c78e5ecd3a1f24ec842b724618a2cfffe87d43816ba284e586d449c",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 58780,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/乐奈＆爽世的一格漫画《雨前征兆》 [cn21_bestdori_159].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_160.png",
+      "bytes": 116119,
+      "sha256": "eb0537894d1733828bbb6e06be3076d1a511d6b7764adc2575233d57811b08e2",
+      "preview_sha256": "2d1be796a9af4d425d4e184114f180c6d934164bc016eac24ccb6fff0acc718d",
+      "thumb_sha256": "3b79b0b4629fbc51a6e1f2363bcadf56b68f8c2d7b194985c3abe24e3c6beb02",
+      "original_sha256": "eb0537894d1733828bbb6e06be3076d1a511d6b7764adc2575233d57811b08e2",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 67416,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/爽世＆爱音的一格漫画《重要的部位》 [cn21_bestdori_160].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_161.png",
+      "bytes": 122882,
+      "sha256": "7d0c0f3e0dccc0bd54318a22312be249111fcb3c7ef8d30b55f27a4f5c4711d0",
+      "preview_sha256": "38273e231bb76a26e1f7b2830706222b564690bba4c7bd5e36ccbabb4c4d03b6",
+      "thumb_sha256": "f3b9484a39a16ae399faee672a18247ac5a6beccfad629f4b85ace3260a3caa6",
+      "original_sha256": "7d0c0f3e0dccc0bd54318a22312be249111fcb3c7ef8d30b55f27a4f5c4711d0",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 77624,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/爱音＆立希的一格漫画《不可爱吗？》 [cn21_bestdori_161].png"
+      }
+    },
+    {
+      "file": "cn21_bestdori_162.png",
+      "bytes": 105714,
+      "sha256": "23005b83e67838cd25824725fa543aa63ab772b7c5b5ceb36cbe05404ee76317",
+      "preview_sha256": "428b78bb67919316bf3a6f0262cca935d7b535ae389940515902178b008135de",
+      "thumb_sha256": "a7689def485d5972290507c39681cabde9bf8d7922c5e73f2e473268dbda2103",
+      "original_sha256": "23005b83e67838cd25824725fa543aa63ab772b7c5b5ceb36cbe05404ee76317",
+      "width": 600,
+      "height": 436,
+      "preview_bytes": 65546,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/立希＆灯的一格漫画《过度保护》 [cn21_bestdori_162].png"
+      }
+    },
+    {
+      "file": "cn21_ngapdf_e2c178531a5187771dade1.jpg",
+      "bytes": 21027,
+      "sha256": "e2c178531a5187771dade1ae59e43c03dca18578c6382174a62bc3af91f37a4b",
+      "preview_sha256": "9aeeec1120e17cd7dd5c3ac1314b3bbbaaa211467e27f10e5bbea35e9f955920",
+      "thumb_sha256": "03823826a9b0b2edc83dc9a6af1ee9006239fb08e5cfa737d57febb933fa425d",
+      "original_sha256": "e2c178531a5187771dade1ae59e43c03dca18578c6382174a62bc3af91f37a4b",
+      "width": 320,
+      "height": 467,
+      "preview_bytes": 19054,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/「小魔仙全身变」喊完，友希那被变进橙色的猫耳连体衣 [cn21_ngapdf_e2c178531a5187771dade1].jpg"
+      }
+    },
+    {
+      "file": "cn21_ngapdf_b0f1fae16e0087fc1b0e34.jpg",
+      "bytes": 73844,
+      "sha256": "b0f1fae16e0087fc1b0e34d639ef4326cc59d7c95a22c9ce5a516eb72f6bdae1",
+      "preview_sha256": "706c3b9fe2dbdee01e2a90a976b4eb2504bc1451a52cc6fe576bd6230778dc54",
+      "thumb_sha256": "eea3decee71b21d67628ce9ba9a34c8702a15549cb96bf89b5e65ff2e7c3ce47",
+      "original_sha256": "b0f1fae16e0087fc1b0e34d639ef4326cc59d7c95a22c9ce5a516eb72f6bdae1",
+      "width": 640,
+      "height": 935,
+      "preview_bytes": 62498,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/魔法学校的乐奈蹲上窗台，反手回头看，下一步就要跳走 [cn21_ngapdf_b0f1fae16e0087fc1b0e34].jpg"
+      }
+    },
+    {
+      "file": "cn21_ngapdf_c36609c315b800b1d55525.jpg",
+      "bytes": 102476,
+      "sha256": "c36609c315b800b1d55525582c26a888264da67440c53f2d75605f5604ca3a0a",
+      "preview_sha256": "100fed6c2a90f7e91c8008755ca2eb4950140722e5840c05c50af7b5b8bfc930",
+      "thumb_sha256": "9a6aa447680c62f7ac329f05cf2a6ad303f89be9bd9394789ef786bc33b277e7",
+      "original_sha256": "c36609c315b800b1d55525582c26a888264da67440c53f2d75605f5604ca3a0a",
+      "width": 995,
+      "height": 1000,
+      "preview_bytes": 81114,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/爱音和祥子换上魔法学校校袍，一个举手打招呼，一个撑着腰 [cn21_ngapdf_c36609c315b800b1d55525].jpg"
+      }
+    },
+    {
+      "file": "cn21_ngapdf_926aceafdcdb346cbcedbb.jpg",
+      "bytes": 144988,
+      "sha256": "926aceafdcdb346cbcedbb7645abf5c2e84aa652cf44758465a8efd6c8cbda3a",
+      "preview_sha256": "a94ed0ffd15f2ad5e2b1e5a0e0fd43e8ace0b38633d2cafe346268d229ad1a4e",
+      "thumb_sha256": "a50270a934fc980b6aded9006448f9a47d5982c86a2e080a468980e239d75c53",
+      "original_sha256": "926aceafdcdb346cbcedbb7645abf5c2e84aa652cf44758465a8efd6c8cbda3a",
+      "width": 864,
+      "height": 1000,
+      "preview_bytes": 62892,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/爱音举起食指给祥子指路，两人穿着同款校袍并排走 [cn21_ngapdf_926aceafdcdb346cbcedbb].jpg"
+      }
+    },
+    {
+      "file": "cn21_ngapdf_e948dc283e05b4630675ca.jpg",
+      "bytes": 125773,
+      "sha256": "e948dc283e05b4630675cacdf87db23410bd2ae326fe62f4f5f4bcc8477da1a9",
+      "preview_sha256": "7099316008fa5efdaf0d3b6ce913d7919dde5517964abdf7d30c028443b69884",
+      "thumb_sha256": "e66e2695a66813fc4a55241a375d52efbd1b23f1945cb0d494cc735269f1e0b7",
+      "original_sha256": "e948dc283e05b4630675cacdf87db23410bd2ae326fe62f4f5f4bcc8477da1a9",
+      "width": 864,
+      "height": 1000,
+      "preview_bytes": 53540,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/两个人都蹲下了，爱音和祥子准备在黑色背景前试一次公主抱 [cn21_ngapdf_e948dc283e05b4630675ca].jpg"
+      }
+    },
+    {
+      "file": "cn21_ngapdf_13802a8e6ffb5d25a83cbe.jpg",
+      "bytes": 33270,
+      "sha256": "13802a8e6ffb5d25a83cbe79436284d507564d13c432e498cc0fa4835fc077ed",
+      "preview_sha256": "b0f671266360aa84536f92e740566a63d778a3c821647aaf79015918f3fddef7",
+      "thumb_sha256": "c72bed467a6f912f5fef212eff8d95584a95f23a71fda2f6bda6231a8105c35e",
+      "original_sha256": "13802a8e6ffb5d25a83cbe79436284d507564d13c432e498cc0fa4835fc077ed",
+      "width": 320,
+      "height": 457,
+      "preview_bytes": 34894,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/初华站在海水里唱歌，把整个画面都改成了黑白电影 [cn21_ngapdf_13802a8e6ffb5d25a83cbe].jpg"
+      }
+    },
+    {
+      "file": "cn21_ngapdf_78753698f167300952fc78.jpg",
+      "bytes": 50260,
+      "sha256": "78753698f167300952fc78fca479bffbead215f6e54b3dd6114aab98e52f53d9",
+      "preview_sha256": "8f5d3892ca86d4bead65cc237628403e11f36d84f1c23f7ef7ff1da40ce31850",
+      "thumb_sha256": "536e788ebd654a2f190e70277be57c593edfabfce455229c738cb92c21576ff8",
+      "original_sha256": "78753698f167300952fc78fca479bffbead215f6e54b3dd6114aab98e52f53d9",
+      "width": 640,
+      "height": 935,
+      "preview_bytes": 40380,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/穿上三花猫连体衣，两只手握拳放到耳朵边一起喵 [cn21_ngapdf_78753698f167300952fc78].jpg"
+      }
+    },
+    {
+      "file": "cn21_tbfloor_10237056894_152894279925_9b6cdc41c09a.jpg",
+      "bytes": 315900,
+      "sha256": "b5dcf1e57f37bf9d676331fed709f93c938fa4d936dc3de2d0c99647d4163771",
+      "preview_sha256": "f6edb546a58354cc74a9bfc4497b4b0a18d00e44f90025d67e9cd40717e386c6",
+      "thumb_sha256": "7b8cd275b74ac1f69ca4f30ea7f1fd0b7895b9cd33d21f9b0bcfcd879c61376c",
+      "original_sha256": "b5dcf1e57f37bf9d676331fed709f93c938fa4d936dc3de2d0c99647d4163771",
+      "width": 1000,
+      "height": 1000,
+      "preview_bytes": 64922,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/睦气到闭上眼睛，右手一挥，旁边跟着三道红色闪电 [cn21_tbfloor_10237056894_152894279925_9b6cdc41c09a].jpg"
+      }
+    },
+    {
+      "file": "cn21_bahahome_6119176_9.jpg",
+      "bytes": 36035,
+      "sha256": "4c61d8e696634ac476d2ca2c3c3faf1df2176be315cffb7f58a869772fef4263",
+      "preview_sha256": "6da3ddbc355ff4affdff6c6814791b20e0a0d4d12cbcf46c69c7d7091d190dfd",
+      "thumb_sha256": "702fe3daf60d3161d009ecaff10d879f39ed4472ab66069926c49fa8922808aa",
+      "original_sha256": "4c61d8e696634ac476d2ca2c3c3faf1df2176be315cffb7f58a869772fef4263",
+      "width": 720,
+      "height": 631,
+      "preview_bytes": 23400,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/「太好了呢！」靠北 MyGO 留下的双手握拳欢呼贴图 [cn21_bahahome_6119176_9].jpg"
+      }
+    },
+    {
+      "file": "cn21_bahahome_6119176_17.jpg",
+      "bytes": 197111,
+      "sha256": "26313f7498b2b82dd4c6eb5c9f38b316738959ccd0ffc38b1a28e7c767992ed2",
+      "preview_sha256": "74a2db38be0349b57287d469b00374d00b8eb4d3e94bebc087c670b44d8dcece",
+      "thumb_sha256": "bc5d97bd0532fdd10f2db84bd47b1bdf5d14333e733161f9ebd6c5c14f760116",
+      "original_sha256": "26313f7498b2b82dd4c6eb5c9f38b316738959ccd0ffc38b1a28e7c767992ed2",
+      "width": 673,
+      "height": 931,
+      "preview_bytes": 93130,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/把动画站位和演唱会的舞台排成上下两格，连灯光的位置都能对上 [cn21_bahahome_6119176_17].jpg"
+      }
+    },
+    {
+      "file": "cn21_bahahome_6119176_29.jpg",
+      "bytes": 179317,
+      "sha256": "9c467e9bc344f0e039ae1ce0f3cb535427b251e468982243625f5ffb3243b99b",
+      "preview_sha256": "70315e52392e2adba9ee00a905552917b308e51eea035772d795312013b3719a",
+      "thumb_sha256": "01ebf6cf2fcba613b9a505682c5378631437e21aadaaff3ff29882dbef3362fb",
+      "original_sha256": "9c467e9bc344f0e039ae1ce0f3cb535427b251e468982243625f5ffb3243b99b",
+      "width": 603,
+      "height": 1000,
+      "preview_bytes": 60608,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/爱音和立希两款布偶的气场，放到真人合影里居然也对得上 [cn21_bahahome_6119176_29].jpg"
+      }
+    },
+    {
+      "file": "cn21_bahahome_6119176_37.jpg",
+      "bytes": 123593,
+      "sha256": "e1947c7ce97fdfd569308cfd0ec94bb804783a724824e0160ad4130ce2c6c1f4",
+      "preview_sha256": "56bb1965a1a2cfd3c6b694a2b2abd8b216299f77698992b89a87585f1ce31a89",
+      "thumb_sha256": "975d542ab7e19af28edf0b5d7ae287b4b730343c2197a8f2638fcf711bf533eb",
+      "original_sha256": "e1947c7ce97fdfd569308cfd0ec94bb804783a724824e0160ad4130ce2c6c1f4",
+      "width": 677,
+      "height": 848,
+      "preview_bytes": 53524,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/「请指出年纪最大的那位」：仁菜、若麦和承太郎一起排队，身高也都标了上去 [cn21_bahahome_6119176_37].jpg"
+      }
+    },
+    {
+      "file": "cn21_bahahome_6119176_45.jpg",
+      "bytes": 142875,
+      "sha256": "7c28ad3cc4ba290430039fd854bef61b9475f3a877bc568496780b8397b9502f",
+      "preview_sha256": "72cf6ac15f3d84ac7e0c3d28288b7dd495813ca5f7121c3e1707caff3e222598",
+      "thumb_sha256": "d3b6e1f3d02f304db61ca7b521591b4b06229925f919e1bec2495968d6721d3d",
+      "original_sha256": "7c28ad3cc4ba290430039fd854bef61b9475f3a877bc568496780b8397b9502f",
+      "width": 676,
+      "height": 876,
+      "preview_bytes": 63784,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/爱音被两个人一左一右围住，三个表情比对话还有戏 [cn21_bahahome_6119176_45].jpg"
+      }
+    },
+    {
+      "file": "cn21_bili_316124215489_0.jpg",
+      "bytes": 966083,
+      "sha256": "5365eea11a5431c0382373e7c95d0c9d8292672a699da7aab63e52795b2721a2",
+      "preview_sha256": "9f26ea0f288c1778ef6e4940282c15c645337e992e6360defc47ef4bb82bb9b5",
+      "thumb_sha256": "e7c4c682fab3aef273d26e6f9a875da4dd34497d48d2c723f6958a124cbf8641",
+      "original_sha256": "5365eea11a5431c0382373e7c95d0c9d8292672a699da7aab63e52795b2721a2",
+      "width": 1200,
+      "height": 545,
+      "preview_bytes": 67468,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/「一个奏多的幽灵在 millsage 游荡」：评论区把见面的场景搬到了学校门口 [cn21_bili_316124215489_0].jpg"
+      }
+    },
+    {
+      "file": "cn21_bili_319714315152_0.jpg",
+      "bytes": 731902,
+      "sha256": "0538e6d166b23592730e024f5739976e7553ccb522fd5df029864a4f719cd0ed",
+      "preview_sha256": "6572ba86ac4a5441c405ea654c5bf668ff6e7323d40c92b721296cc65520ed51",
+      "thumb_sha256": "e5e27ad55fd9444611a8239cc83af33a25cb77e4ad7e0805e2f0fd4cb09ed448",
+      "original_sha256": "0538e6d166b23592730e024f5739976e7553ccb522fd5df029864a4f719cd0ed",
+      "width": 1200,
+      "height": 558,
+      "preview_bytes": 40310,
+      "frames": 1,
+      "archive": {
+        "pack": "bandori-cn-20261121-149.zip",
+        "member": "原图/黑白画面配上「对不起，奏多同学」，整段致歉词都搬到了茉团 [cn21_bili_319714315152_0].jpg"
+      }
+    }
+  ]
+}
